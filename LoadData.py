@@ -99,12 +99,15 @@ bilan = open(os.path.join(racine,year+'_bilan.txt'),'a')
 bilan.write('hello, we are processing %s \n'%(year))
 bilan.write('Scrapping commencer le %s \n'%(str(datetime.date.today())))
 bilan.write('We take back from paper %d \n'%(start))
+bilan.close()
 bool_end = True
 while bool_end:
     Scrapper(start,end,base_url)
+    bilan = open(os.path.join(racine,year+'_bilan.txt'),'a')
     bilan.write('Succesfully donwload papers from %d to %d'%(start,end))
+    bilan.close()
     start = end
     end = calc_end(start+step,base_end)
     if end == base_end:
         bool_end = False
-bilan.close()
+
