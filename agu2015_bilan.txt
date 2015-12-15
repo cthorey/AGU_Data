@@ -1,3 +1,7 @@
 hello, we are processing agu2015 
 Scrapping commencer le 2015-12-14 
 We take back from paper 58830 
+hello, we are processing agu2015 
+Scrapping commencer le 2015-12-15 
+We take back from paper 58980 
+Succesfully donwload papers from 58980 to 59980Succesfully donwload papers from 59980 to 60980Succesfully donwload papers from 60980 to 61980Succesfully donwload papers from 61980 to 62980
