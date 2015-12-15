@@ -1,0 +1,10 @@
+hello, we are processing agu2015 
+Scrapping commencer le 2015-12-15 
+We take back from paper 58180 
+Succesfully donwload papers from 58180 to 59180 
+Succesfully donwload papers from 59180 to 60180 
+Succesfully donwload papers from 60180 to 61180 
+Succesfully donwload papers from 61180 to 62180 
+Succesfully donwload papers from 62180 to 63180 
+Succesfully donwload papers from 63180 to 64180 
+Succesfully donwload papers from 64180 to 65180 
