@@ -8,8 +8,8 @@ from bs4 import BeautifulSoup
 from tqdm import *
 
 racine = '/Users/thorey/Documents/MLearning/Side_Project/AGU_Data/'
-racine = '/Users/clement/AGU_Data' 
-year = 'agu2015'
+#racine = '/Users/clement/AGU_Data' 
+year = 'agu2014'
 
 class Paper(object):
     ''' Class to handle each paper on the website AGU'''
@@ -75,9 +75,10 @@ def calc_end(end,base_end):
     else:
         return end
     
-def calc_start(base_start):
+def calc_start(base_start,year):
     done_papers = os.listdir(os.path.join(racine,'Data'))
-    if len(done_papers)==0:
+    done_papers = [f for f in done_papers if f.split('_')[0] == year]
+    if len(done_papers) == 0:
         return base_start
     else:
         return  max(map(int,[f.split('_')[2] for f in done_papers]))            
@@ -95,11 +96,12 @@ elif year.split('agu')[-1] == '2014':
     base_start = 2180
     base_end = 35000
 else:
+    print 'Error base_url : %s'%(base_url)
     raise Exception
     
 #What remains to do
 step = 1000 # Diviser par 2 pour avoir le nombre de paper a download
-start = calc_start(base_start)
+start = calc_start(base_start,year)
 end = calc_end(start+step,base_end)
 
 bilan = open(os.path.join(racine,year+'_bilan.txt'),'a')
@@ -107,11 +109,12 @@ bilan.write('hello, we are processing %s \n'%(year))
 bilan.write('Scrapping commencer le %s \n'%(str(datetime.date.today())))
 bilan.write('We take back from paper %d \n'%(start))
 bilan.close()
+
 bool_end = True
 while bool_end:
     Scrapper(start,end,base_url)
     bilan = open(os.path.join(racine,year+'_bilan.txt'),'a')
-    bilan.write('Succesfully donwload papers from %d to %d'%(start,end))
+    bilan.write('Succesfully donwload papers from %d to %d \n'%(start,end))
     bilan.close()
     start = end
     end = calc_end(start+step,base_end)
