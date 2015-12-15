@@ -7,7 +7,7 @@ import pickle,time,datetime
 from bs4 import BeautifulSoup
 from tqdm import *
 
-#racine = '/Users/thorey/Documents/MLearning/Side_Project/AGU_Data/'
+racine = '/Users/thorey/Documents/MLearning/Side_Project/AGU_Data/'
 racine = '/Users/clement/AGU_Data' 
 year = 'agu2015'
 
@@ -85,11 +85,18 @@ def calc_start(base_start):
 #####################
 ####### MAIN ########    
 #####################
-    
-base_url = 'https://agu.confex.com/agu/fm15/meetingapp.cgi/Paper/'    
-base_start = 58180
-base_end = 87000
 
+if year.split('agu')[-1] == '2015':
+    base_url = 'https://agu.confex.com/agu/fm15/meetingapp.cgi/Paper/'    
+    base_start = 58180
+    base_end = 87000
+elif year.split('agu')[-1] == '2014':
+    base_url = 'https://agu.confex.com/agu/fm14/meetingapp.cgi/Paper/'    
+    base_start = 2180
+    base_end = 35000
+else:
+    raise Exception
+    
 #What remains to do
 step = 1000 # Diviser par 2 pour avoir le nombre de paper a download
 start = calc_start(base_start)
