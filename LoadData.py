@@ -34,7 +34,7 @@ def Scrapper(start,end,base_url):
     errors = []
     first,last = start,end
     progress = open(os.path.join(racine,year+'_progress.txt'),'w+')
-    for idx in tqdm(range(start,end,2),file = progress):
+    for idx in tqdm(range(start,end),file = progress):
         idx = str(idx)
         link = os.path.join(base_url,idx)
         wd.get(link)
@@ -100,7 +100,7 @@ else:
     raise Exception
     
 #What remains to do
-step = 1000 # Diviser par 2 pour avoir le nombre de paper a download
+step = 1000 
 start = calc_start(base_start,year)
 end = calc_end(start+step,base_end)
 
