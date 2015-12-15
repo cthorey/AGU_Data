@@ -8,6 +8,7 @@ from bs4 import BeautifulSoup
 from tqdm import *
 
 racine = '/Users/thorey/Documents/MLearning/Side_Project/AGU_Data/'
+year = 'agu2015'
 #racine = '/Users/clement/AGU_Data' 
 
 class Paper(object):
@@ -32,7 +33,7 @@ def Scrapper(start,end,base_url):
     papers = []
     errors = []
     first,last = start,end
-    progress = open(os.path.join(racine,'progress.txt'),'w+')
+    progress = open(os.path.join(racine,year+'_progress.txt'),'w+')
     for idx in tqdm(range(start,end,2),file = progress):
         idx = str(idx)
         link = os.path.join(base_url,idx)
@@ -61,7 +62,7 @@ def Scrapper(start,end,base_url):
 
 
     output = os.path.join(racine,'Data')
-    name = os.path.join(output,'agu2015_'+str(start)+'_'+str(end))        
+    name = os.path.join(output,year+'_'+str(start)+'_'+str(end))        
     with open(name, 'wb') as fi:
         pickle.dump({'papers':papers,'error':errors}, fi, pickle.HIGHEST_PROTOCOL)
     
@@ -94,8 +95,8 @@ step = 25 # Diviser par 2 pour avoir le nombre de paper a download
 start = calc_start(base_start)
 end = calc_end(start+step,base_end)
 
-bilan = open(os.path.join(racine,'Bilan.txt'),'a')
-bilan.write('hello \n')
+bilan = open(os.path.join(racine,year+'_bilan.txt'),'a')
+bilan.write('hello, we are processing %s \n'%(year))
 bilan.write('Scrapping commencer le %s \n'%(str(datetime.date.today())))
 bilan.write('We take back from paper %d \n'%(start))
 bool_end = True
