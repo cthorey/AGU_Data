@@ -7,8 +7,8 @@ import pickle,time
 from bs4 import BeautifulSoup
 from tqdm import *
 
-racine = '/Users/thorey/Documents/MLearning/Side_Project/AGU_Data/'
-
+#racine = '/Users/thorey/Documents/MLearning/Side_Project/AGU_Data/'
+racine = '/Users/clement/AGU_Data' 
 class Paper(object):
     ''' Class to handle each paper on the website AGU'''
     def __init__(self,body1,body2,body3,body4,idx):
