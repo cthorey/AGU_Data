@@ -7,9 +7,9 @@ import pickle,time,datetime
 from bs4 import BeautifulSoup
 from tqdm import *
 
-#racine = '/Users/thorey/Documents/MLearning/Side_Project/AGU_Data/'
-racine = '/Users/clement/AGU_Data' 
-year = 'agu2015'
+racine = '/Users/thorey/Documents/MLearning/Side_Project/AGU_Data/'
+#racine = '/Users/clement/AGU_Data' 
+year = 'agu2014'
 
 class Paper(object):
     ''' Class to handle each paper on the website AGU'''
@@ -83,41 +83,43 @@ def calc_start(base_start,year):
     else:
         return  max(map(int,[f.split('_')[2] for f in done_papers]))            
 
-#####################
-####### MAIN ########    
-#####################
 
-if year.split('agu')[-1] == '2015':
-    base_url = 'https://agu.confex.com/agu/fm15/meetingapp.cgi/Paper/'    
-    base_start = 58180
-    base_end = 87000
-elif year.split('agu')[-1] == '2014':
-    base_url = 'https://agu.confex.com/agu/fm14/meetingapp.cgi/Paper/'    
-    base_start = 2180
-    base_end = 35000
-else:
-    print 'Error base_url : %s'%(base_url)
-    raise Exception
+if __name__ == "__main__":        
+    #####################
+    ####### MAIN ########    
+    #####################
     
-#What remains to do
-step = 1000 
-start = calc_start(base_start,year)
-end = calc_end(start+step,base_end)
-
-bilan = open(os.path.join(racine,year+'_bilan.txt'),'a')
-bilan.write('hello, we are processing %s \n'%(year))
-bilan.write('Scrapping commencer le %s \n'%(str(datetime.date.today())))
-bilan.write('We take back from paper %d \n'%(start))
-bilan.close()
-
-bool_end = True
-while bool_end:
-    Scrapper(start,end,base_url)
-    bilan = open(os.path.join(racine,year+'_bilan.txt'),'a')
-    bilan.write('Succesfully donwload papers from %d to %d \n'%(start,end))
-    bilan.close()
-    start = end
+    if year.split('agu')[-1] == '2015':
+        base_url = 'https://agu.confex.com/agu/fm15/meetingapp.cgi/Paper/'    
+        base_start = 58180
+        base_end = 87000
+    elif year.split('agu')[-1] == '2014':
+        base_url = 'https://agu.confex.com/agu/fm14/meetingapp.cgi/Paper/'    
+        base_start = 2180
+        base_end = 35000
+    else:
+        print 'Error base_url : %s'%(base_url)
+        raise Exception
+    
+    #What remains to do
+    step = 1000 
+    start = calc_start(base_start,year)
     end = calc_end(start+step,base_end)
-    if end == base_end:
-        bool_end = False
+
+    bilan = open(os.path.join(racine,year+'_bilan.txt'),'a')
+    bilan.write('hello, we are processing %s \n'%(year))
+    bilan.write('Scrapping commencer le %s \n'%(str(datetime.date.today())))
+    bilan.write('We take back from paper %d \n'%(start))
+    bilan.close()
+
+    bool_end = True
+    while bool_end:
+        Scrapper(start,end,base_url)
+        bilan = open(os.path.join(racine,year+'_bilan.txt'),'a')
+        bilan.write('Succesfully donwload papers from %d to %d \n'%(start,end))
+        bilan.close()
+        start = end
+        end = calc_end(start+step,base_end)
+        if end == base_end:
+            bool_end = False
 
