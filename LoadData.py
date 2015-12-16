@@ -27,7 +27,29 @@ class Paper(object):
         self.date = str(body4.split('\n')[3].split(':')[1])
         self.idx = idx
 
-def Scrapper(start,end,base_url):
+def Scrapper(link,wd):
+    wd.get(link)
+    # Wait for the dynamically loaded elements to show up
+    timeout = 20
+    WebDriverWait(wd, timeout).until(
+        EC.visibility_of_element_located((By.XPATH,'//*[@id="Content"]/section[1]')))  
+    WebDriverWait(wd, timeout).until(
+        EC.visibility_of_element_located((By.XPATH,'//*[@id="Details"]/section[1]')))
+    WebDriverWait(wd, timeout).until(
+        EC.visibility_of_element_located((By.XPATH,'//*[@id="Details"]/section[2]')))
+    WebDriverWait(wd, timeout).until(
+        EC.visibility_of_element_located((By.XPATH,'//*[@id="Details"]/section[3]')))
+    time.sleep(3)
+    body1 = wd.find_element_by_xpath('//*[@id="Content"]/section[1]').text
+    body2 = wd.find_element_by_xpath('//*[@id="Details"]/section[1]').text
+    body3 = wd.find_element_by_xpath('//*[@id="Details"]/section[2]').text
+    body4 = wd.find_element_by_xpath('//*[@id="Details"]/section[3]').text
+    paper = Paper(body1,body2,body3,body4,idx)
+
+    return paper
+    
+        
+def Run_Scrapping(start,end,base_url):
     # Start the WebDriver and load the page           
     wd = webdriver.Firefox()
     papers = []
@@ -37,30 +59,11 @@ def Scrapper(start,end,base_url):
     for idx in tqdm(range(start,end),file = progress):
         idx = str(idx)
         link = os.path.join(base_url,idx)
-        wd.get(link)
-        # Wait for the dynamically loaded elements to show up
-        timeout = 20
         try:
-            WebDriverWait(wd, timeout).until(
-                EC.visibility_of_element_located((By.XPATH,'//*[@id="Content"]/section[1]')))  
-            WebDriverWait(wd, timeout).until(
-                EC.visibility_of_element_located((By.XPATH,'//*[@id="Details"]/section[1]')))
-            WebDriverWait(wd, timeout).until(
-                EC.visibility_of_element_located((By.XPATH,'//*[@id="Details"]/section[2]')))
-            WebDriverWait(wd, timeout).until(
-                EC.visibility_of_element_located((By.XPATH,'//*[@id="Details"]/section[3]')))
-            time.sleep(3)
-            body1 = wd.find_element_by_xpath('//*[@id="Content"]/section[1]').text
-            body2 = wd.find_element_by_xpath('//*[@id="Details"]/section[1]').text
-            body3 = wd.find_element_by_xpath('//*[@id="Details"]/section[2]').text
-            body4 = wd.find_element_by_xpath('//*[@id="Details"]/section[3]').text
-            paper = Paper(body1,body2,body3,body4,idx)
-            papers.append(paper)
+            papers.append(Scrapper(link,wd))
         except:
             errors.append(link)
-            pass
-
-
+            
     output = os.path.join(racine,'Data')
     name = os.path.join(output,year+'_'+str(start)+'_'+str(end))        
     with open(name, 'wb') as fi:
@@ -114,7 +117,7 @@ if __name__ == "__main__":
 
     bool_end = True
     while bool_end:
-        Scrapper(start,end,base_url)
+        Run_Scrapping(start,end,base_url)
         bilan = open(os.path.join(racine,year+'_bilan.txt'),'a')
         bilan.write('Succesfully donwload papers from %d to %d \n'%(start,end))
         bilan.close()
