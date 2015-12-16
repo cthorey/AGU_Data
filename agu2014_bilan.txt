@@ -7,3 +7,7 @@ Succesfully donwload papers from 4180 to 5180
 Succesfully donwload papers from 5180 to 6180 
 Succesfully donwload papers from 6180 to 7180 
 Succesfully donwload papers from 7180 to 8180 
+hello, we are processing agu2014 
+Scrapping commencer le 2015-12-16 
+We take back from paper 8180 
+Succesfully donwload papers from 8180 to 8190 

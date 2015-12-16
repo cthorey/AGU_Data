@@ -13,7 +13,7 @@ year = 'agu2014'
 
 class Paper(object):
     ''' Class to handle each paper on the website AGU'''
-    def __init__(self,body1,body2,body3,body4,idx):
+    def __init__(self,body1,body2,body3,body4,body5,idx):
         self.tag_session = body1.split(':')[0]
         self.title =  body1.split(':')[1]
         self.abstract = body2.split('Reference')[0]
@@ -26,11 +26,13 @@ class Paper(object):
         self.focus_group = str(body4.split('\n')[2].split(':')[1])
         self.date = str(body4.split('\n')[3].split(':')[1])
         self.idx = idx
+        self.room = map(str,body5.split('\n'))[1]
+        self.hour = ''.join(map(str,body5.split('\n'))[0].split(' ')[-3:])
 
-def Scrapper(link,wd):
+def Scrapper(link,wd,idx):
     wd.get(link)
     # Wait for the dynamically loaded elements to show up
-    timeout = 20
+    timeout = 15
     WebDriverWait(wd, timeout).until(
         EC.visibility_of_element_located((By.XPATH,'//*[@id="Content"]/section[1]')))  
     WebDriverWait(wd, timeout).until(
@@ -44,7 +46,8 @@ def Scrapper(link,wd):
     body2 = wd.find_element_by_xpath('//*[@id="Details"]/section[1]').text
     body3 = wd.find_element_by_xpath('//*[@id="Details"]/section[2]').text
     body4 = wd.find_element_by_xpath('//*[@id="Details"]/section[3]').text
-    paper = Paper(body1,body2,body3,body4,idx)
+    body5 = wd.find_element_by_xpath('//*[@id="Details"]/span[1]').text
+    paper = Paper(body1,body2,body3,body4,body5,idx)
 
     return paper
     
@@ -60,7 +63,7 @@ def Run_Scrapping(start,end,base_url):
         idx = str(idx)
         link = os.path.join(base_url,idx)
         try:
-            papers.append(Scrapper(link,wd))
+            papers.append(Scrapper(link,wd,idx))
         except:
             errors.append(link)
             
@@ -105,7 +108,7 @@ if __name__ == "__main__":
         raise Exception
     
     #What remains to do
-    step = 1000 
+    step = 10
     start = calc_start(base_start,year)
     end = calc_end(start+step,base_end)
 
