@@ -87,6 +87,7 @@ if __name__ == "__main__":
     racine = '/Users/thorey/Documents/MLearning/Side_Project/AGU_Data/'
     #racine = '/Users/clement/AGU_Data' 
     year = 'agu2015'
+    step = 1000
     isdirok(year)
     
     if year.split('agu')[-1] == '2015':
@@ -102,7 +103,6 @@ if __name__ == "__main__":
         raise Exception
     
     #What remains to do
-    step = 2
     start = calc_start(base_start,year)
     end = calc_end(start+step,base_end)
 
