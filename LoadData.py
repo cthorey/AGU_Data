@@ -9,7 +9,7 @@ from tqdm import *
 
 #racine = '/Users/thorey/Documents/MLearning/Side_Project/AGU_Data/'
 racine = '/Users/clement/AGU_Data' 
-year = 'agu2015'
+year = 'agu2014'
 
 class Paper(object):
     ''' Class to handle each paper on the website AGU'''
