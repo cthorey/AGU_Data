@@ -86,10 +86,12 @@ def calc_end(end,base_end):
 def calc_start(base_start,year):
     done_papers = os.listdir(os.path.join(racine,'Data',year))
     done_papers = [f for f in done_papers
-                   if (len(f.split('_')) == 2) and f[0] != '.']
+                   if (len(f.split('_')) == 2) and (f[0] != '.') and (f.split('.')[-1] == 'json') ]
     if len(done_papers) == 0:
+        print base_start
         return base_start
     else:
+        print max(map(int,[f.split('_')[1] for f in done_papers]))            
         return  max(map(int,[f.split('_')[1] for f in done_papers]))            
 
 
@@ -100,7 +102,7 @@ if __name__ == "__main__":
     racine = '/Users/thorey/Documents/MLearning/Side_Project/AGU_Data/'
     #racine = '/Users/clement/AGU_Data' 
     year = 'agu2015'
-    step = 2
+    step = 15
     isdirok(year)
     
     if year.split('agu')[-1] == '2015':
@@ -129,7 +131,7 @@ if __name__ == "__main__":
     while bool_end:
         data = Run_Scrapping(start,end,base_url)
         name = str(start)+'_'+str(end)
-        Pickler(data,year,name)
+        Jsoner(data,year,name)
         bilan = open(os.path.join(racine,year+'_bilan.txt'),'a')
         bilan.write('Succesfully donwload papers from %d to %d \n'%(start,end))
         bilan.close()
