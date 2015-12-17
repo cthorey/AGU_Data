@@ -3,43 +3,52 @@ from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 from selenium.webdriver.common.by import By
 from selenium import webdriver
-import pickle,time,datetime
+import time,datetime
+import codecs, json
 from bs4 import BeautifulSoup
 from tqdm import *
-
-class Paper(object):
-    def __init__(self,wd,link):
-        self.link = link
-        wd.get(link)
-        self.wait_for_elements(wd)
-        self.tag = wd.find_element_by_class_name('itemTitle').text.split(':')[0]
-        self.title = wd.find_element_by_class_name('itemTitle').text.split(':')[1]
-        self.date = wd.find_element_by_class_name('SlotDate').text
-        self.time = wd.find_element_by_class_name('SlotTime').text
-        self.place = wd.find_element_by_class_name('propertyInfo').text
-        self.abstract = wd.find_element_by_class_name('Additional').text.split('Reference')[0]
-        try:
-            self.reference = wd.find_element_by_class_name('Additional').text.split('Reference')[1]
-        except:
-            self.reference = ''
-        self.authors = wd.find_element_by_class_name('PersonList').text
-        self.session = wd.find_element_by_class_name('SessionListItem').text.split(':')[1]
-        self.section = wd.find_element_by_class_name('infoBox').text.split("\n")[2].split(':')[-1]
         
+def wait_for_elements(wd,timeout = 15):
+    classes = ['itemTitle','SlotDate','SlotTime','propertyInfo','Additional']
+    classes += ['PersonList','SessionListItem','infoBox']
+    for classe in classes:
+        # wait for the different sections to download
+        WebDriverWait(wd, timeout).until(EC.visibility_of_element_located((By.CLASS_NAME,classe)))
+    time.sleep(3)
         
-    def wait_for_elements(self,wd,timeout = 15):
-        classes = ['itemTitle','SlotDate','SlotTime','propertyInfo','Additional']
-        classes += ['PersonList','SessionListItem','infoBox']
-        for classe in classes:
-            # wait for the different sections to download
-            WebDriverWait(wd, timeout).until(EC.visibility_of_element_located((By.CLASS_NAME,classe)))
-        time.sleep(3)
-        
+def Scrap_page(wd,link):
+    wd.get(link)
+    wait_for_elements(wd)
+    data = {}
+    data.update({'tag' :
+                 wd.find_element_by_class_name('itemTitle').text.split(':')[0]})
+    data.update({'title' :
+                 wd.find_element_by_class_name('itemTitle').text.split(':')[1]})
+    data.update({'date' :
+                 wd.find_element_by_class_name('SlotDate').text})
+    data.update({'time' :
+                 wd.find_element_by_class_name('SlotTime').text})
+    data.update({'place' :
+                 wd.find_element_by_class_name('propertyInfo').text})
+    data.update({'place' :
+                 wd.find_element_by_class_name('Additional').text.split('Reference')[0]})
+    try:
+        data.update({'reference' :
+                     wd.find_element_by_class_name('Additional').text.split('Reference')[1]})
+    except:
+        data.update({'reference' : '' })
+    data.update({'authors' :
+                 wd.find_element_by_class_name('PersonList').text})
+    data.update({'session' :
+                 wd.find_element_by_class_name('SessionListItem').text.split(':')[1]})    
+    data.update({'section' :
+                 wd.find_element_by_class_name('infoBox').text.split("\n")[2].split(':')[-1]})        
+    return data
         
 def Run_Scrapping(start,end,base_url):
     # Start the WebDriver and load the page           
     wd = webdriver.Chrome(os.path.join(racine,'chromedriver'))
-    papers = []
+    papers = {}
     errors = []
     first,last = start,end
     progress = open(os.path.join(racine,year+'_progress.txt'),'w+')
@@ -47,17 +56,21 @@ def Run_Scrapping(start,end,base_url):
         idx = str(idx)
         link = os.path.join(base_url,idx)
         try:
-            papers.append(Paper(wd,link))
+            papers.update{link:Scrap_page(wd,link)}
         except:
             errors.append(link)
     wd.quit()
     progress.close()            
     return {'papers':papers,'error':errors}
         
-def Pickler(data,year,name):
-    path = os.path.join(racine,'Data',year,name)    
-    with open(path, 'wb') as fi:
-        pickle.dump(data, fi, pickle.HIGHEST_PROTOCOL)
+def Jsoner(data,year,name):
+    name_json = os.path.join(racine,'Data',year,name)
+    with codecs.open(name_json+'.json', 'w+', 'utf8') as outfile:
+        json.dump(data,
+                  outfile,
+                  sort_keys = True,
+                  indent = 4,
+                  ensure_ascii=False)
 
 def isdirok(year):
     output = os.path.join(racine,'Data')
@@ -84,9 +97,9 @@ if __name__ == "__main__":
     #####################
     ####### MAIN ########    
     #####################
-    #racine = '/Users/thorey/Documents/MLearning/Side_Project/AGU_Data/'
-    racine = '/Users/clement/AGU_Data' 
-    year = 'agu2014'
+    racine = '/Users/thorey/Documents/MLearning/Side_Project/AGU_Data/'
+    #racine = '/Users/clement/AGU_Data' 
+    year = 'agu2015'
     step = 1000
     isdirok(year)
     
