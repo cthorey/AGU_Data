@@ -14,6 +14,7 @@ year = 'agu2015'
 class Paper(object):
     def __init__(self,wd,link):
         self.link = link
+        wd.get(link)
         self.wait_for_elements(wd)
         self.tag = wd.find_element_by_class_name('itemTitle').text.split(':')[0]
         self.title = wd.find_element_by_class_name('itemTitle').text.split(':')[1]
@@ -31,10 +32,11 @@ class Paper(object):
         
         
     def wait_for_elements(self,wd,timeout = 15):
-        elements = ['//*[@id="Content"]','//*[@id="Details"]']
-        for tag in elements:
+        classes = ['itemTitle','SlotDate','SlotTime','propertyInfo','Additional']
+        classes += ['PersonList','SessionListItem','infoBox']
+        for classe in classes:
             # wait for the different sections to download
-            WebDriverWait(wd, timeout).until(EC.visibility_of_element_located((By.XPATH,tag)))
+            WebDriverWait(wd, timeout).until(EC.visibility_of_element_located((By.CLASS_NAME,classe)))
         time.sleep(3)
         
         
