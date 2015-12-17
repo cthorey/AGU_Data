@@ -7,10 +7,6 @@ import pickle,time,datetime
 from bs4 import BeautifulSoup
 from tqdm import *
 
-racine = '/Users/thorey/Documents/MLearning/Side_Project/AGU_Data/'
-#racine = '/Users/clement/AGU_Data' 
-year = 'agu2015'
-
 class Paper(object):
     def __init__(self,wd,link):
         self.link = link
@@ -58,13 +54,16 @@ def Run_Scrapping(start,end,base_url):
     progress.close()            
     return {'papers':papers,'error':errors}
         
-def Pickler(obj):
-    output = os.path.join(racine,'Data')
-    name = os.path.join(output,year+'_'+str(start)+'_'+str(end))        
-    with open(name, 'wb') as fi:
-        pickle.dump({'papers':papers,'error':errors}, fi, pickle.HIGHEST_PROTOCOL)
+def Pickler(data,year,name):
+    path = os.path.join(racine,'Data',year,name)    
+    with open(path, 'wb') as fi:
+        pickle.dump(data, fi, pickle.HIGHEST_PROTOCOL)
 
-    
+def isdirok(year):
+    output = os.path.join(racine,'Data')
+    if not os.path.isdir(os.path.join(output,year)):
+        os.mkdir(os.path.join(output,year))
+        
 def calc_end(end,base_end):
     if end > base_end:
         return base_end
@@ -72,18 +71,23 @@ def calc_end(end,base_end):
         return end
     
 def calc_start(base_start,year):
-    done_papers = os.listdir(os.path.join(racine,'Data'))
-    done_papers = [f for f in done_papers if f.split('_')[0] == year]
+    done_papers = os.listdir(os.path.join(racine,'Data',year))
+    done_papers = [f for f in done_papers
+                   if (len(f.split('_')) == 2) and f[0] != '.']
     if len(done_papers) == 0:
         return base_start
     else:
-        return  max(map(int,[f.split('_')[2] for f in done_papers]))            
+        return  max(map(int,[f.split('_')[1] for f in done_papers]))            
 
 
 if __name__ == "__main__":        
     #####################
     ####### MAIN ########    
     #####################
+    racine = '/Users/thorey/Documents/MLearning/Side_Project/AGU_Data/'
+    #racine = '/Users/clement/AGU_Data' 
+    year = 'agu2015'
+    isdirok(year)
     
     if year.split('agu')[-1] == '2015':
         base_url = 'https://agu.confex.com/agu/fm15/meetingapp.cgi/Paper/'    
@@ -98,7 +102,7 @@ if __name__ == "__main__":
         raise Exception
     
     #What remains to do
-    step = 10
+    step = 2
     start = calc_start(base_start,year)
     end = calc_end(start+step,base_end)
 
@@ -111,7 +115,8 @@ if __name__ == "__main__":
     bool_end = True
     while bool_end:
         data = Run_Scrapping(start,end,base_url)
-        Pickler(data)
+        name = str(start)+'_'+str(end)
+        Pickler(data,year,name)
         bilan = open(os.path.join(racine,year+'_bilan.txt'),'a')
         bilan.write('Succesfully donwload papers from %d to %d \n'%(start,end))
         bilan.close()
