@@ -12,48 +12,31 @@ racine = '/Users/thorey/Documents/MLearning/Side_Project/AGU_Data/'
 year = 'agu2015'
 
 class Paper(object):
-    ''' Class to handle each paper on the website AGU'''
-    def __init__(self,idx,header,loc_date,abstract,authors,session):
-
-        self.tag_session = header.split(':')[0]
-        self.title =  header.split(':')[1]
-        self.abstract = abstract.split('Reference')[0]
+    def __init__(self,wd,link):
+        self.link = link
+        self.wait_for_elements(wd)
+        self.tag = wd.find_element_by_class_name('itemTitle').text.split(':')[0]
+        self.title = wd.find_element_by_class_name('itemTitle').text.split(':')[1]
+        self.date = wd.find_element_by_class_name('SlotDate').text
+        self.time = wd.find_element_by_class_name('SlotTime').text
+        self.place = wd.find_element_by_class_name('propertyInfo').text
+        self.abstract = wd.find_element_by_class_name('Additional').text.split('Reference')[0]
         try:
-            self.reference = abstract.split('Reference')[1]
+            self.reference = wd.find_element_by_class_name('Additional').text.split('Reference')[1]
         except:
             self.reference = ''
-        self.author = authors.split('\n')[1:]
-        self.session = str(session.split('\n')[1].split(':')[1])
-        self.focus_group = str(session.split('\n')[2].split(':')[1])
-        self.date = str(session.split('\n')[3].split(':')[1])
-        self.idx = idx
-        self.room = map(str,loc_date.split('\n'))[1]
-        self.hour = ''.join(map(str,loc_date.split('\n'))[0].split(' ')[-3:])
-
-def wait_for_elements(wd,details,timeout):
-    for section in details:
-        # wait for the different sections to download
-        WebDriverWait(wd, timeout).until(EC.visibility_of_element_located((By.XPATH,section)))
+        self.authors = wd.find_element_by_class_name('PersonList').text
+        self.session = wd.find_element_by_class_name('SessionListItem').text.split(':')[1]
+        self.section = wd.find_element_by_class_name('infoBox').text.split("\n")[2].split(':')[-1]
         
-def Scrapper(link,wd):
-    wd.get(link)
-    # Wait for main sections to appear
-    elements = ['//*[@id="Content"]','//*[@id="Details"]']
-    wait_for_elements(wd,elements,15)
-    time.sleep(3)
-    # First collect the header in content, named bd1
-    headers = wd.find_elements_by_xpath('//*[@id="Content"]/section[1]')
-    header = headers[0].text
-    # Next we get more detailed infos
-    balise = wd.find_element_by_xpath('//*[@id="Details"]') #root pour details
-    details = [f for f in balise.find_elements_by_xpath('*') if
-               f.tag_name == 'section'] # sample all subsections
-    loc_date = details[0].text
-    abstract = details[1].text
-    authors = details[2].text
-    session = details[-1].text
-    return header,loc_date,abstract,authors,session
-    
+        
+    def wait_for_elements(self,wd,timeout = 15):
+        elements = ['//*[@id="Content"]','//*[@id="Details"]']
+        for tag in elements:
+            # wait for the different sections to download
+            WebDriverWait(wd, timeout).until(EC.visibility_of_element_located((By.XPATH,tag)))
+        time.sleep(3)
+        
         
 def Run_Scrapping(start,end,base_url):
     # Start the WebDriver and load the page           
@@ -66,7 +49,7 @@ def Run_Scrapping(start,end,base_url):
         idx = str(idx)
         link = os.path.join(base_url,idx)
         try:
-            papers.append(Paper(idx,*Scrapper(link,wd)))
+            papers.append(Paper(wd,link))
         except:
             errors.append(link)
     wd.quit()
