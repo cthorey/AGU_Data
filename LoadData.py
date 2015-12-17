@@ -7,13 +7,6 @@ import pickle,time,datetime
 from bs4 import BeautifulSoup
 from tqdm import *
 
-<<<<<<< HEAD
-#racine = '/Users/thorey/Documents/MLearning/Side_Project/AGU_Data/'
-racine = '/Users/clement/AGU_Data' 
-year = 'agu2014'
-
-=======
->>>>>>> 17a2edd708f8771556a0e69a9704dd251d81aace
 class Paper(object):
     def __init__(self,wd,link):
         self.link = link
@@ -93,7 +86,7 @@ if __name__ == "__main__":
     #####################
     #racine = '/Users/thorey/Documents/MLearning/Side_Project/AGU_Data/'
     racine = '/Users/clement/AGU_Data' 
-    year = 'agu2015'
+    year = 'agu2014'
     step = 1000
     isdirok(year)
     
