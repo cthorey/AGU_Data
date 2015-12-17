@@ -30,7 +30,7 @@ def Scrap_page(wd,link):
                  wd.find_element_by_class_name('SlotTime').text})
     data.update({'place' :
                  wd.find_element_by_class_name('propertyInfo').text})
-    data.update({'place' :
+    data.update({'abstract' :
                  wd.find_element_by_class_name('Additional').text.split('Reference')[0]})
     try:
         data.update({'reference' :
@@ -56,7 +56,7 @@ def Run_Scrapping(start,end,base_url):
         idx = str(idx)
         link = os.path.join(base_url,idx)
         try:
-            papers.update{link:Scrap_page(wd,link)}
+            papers.update({link:Scrap_page(wd,link)})
         except:
             errors.append(link)
     wd.quit()
@@ -100,7 +100,7 @@ if __name__ == "__main__":
     racine = '/Users/thorey/Documents/MLearning/Side_Project/AGU_Data/'
     #racine = '/Users/clement/AGU_Data' 
     year = 'agu2015'
-    step = 1000
+    step = 2
     isdirok(year)
     
     if year.split('agu')[-1] == '2015':
