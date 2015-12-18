@@ -37,8 +37,10 @@ def Scrap_page(wd,link):
                      wd.find_element_by_class_name('Additional').text.split('Reference')[1]})
     except:
         data.update({'reference' : '' })
+    authors = wd.find_elements_by_class_name('RoleListItem')
     data.update({'authors' :
-                 wd.find_element_by_class_name('PersonList').text})
+                 {author.text.split('\n')[0] : ', '.join(author.text.split('\n')[1:])
+                  for author in authors}})
     data.update({'session' :
                  wd.find_element_by_class_name('SessionListItem').text.split(':')[1]})    
     data.update({'section' :
@@ -86,7 +88,8 @@ def calc_end(end,base_end):
 def calc_start(base_start,year):
     done_papers = os.listdir(os.path.join(racine,'Data',year))
     done_papers = [f for f in done_papers
-                   if (len(f.split('_')) == 2) and (f[0] != '.') and (f.split('.')[-1] == 'json') ]
+                   if (len(f.split('_')) == 2) and (f[0] != '.') and (f.split('_')[-1] == 'V2.json') ]
+    print done_papers
     if len(done_papers) == 0:
         print base_start
         return base_start
@@ -101,7 +104,7 @@ if __name__ == "__main__":
     #####################
     #racine = '/Users/thorey/Documents/MLearning/Side_Project/AGU_Data/'
     racine = '/Users/clement/AGU_Data' 
-    year = 'agu2014'
+    year = 'agu2015'
     step = 1000
     isdirok(year)
     
@@ -130,7 +133,7 @@ if __name__ == "__main__":
     bool_end = True
     while bool_end:
         data = Run_Scrapping(start,end,base_url)
-        name = str(start)+'_'+str(end)
+        name = str(start)+'_'+str(end)+'_V2'
         Jsoner(data,year,name)
         bilan = open(os.path.join(racine,year+'_bilan.txt'),'a')
         bilan.write('Succesfully donwload papers from %d to %d \n'%(start,end))
@@ -139,4 +142,4 @@ if __name__ == "__main__":
         end = calc_end(start+step,base_end)
         if end == base_end:
             bool_end = False
-
+            
