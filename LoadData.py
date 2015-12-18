@@ -101,10 +101,10 @@ if __name__ == "__main__":
     #####################
     ####### MAIN ########    
     #####################
-    #racine = '/Users/thorey/Documents/MLearning/Side_Project/AGU_Data/'
-    racine = '/Users/clement/AGU_Data' 
-    year = 'agu2014'
-    step = 1000
+    racine = '/Users/thorey/Documents/MLearning/Side_Project/AGU_Data/'
+    #racine = '/Users/clement/AGU_Data' 
+    year = 'agu2015'
+    step = 10
     isdirok(year)
     
     if year.split('agu')[-1] == '2015':
