@@ -132,7 +132,7 @@ if __name__ == "__main__":
     bool_end = True
     while bool_end:
         data = Run_Scrapping(start,end,base_url)
-        name = str(start)+'_'+str(end)
+        name = str(start)+'_'+str(end)+'_V2'
         Jsoner(data,year,name)
         bilan = open(os.path.join(racine,year+'_bilan.txt'),'a')
         bilan.write('Succesfully donwload papers from %d to %d \n'%(start,end))
