@@ -88,7 +88,8 @@ def calc_end(end,base_end):
 def calc_start(base_start,year):
     done_papers = os.listdir(os.path.join(racine,'Data',year))
     done_papers = [f for f in done_papers
-                   if (len(f.split('_')) == 2) and (f[0] != '.') and (f.split('.')[-1] == 'json') ]
+                   if (len(f.split('_')) == 2) and (f[0] != '.') and (f.split('_')[-1] == 'V2.json') ]
+    print done_papers
     if len(done_papers) == 0:
         print base_start
         return base_start
@@ -101,10 +102,10 @@ if __name__ == "__main__":
     #####################
     ####### MAIN ########    
     #####################
-    racine = '/Users/thorey/Documents/MLearning/Side_Project/AGU_Data/'
-    #racine = '/Users/clement/AGU_Data' 
+    #racine = '/Users/thorey/Documents/MLearning/Side_Project/AGU_Data/'
+    racine = '/Users/clement/AGU_Data' 
     year = 'agu2015'
-    step = 10
+    step = 1000
     isdirok(year)
     
     if year.split('agu')[-1] == '2015':
@@ -141,4 +142,4 @@ if __name__ == "__main__":
         end = calc_end(start+step,base_end)
         if end == base_end:
             bool_end = False
-
+            
