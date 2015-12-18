@@ -37,8 +37,10 @@ def Scrap_page(wd,link):
                      wd.find_element_by_class_name('Additional').text.split('Reference')[1]})
     except:
         data.update({'reference' : '' })
+    authors = wd.find_elements_by_class_name('RoleListItem')
     data.update({'authors' :
-                 wd.find_element_by_class_name('PersonList').text})
+                 {author.text.split('\n')[0] : ', '.join(author.text.split('\n')[1:])
+                  for author in authors}})
     data.update({'session' :
                  wd.find_element_by_class_name('SessionListItem').text.split(':')[1]})    
     data.update({'section' :
