@@ -88,7 +88,7 @@ def calc_end(end,base_end):
 def calc_start(base_start,year):
     done_papers = os.listdir(os.path.join(racine,'Data',year))
     done_papers = [f for f in done_papers
-                   if (len(f.split('_')) == 2) and (f[0] != '.') and (f.split('_')[-1] == 'V2.json') ]
+                   if (len(f.split('_')) == 3) and (f[0] != '.') and (f.split('_')[-1] == 'V2.json') ]
     print done_papers
     if len(done_papers) == 0:
         print base_start
