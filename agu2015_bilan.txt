@@ -13,6 +13,10 @@ Succesfully donwload papers from 66180 to 67180
 Succesfully donwload papers from 67180 to 68180 
 Succesfully donwload papers from 68180 to 69180 
 Succesfully donwload papers from 69180 to 70180 
+<<<<<<< HEAD
+Succesfully donwload papers from 70180 to 71180 
+Succesfully donwload papers from 71180 to 72180 
+=======
 hello, we are processing agu2015 
 Scrapping commencer le 2015-12-18 
 We take back from paper 58180 
@@ -30,6 +34,7 @@ hello, we are processing agu2015
 Scrapping commencer le 2015-12-18 
 We take back from paper 58180 
 Succesfully donwload papers from 58180 to 58190 
+<<<<<<< HEAD
 hello, we are processing agu2015 
 Scrapping commencer le 2015-12-18 
 We take back from paper 58180 
@@ -38,3 +43,38 @@ Succesfully donwload papers from 58250 to 58260
 Succesfully donwload papers from 58260 to 58270 
 Succesfully donwload papers from 58270 to 58280 
 Succesfully donwload papers from 58280 to 58290 
+=======
+>>>>>>> 416b71491f49af0983788f9ff36ebbef773623e5
+hello, we are processing agu2015 
+Scrapping commencer le 2015-12-19 
+We take back from paper 58180 
+Succesfully donwload papers from 58180 to 59180 
+Succesfully donwload papers from 59180 to 60180 
+Succesfully donwload papers from 60180 to 61180 
+Succesfully donwload papers from 61180 to 62180 
+Succesfully donwload papers from 62180 to 63180 
+Succesfully donwload papers from 63180 to 64180 
+Succesfully donwload papers from 64180 to 65180 
+Succesfully donwload papers from 65180 to 66180 
+Succesfully donwload papers from 66180 to 67180 
+Succesfully donwload papers from 67180 to 68180 
+Succesfully donwload papers from 68180 to 69180 
+hello, we are processing agu2015 
+Scrapping commencer le 2015-12-22 
+We take back from paper 58180 
+hello, we are processing agu2015 
+Scrapping commencer le 2015-12-22 
+We take back from paper 58180 
+hello, we are processing agu2015 
+Scrapping commencer le 2015-12-22 
+We take back from paper 69180 
+hello, we are processing agu2015 
+Scrapping commencer le 2015-12-22 
+We take back from paper 69180 
+hello, we are processing agu2015 
+Scrapping commencer le 2015-12-22 
+We take back from paper 69180 
+hello, we are processing agu2015 
+Scrapping commencer le 2015-12-22 
+We take back from paper 69180 
+>>>>>>> eb9bc92687e1db399dbdfc53d9eb8356364f64d1
