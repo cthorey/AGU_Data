@@ -25,7 +25,7 @@ def get_all_data(year):
     ''' Go looking for all the files and load it as a list of
     Paper object '''
     name = os.listdir(os.path.join(root,'Data',year))
-    name = [ f for f in name if f.split('.')[-1] == 'json']
+    name = [ f for f in name if f.split('_')[-1] == 'V2.json']
     papers = []
     for json in name:
         json_file = os.path.join(root,'Data',year,json)
