@@ -34,6 +34,16 @@ hello, we are processing agu2015
 Scrapping commencer le 2015-12-18 
 We take back from paper 58180 
 Succesfully donwload papers from 58180 to 58190 
+<<<<<<< HEAD
+hello, we are processing agu2015 
+Scrapping commencer le 2015-12-18 
+We take back from paper 58180 
+Succesfully donwload papers from 58180 to 58230 
+Succesfully donwload papers from 58250 to 58260 
+Succesfully donwload papers from 58260 to 58270 
+Succesfully donwload papers from 58270 to 58280 
+Succesfully donwload papers from 58280 to 58290 
+=======
 >>>>>>> 416b71491f49af0983788f9ff36ebbef773623e5
 hello, we are processing agu2015 
 Scrapping commencer le 2015-12-19 
@@ -67,6 +77,7 @@ We take back from paper 69180
 hello, we are processing agu2015 
 Scrapping commencer le 2015-12-22 
 We take back from paper 69180 
+<<<<<<< HEAD
 Succesfully donwload papers from 69180 to 70180 
 Succesfully donwload papers from 70180 to 71180 
 Succesfully donwload papers from 71180 to 72180 
@@ -84,3 +95,6 @@ Succesfully donwload papers from 82180 to 83180
 Succesfully donwload papers from 83180 to 84180 
 Succesfully donwload papers from 84180 to 85180 
 Succesfully donwload papers from 85180 to 86180 
+=======
+>>>>>>> eb9bc92687e1db399dbdfc53d9eb8356364f64d1
+>>>>>>> aeb8548d5f4f285399c7b40753f1db804d6882ab
