@@ -1,3 +1,31 @@
+""" Module to ease the scrap of the `AGU website`_
+
+This module ease the scrapping of the abstract form the `AGU website`_
+for the year 2014 and 2015. Before this date, the program was only
+available as a pdf file.
+
+Example:
+    For instance, if I wan to scrap all the abstract for 2015
+    2015 `AGU website`_, I just have to run::
+
+        $ python LoadData.py
+
+    and be patien as this may take some time ;)
+
+
+
+Attributes:
+    HOME (str): Home folder your computer. 
+    racine (str): Racine of the working directory. When run,
+    the program is going to create a directory 'Data' to store
+    the json file containing the results of the scrapping.
+
+
+.. _AGU website:
+   https://agu.confex.com/agu/fm15/meetingapp.cgi
+
+"""
+
 import os
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
@@ -12,9 +40,23 @@ from tqdm import *
 from os.path import expanduser
 
 HOME = expanduser("~")
+racine = os.path.join(home, 'repos', 'agu_data')
 
 
 def wait_for_elements(wd, timeout=15):
+    ''' Wait for elements to appear on the page
+
+    Args:
+        wd : selenium web driver
+        timeout (Optionnal[int]): Number of seconds to wait
+        before the timeout.
+
+    Note:
+        Since 2014, the agu website mainly calls javascript to fill up
+        the content of different papers. The webdriver needs to wait
+        for these element to appear on the page before it can get them.
+
+    '''
     classes = ['itemTitle', 'SlotDate',
                'SlotTime', 'propertyInfo', 'Additional']
     classes += ['PersonList', 'SessionListItem', 'infoBox']
@@ -26,6 +68,24 @@ def wait_for_elements(wd, timeout=15):
 
 
 def Scrap_page(wd, link):
+    ''' Scrapping of the page
+
+    Args:
+        wd: selenium web driver
+        link (str): link to go scrap
+
+    Returns:
+        A dictionnary which contains information about
+        the paper which is contained in link. In particular,
+        the scrapper collects information about tag, title, date,
+        time, place, abstract, reference, authors, session, section.
+
+    Note:
+        It is very easy to identify element by either tag, or class name.
+        Juste open a browser and toggle inspect element. It gives you
+        the html code with the according balise.
+
+    '''
     wd.get(link)
     wait_for_elements(wd)
     data = {}
@@ -58,7 +118,42 @@ def Scrap_page(wd, link):
 
 
 def Run_Scrapping(start, end, base_url):
-    # Start the WebDriver and load the page
+    ''' Start the scrapping of all papers for one specific
+    agu.
+
+    Note:
+        Since 2014, the agu website mainly calls javascript to fill up
+        the content of different papers. It is organized with a base_url
+        that usually ends by Paper/ followed by a sequence of integer, each
+        integer corresponding to one paper. While I didn't really get how the
+        range of integers is decided, it looks like to be all integers between
+        58000 and 87000 for 2015. In2014, it was more like between 2180
+        and 35000
+
+    Args:
+        start (int): Starting paper
+        end (int): Ending paper
+        base_url: Url where the papers are stored.
+
+    Returns:
+        A dictionnary with a key *papers* containing itself a list of
+        dictionnary, one for each paper that we manage to scrape.
+        The second key *error* corresponds to all the papers that we failed
+        to scrap.
+
+    Note:
+        Each succesfull scrapped paper is ordered also as a dictionary to
+        easily store them a .json files.
+
+    Example:
+        For the year 2015,
+
+        >>> base_url = 'https://agu.confex.com/agu/fm15/meetingapp.cgi/Paper/'
+        >>> Run_Scrapping(58000,8700,base_url)
+
+        looks to scrap almost all the papers. 
+
+    '''
     wd = webdriver.Chrome(os.path.join(racine, 'chromedriver'))
     papers = {}
     errors = []
@@ -77,7 +172,15 @@ def Run_Scrapping(start, end, base_url):
 
 
 def Jsoner(data, year, name):
-    name_json = os.path.join(racine, 'Data', year, name)
+    ''' Store the results from the scrapping as a .json file
+
+    Args:
+        data (dict): A dictionary containing the result of run_scrapping
+        year (str): The year considered 
+        name (str): Name of the .json file
+
+    '''
+    name_json = os.path.join(racine, 'Data', str(year), name)
     with codecs.open(name_json + '.json', 'w+', 'utf8') as outfile:
         json.dump(data,
                   outfile,
@@ -87,12 +190,34 @@ def Jsoner(data, year, name):
 
 
 def isdirok(year):
+    ''' Ensure the directory exist before scrapping
+
+    Args:
+        year (str): directory where the json file are going to
+        be stored
+
+    '''
+
     output = os.path.join(racine, 'Data')
     if not os.path.isdir(os.path.join(output, year)):
         os.mkdir(os.path.join(output, year))
 
 
 def calc_end(end, base_end):
+    ''' Ensure the ending integer not larger than the bounds
+
+    Args: 
+        end (int): Proposed ending integer
+        base_end (int): Maximum integer value.
+
+    Note:
+        It is advised to run the scrapping step by step, i.e.
+        1000 papers by 1000 and then store json file each
+        1000 papers. This function decide if the upper bound for
+        the next scrapping does not depass the maximum.
+
+    '''
+
     if end > base_end:
         return base_end
     else:
@@ -100,6 +225,19 @@ def calc_end(end, base_end):
 
 
 def calc_start(base_start, year):
+    '''Calc beginning integer according to what's already done
+
+    Args: 
+        base_start (int): Minimum integer of the sequence
+        year (int): Year that your want to scrape
+
+    Note:
+        It is advised to run the scrapping step by step, i.e.  1000
+        papers by 1000 and then store json file each 1000 papers. This
+        function decide if the lower bound for the next scrapping is
+        in agreement with the minimum.
+
+    '''
     done_papers = os.listdir(os.path.join(racine, 'Data', year))
     done_papers = [f for f in done_papers
                    if (len(f.split('_')) == 3) and (f[0] != '.') and (f.split('_')[-1] == 'V2.json')]
@@ -113,12 +251,8 @@ def calc_start(base_start, year):
 
 
 if __name__ == "__main__":
-    #####################
-    ####### MAIN ########
-    #####################
+    ''' Run the scrapping '''
 
-    #racine = '/Users/thorey/Documents/MLearning/Side_Project/AGU_Data/'
-    racine = os.path.join(home, 'repos', 'agu_data')
     year = 'agu2014'
     step = 1000
 
