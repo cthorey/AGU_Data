@@ -204,6 +204,8 @@ def isdirok(year):
     '''
 
     output = os.path.join(racine, 'Data')
+    if not os.path.isdir(output):
+        os.mkdir(output)
     if not os.path.isdir(os.path.join(output, year)):
         os.mkdir(os.path.join(output, year))
 
@@ -258,7 +260,7 @@ def calc_start(base_start, year):
 if __name__ == "__main__":
     ''' Run the scrapping '''
 
-    step = 1000
+    step = 5
 
     isdirok(year)
 
@@ -287,7 +289,7 @@ if __name__ == "__main__":
     bool_end = True
     while bool_end:
         data = Run_Scrapping(start, end, base_url)
-        name = str(start) + '_' + str(end) + '_V2'
+        name = str(start) + '_' + str(end) + '_V3'
         Jsoner(data, year, name)
         bilan = open(os.path.join(racine, year + '_bilan.txt'), 'a')
         bilan.write('Succesfully donwload papers from %d to %d \n' %

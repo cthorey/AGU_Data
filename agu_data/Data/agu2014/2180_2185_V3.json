@@ -1,0 +1,35 @@
+{
+    "error": [
+        "https://agu.confex.com/agu/fm14/meetingapp.cgi/Paper/2181", 
+        "https://agu.confex.com/agu/fm14/meetingapp.cgi/Paper/2183", 
+        "https://agu.confex.com/agu/fm14/meetingapp.cgi/Paper/2184"
+    ], 
+    "papers": {
+        "https://agu.confex.com/agu/fm14/meetingapp.cgi/Paper/2180": {
+            "abstract": "", 
+            "authors": {
+                "Sabine Lennartz-Sassinek": "University of Cologne"
+            }, 
+            "date": "Tuesday, 16 December 2014", 
+            "place": "Marriott Marquis - Salon 8", 
+            "reference": "", 
+            "section": " Nonlinear Geophysics", 
+            "session": " Statistical Geodynamics", 
+            "time": "- 12:15 AM", 
+            "title": ""
+        }, 
+        "https://agu.confex.com/agu/fm14/meetingapp.cgi/Paper/2182": {
+            "abstract": "Analysis of apatite from the Mine Block Intrusion (MBI) of the Lac des Iles Igneous Complex show two pronounced trends in the halogens. Apatite from relatively fresh norite and melanorites from the Pd-sulfide zone contain up to 57 mole % chlorapatite endmember with significant hydroxyapatite component. In contrast, in altered rock (amphibolite and greenschist assemblages) and in the more evolved barren rocks the chlorapatite component is typically less than 10 mole % with wide variation in the F- and OH-endmember components. The latter trend is attributed to Cl loss to degassing and alteration whereas the former is attributed to Cl-enrichment in the ore-bearing rocks. It is suggested that the relatively H2O-rich and intermediate Cl content of the early igneous fluids degassed from the deeper levels of the MBI can explain the high Pd/Pt and Pd/Ir ratios of the deposit. A model is presented in which disseminated Pd-rich sulfide are initially introduced by a high temperature magmatic fluid that also influenced crystallization to produce the gross modal variations of the igneous host rock. This high temperature mineralization event was subsequently modified by the influx of late igneous and country fluids at amphibolite to greenschist conditions.", 
+            "authors": {
+                "Alan Boudreau": "Duke University"
+            }, 
+            "date": "Friday, 19 December 2014", 
+            "place": "Moscone South - Poster Hall", 
+            "reference": "", 
+            "section": " Volcanology, Geochemistry and Petrology", 
+            "session": " Physical Petrology III Posters", 
+            "time": "08:00 AM - 12:20 PM", 
+            "title": "Halogen Variations in Apatite of the Lac Des Iles Palladium Deposit, Ontario, Canada"
+        }
+    }
+}

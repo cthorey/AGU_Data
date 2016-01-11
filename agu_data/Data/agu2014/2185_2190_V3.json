@@ -1,0 +1,64 @@
+{
+    "error": [
+        "https://agu.confex.com/agu/fm14/meetingapp.cgi/Paper/2185"
+    ], 
+    "papers": {
+        "https://agu.confex.com/agu/fm14/meetingapp.cgi/Paper/2186": {
+            "abstract": "", 
+            "authors": {
+                "Michael Piasecki": "City College New York"
+            }, 
+            "date": "Tuesday, 16 December 2014", 
+            "place": "Moscone West - 2020", 
+            "reference": "", 
+            "section": " Earth and Space Science Informatics", 
+            "session": " Scalable and Adaptable Architecture for Earth Science Infrastructure II", 
+            "time": "- 12:15 AM", 
+            "title": ""
+        }, 
+        "https://agu.confex.com/agu/fm14/meetingapp.cgi/Paper/2187": {
+            "abstract": "Geoscience data comes in many flavors that are determined by type of data such as continous on a grid or mesh or discrete colelcted at point either as one time samples or a stream of data coming of sensors, but coudl also encompass digital files of any time type such text files, WORD or EXCEL documents, or audio and video files. We present a storage facility that is comprsed of 6 nodes each of speciaized to host a certain data type: grid based data (netCDF on a THREDDS server), GIS data (shapefiles using GeoServer), point time series data (CUAHSI ODM), sample data (EDBS), and any digital data (RAMADAA) plus a server fro Remote sensing data and its products. While there is overlap in data type storage capabilities (rasters can go into several of these nodes) we prefer to use dedicated storage facilities that are a) freeware, and b) have a good degree of maturity, and c) have shown their utility for stroing a cetain type. In addition it allows to place these commonly used software stacks and storage solutiosn side-by-side to develop interoprability strategies. We have used a DRUPAL based system to handle user regoistration and authentication, and also use the system for data submission and data search. In support for tis system we developed an extensive controlled vocabulary system that is an amalgamation of various CVs used in the geosciecne community in order to achieve as high a degree of recognition, such the CF conventions, CUAHSI Cvs, , NASA (GCMD), EPA and USGS taxonomies, GEMET, in addition to ontological representations such as SWEET.", 
+            "authors": {
+                "Michael Piasecki": "City College New York", 
+                "Peng Ji": "The City College of New York"
+            }, 
+            "date": "Tuesday, 16 December 2014", 
+            "place": "Moscone South - Poster Hall", 
+            "reference": "", 
+            "section": " Earth and Space Science Informatics", 
+            "session": " Scalable and Adaptable Architecture for Earth Science Infrastructure I Posters", 
+            "time": "08:00 AM - 12:20 PM", 
+            "title": "Environmental Data Store (EDS): A multi-node Data Storage Facility for diverse sets of Geoscience Data"
+        }, 
+        "https://agu.confex.com/agu/fm14/meetingapp.cgi/Paper/2188": {
+            "abstract": "This is the second installment in our search for a comprehensive economic model to mitigate climate change due to anthropogenic activity.\nLast year we presented how the unique features of our economic model measure changes in carbon flux due to anthropogenic activity, referred to as carbon quality or CQ, and how the model is used to value such changes in the climate system.\nThis year, our paper focuses on how carbon quality can be implemented to capture the effect of economic activity and international trade on the climate system, thus allowing us to calculate a Return on Climate System (RoCS) for all economic assets and activity.\nThe result is that the RoCS for each public and private economic activity and entity can be calculated by summing up the RoCS for each individual economic asset and activity in which an entity is engaged.\nSuch a macro-level scale is used to rank public and private entities including corporations, governments, and even entire nations, as well as human adaptation and carbon storage activities, providing status and trending insights to evaluate policies on both a micro- and macro-economic level.\nWith international trade, RoCS measures the embodied effects on climate change that will be needed to assess border fees to insure carbon parity on all imports and exports.\nAt the core of our vision is a comprehensive, ‘open-source’ construct of which our carbon quality metric is the first element.\nOne goal is to recognize each country’s endemic resources and infrastructure that affect their ability to manage carbon, while preventing spatial and temporal shifting of carbon emissions that reduce or reverse efforts to mitigate climate change.\nThe standards for calculating the RoCS can be promulgated as part of the Generally Accepted Accounted Principles (GAAP) and the International Financial Reporting Standards (IFRS) to ensure standard and consistent reporting.\nThe value of such insights on the climate system at all levels will be crucial to managing anthropogenic activity in order to minimize the effect on the climate system. Without the insights provided by a comprehensive, standardized and verifiable RoCS, managing anthropogenic activity will be elusive and difficult to achieve, at best.\nSuch a model may also be useful to manage the effect of anthropogenic activity on the nitrogen and phosphorous cycles.", 
+            "authors": {
+                "Forrest DeGroff": "City College of San Francisco"
+            }, 
+            "date": "Tuesday, 16 December 2014", 
+            "place": "Moscone West - Poster Hall", 
+            "reference": "", 
+            "section": " Global Environmental Change", 
+            "session": " Global Environmental Change General Contributions Posters", 
+            "time": "08:00 AM - 12:20 PM", 
+            "title": "Carbon Management In the Post-Cap-and-Trade Carbon Economy-Part II"
+        }, 
+        "https://agu.confex.com/agu/fm14/meetingapp.cgi/Paper/2189": {
+            "abstract": "The morphology of lava flows depends largely on rheological properties (viscosity, yield strength), which in turn vary with its physical properties (composition, crystal and bubble fraction, temperature). We are investigating how these properties vary in space and time (1) along and across a flow at a particular instant in time, and (2) for a single quantum of magma from vent to final emplacement. Our study area is Pacaya (Guatemala). Its latest effusive eruption begun on January 10th 2014 and produced two lava flows emitted from newly-formed vents, aligned NW-SE across the summit. Flow surface profiles were obtained with a Laser Range Finder, and extensive sampling was conducted on both flows while still active or shortly afterwards. The lavas are basalts (SiO2 = 50-51.5%), the SE flow being slightly more evolved than the NW one. Both flows are less alkali-rich than historical flows, even as recently as 2010. The mineralogy consists of plagioclase, olivine, pyroxenes, and minor oxides. The samples are highly crystalline (~60% phenocrysts + microlites) and considerably vesicular (≥25%, decreasing downflow), with mostly interconnected porosity. The flow velocity, estimated from videos taken in the field, decreased from ~2.8 m/s by the vent, where the flow surface is mostly incandescent pahoehoe, to ~0.5 m/s about 1 km downflow, where the surface is mostly dark `a`a. This velocity decrease is consistent with cooling and crust formation, as well as a decrease in slope from 45° to 4°. The effects of crystallization on the evolution of the 2014 lavas rheology are being investigated through concentric cylinder and parallel plate viscometry, and will be compared to the 2010 data. Lavas erupted in 2010 have a viscosity of ~75 Pa s at their liquidus temperature of ~1260˚C, increasing to ~250 Pa s at ~1240˚C (~25% crystals) and ~800 Pa s at ~1225˚C (~36% crystals). At subliquidus conditions, lava rheology is distinctly non-Netonian, and best fit with a power-law rheology, but yield strengths are low even at high crystal fractions (e.g. ~140 Pa at 42% crystals). Rheological gradients are therefore expected to be very strong even within the incandescent flow interior. Experimental study of the 2014 lavas, combined with observations of their emplacement, will allow us to better understand how evolving rheology affects final flow morphology.", 
+            "authors": {
+                "Alan Whittington": "University of Missouri Columbia", 
+                "Alexander Sehlke": "University of Missouri Columbia", 
+                "Anthony Bollasina": "University of Missouri Columbia", 
+                "Arianna Soldati": "University of Missouri Columbia", 
+                "Gustavo Chigna": "INSIVUMEH"
+            }, 
+            "date": "Monday, 15 December 2014", 
+            "place": "Moscone South - Poster Hall", 
+            "reference": "", 
+            "section": " Volcanology, Geochemistry and Petrology", 
+            "session": " Lava Flows", 
+            "time": "01:40 PM - 06:00 PM", 
+            "title": "The January 2014 Eruption of Pacaya (Guatemala): Rheology and Morphology through Field Observations and Laboratory Experiments"
+        }
+    }
+}
