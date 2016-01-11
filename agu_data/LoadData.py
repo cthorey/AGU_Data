@@ -10,16 +10,14 @@ Example:
 
         $ python LoadData.py
 
-    and be patien as this may take some time ;)
-
-
+    and be patient as this may take some time ;)
 
 Attributes:
     HOME (str): Home folder your computer. 
     racine (str): Racine of the working directory. When run,
     the program is going to create a directory 'Data' to store
     the json file containing the results of the scrapping.
-
+    year (str): Either 'agu2015' or 'agu2014'
 
 .. _AGU website:
    https://agu.confex.com/agu/fm15/meetingapp.cgi
@@ -39,8 +37,9 @@ from bs4 import BeautifulSoup
 from tqdm import *
 from os.path import expanduser
 
-HOME = expanduser("~")
-racine = os.path.join(home, 'repos', 'agu_data')
+home = expanduser("~")
+racine = os.path.join(home, 'Documents', 'repos', 'agu_data', 'agu_data')
+year = 'agu2014'
 
 
 def wait_for_elements(wd, timeout=15):
@@ -85,14 +84,20 @@ def Scrap_page(wd, link):
         Juste open a browser and toggle inspect element. It gives you
         the html code with the according balise.
 
+    Warning:
+        Their is no tag in the title in AGU 2014 !!
     '''
     wd.get(link)
     wait_for_elements(wd)
     data = {}
-    data.update({'tag':
-                 wd.find_element_by_class_name('itemTitle').text.split(':')[0]})
-    data.update({'title':
-                 wd.find_element_by_class_name('itemTitle').text.split(':')[1]})
+    if year == 'agu2015':
+        data.update({'tag':
+                     wd.find_element_by_class_name('itemTitle').text.split(':')[0]})
+        data.update({'title':
+                     wd.find_element_by_class_name('itemTitle').text.split(':')[1:]})
+    elif year == 'agu2014':
+        data.update({'title':
+                     wd.find_element_by_class_name('itemTitle').text})
     data.update({'date':
                  wd.find_element_by_class_name('SlotDate').text})
     data.update({'time':
@@ -149,7 +154,7 @@ def Run_Scrapping(start, end, base_url):
         For the year 2015,
 
         >>> base_url = 'https://agu.confex.com/agu/fm15/meetingapp.cgi/Paper/'
-        >>> Run_Scrapping(58000,8700,base_url)
+        >>> Run_Scrapping(58000,87000,base_url)
 
         looks to scrap almost all the papers. 
 
@@ -253,7 +258,6 @@ def calc_start(base_start, year):
 if __name__ == "__main__":
     ''' Run the scrapping '''
 
-    year = 'agu2014'
     step = 1000
 
     isdirok(year)
