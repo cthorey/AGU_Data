@@ -260,7 +260,7 @@ def calc_start(base_start, year):
 if __name__ == "__main__":
     ''' Run the scrapping '''
 
-    step = 5
+    step = 1000
 
     isdirok(year)
 
