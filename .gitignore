@@ -1,5 +1,7 @@
 agu2014_progress.txt
 agu2015_progress.txt
+*.txt
+log*
 
 Notebook/.ipynb*
 # Byte-compiled / optimized / DLL files

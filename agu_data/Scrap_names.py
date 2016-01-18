@@ -220,17 +220,17 @@ def calc_start(base_start, year):
 if __name__ == "__main__":
     ''' Run the scrapping '''
 
-    step = 10
+    step = 2500
 
     isdirok(year)
 
     if year.split('agu')[-1] == '2015':
         base_url = 'https://agu.confex.com/agu/fm15/meetingapp.cgi/Person/'
-        base_start = 194614
+        base_start = 1
         base_end = 400000
     elif year.split('agu')[-1] == '2014':
         base_url = 'https://agu.confex.com/agu/fm14/meetingapp.cgi/Person/'
-        base_start = 194614
+        base_start = 1
         base_end = 400000
     else:
         print 'Error base_url : %s' % (base_url)
