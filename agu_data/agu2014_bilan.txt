@@ -43,3 +43,22 @@ Succesfully donwload papers from 30180 to 31180
 Succesfully donwload papers from 31180 to 32180 
 Succesfully donwload papers from 32180 to 33180 
 Succesfully donwload papers from 33180 to 34180 
+hello, we are processing agu2014 
+Scrapping commencer le 2016-01-18 
+We take back from paper 1 
+hello, we are processing agu2014 
+Scrapping commencer le 2016-01-18 
+We take back from paper 1 
+hello, we are processing agu2014 
+Scrapping commencer le 2016-01-18 
+We take back from paper 1 
+Succesfully donwload papers from 1 to 11 
+Succesfully donwload papers from 11 to 21 
+Succesfully donwload papers from 21 to 31 
+hello, we are processing agu2014 
+Scrapping commencer le 2016-01-18 
+We take back from paper 194614 
+Succesfully donwload papers from 194614 to 194624 
+hello, we are processing agu2014 
+Scrapping commencer le 2016-01-18 
+We take back from paper 194614 
