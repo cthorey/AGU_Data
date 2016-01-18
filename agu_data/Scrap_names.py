@@ -1,4 +1,5 @@
 import os
+import sys
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 from selenium.webdriver.common.by import By
@@ -13,7 +14,13 @@ from os.path import expanduser
 
 home = expanduser("~")
 racine = os.path.join(home, 'Documents', 'repos', 'agu_data', 'agu_data')
-year = 'agu2015'
+if len(sys.argv) != 2:
+    raise ValueError('Either provide 2014 or 2015 as argument')
+elif int(sys.argv[1]) not in [2014, 2015]:
+    raise ValueError('Either provide 2014 or 2015 as argument')
+else:
+    print 'Let scrap AGU data from %s' % (str(sys.argv[1]))
+    year = 'agu' + str(sys.argv[1])
 
 
 def wait_for_elements(wd, timeout=5):
