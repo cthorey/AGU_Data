@@ -74,6 +74,8 @@ def Scrap_page(wd, link):
     data.update({'address':
                  wd.find_element_by_class_name('AddressList').text})
     wait_for_elements(wd, ['SessionListItem', 'PaperListItem'])
+    data.update({'name':
+                 wd.find_element_by_class_name('itemTitle').text})
     data.update({'address':
                  wd.find_element_by_class_name('AddressList').text})
     data.update({'session': {f.text.split(' ')[0]: ' '.join(f.text.split(' ')[1:])
@@ -86,12 +88,12 @@ def Scrap_page(wd, link):
 
 
 def Run_Scrapping(start, end, base_url):
-    ''' Start the scrapping of all papers for one specific
+    ''' Start the scrapping of all names for one specific
     agu.
 
     Note:
         Since 2014, the agu website mainly calls javascript to fill up
-        the content of different papers. It is organized with a base_url
+        the content of different page. It is organized with a base_url
         that usually ends by Paper/ followed by a sequence of integer, each
         integer corresponding to one paper. While I didn't really get how the
         range of integers is decided, it looks like to be all integers between
@@ -101,16 +103,16 @@ def Run_Scrapping(start, end, base_url):
     Args:
         start (int): Starting paper
         end (int): Ending paper
-        base_url: Url where the papers are stored.
+        base_url: Url where the names are stored.
 
     Returns:
-        A dictionnary with a key *papers* containing itself a list of
-        dictionnary, one for each paper that we manage to scrape.
+        A dictionnary with a key *names* containing itself a list of
+        dictionnary, one for each name that we manage to scrape.
         The second key *error* corresponds to all the papers that we failed
         to scrap.
 
     Note:
-        Each succesfull scrapped paper is ordered also as a dictionary to
+        Each succesfull scrapped name is ordered also as a dictionary to
         easily store them a .json files.
 
     Example:
@@ -119,24 +121,26 @@ def Run_Scrapping(start, end, base_url):
         >>> base_url = 'https://agu.confex.com/agu/fm15/meetingapp.cgi/Paper/'
         >>> Run_Scrapping(58000,87000,base_url)
 
-        looks to scrap almost all the papers.
+        looks to scrap almost all the names.
 
     '''
     wd = webdriver.Chrome(os.path.join(racine, 'chromedriver'))
-    papers = {}
+    names = {}
     errors = []
     first, last = start, end
-    #progress = open(os.path.join(racine, year + '_progress.txt'), 'w+')
-    for idx in tqdm(range(start, end)):  # , file=progress):
+    progressfile = os.path.join(
+        racine, year + '_progress_' + str(start) + '_' + str(end) + '.txt')
+    progress = open(progressfile, 'w+')
+    for idx in tqdm(range(start, end), file=progress):
         idx = str(idx)
         link = os.path.join(base_url, idx)
         try:
-            papers.update({link: Scrap_page(wd, link)})
+            names.update({link: Scrap_page(wd, link)})
         except:
             errors.append(link)
     wd.quit()
-    # progress.close()
-    return {'papers': papers, 'error': errors}
+    progress.close()
+    return {'names': names, 'error': errors}
 
 
 def Jsoner(data, year, name):
@@ -247,10 +251,14 @@ if __name__ == "__main__":
     start = calc_start(base_start, year)
     end = calc_end(start + step, base_end)
 
-    bilan = open(os.path.join(racine, year + '_bilan.txt'), 'a')
+    bilanfile = os.path.join(racine, year +
+                             '_bilan' + str(base_start) + '_' +
+                             str(base_end) + '.txt')
+    bilan = open(bilanfile, 'a')
     bilan.write('hello, we are processing %s \n' % (year))
     bilan.write('Scrapping commencer le %s \n' % (str(datetime.date.today())))
-    bilan.write('We take back from paper %d \n' % (start))
+    bilan.write('We take back from paper %d until %d\n' %
+                (base_start, base_end))
     bilan.close()
 
     bool_end = True
@@ -260,7 +268,7 @@ if __name__ == "__main__":
         data = Run_Scrapping(start, end, base_url)
         name = 'Name_' + str(start) + '_' + str(end) + '_V1'
         Jsoner(data, year, name)
-        bilan = open(os.path.join(racine, year + '_bilan.txt'), 'a')
+        bilan = open(bilanfile, 'a')
         bilan.write('Succesfully donwload papers from %d to %d \n' %
                     (start, end))
         bilan.close()
