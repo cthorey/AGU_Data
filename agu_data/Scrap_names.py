@@ -14,22 +14,16 @@ from os.path import expanduser
 
 home = expanduser("~")
 racine = os.path.join(home, 'Documents', 'repos', 'agu_data', 'agu_data')
-if len(sys.argv) != 2:
-    raise ValueError('Either provide 2014 or 2015 as argument')
-elif int(sys.argv[1]) not in [2014, 2015]:
-    raise ValueError('Either provide 2014 or 2015 as argument')
-else:
-    print 'Let scrap AGU data from %s' % (str(sys.argv[1]))
-    year = 'agu' + str(sys.argv[1])
 
 
-def wait_for_elements(wd, timeout=5):
+def wait_for_elements(wd, classes, timeout=2):
     ''' Wait for elements to appear on the page
 
     Args:
         wd : selenium web driver
         timeout (Optionnal[int]): Number of seconds to wait
         before the timeout.
+        classes : classes name balise to wait for
 
     Note:
         Since 2014, the agu website mainly calls javascript to fill up
@@ -37,16 +31,14 @@ def wait_for_elements(wd, timeout=5):
         for these element to appear on the page before it can get them.
 
     '''
-    classes = ['itemTitle', 'AddressList',
-               'SessionListItem', 'PaperListItem']
+
     for classe in classes:
         # wait for the different sections to download
         try:
             WebDriverWait(wd, timeout).until(
                 EC.visibility_of_element_located((By.CLASS_NAME, classe)))
         except:
-            pass
-    time.sleep(3)
+            time.sleep(.5)
 
 
 def Scrap_page(wd, link):
@@ -73,11 +65,15 @@ def Scrap_page(wd, link):
         Their is no tag in the title in AGU 2014 !!
 
     '''
+
     wd.get(link)
-    wait_for_elements(wd)
     data = {}
+    wait_for_elements(wd, ['AddressList'])
     data.update({'name':
                  wd.find_element_by_class_name('itemTitle').text})
+    data.update({'address':
+                 wd.find_element_by_class_name('AddressList').text})
+    wait_for_elements(wd, ['SessionListItem', 'PaperListItem'])
     data.update({'address':
                  wd.find_element_by_class_name('AddressList').text})
     data.update({'session': {f.text.split(' ')[0]: ' '.join(f.text.split(' ')[1:])
@@ -130,8 +126,8 @@ def Run_Scrapping(start, end, base_url):
     papers = {}
     errors = []
     first, last = start, end
-    progress = open(os.path.join(racine, year + '_progress.txt'), 'w+')
-    for idx in tqdm(range(start, end), file=progress):
+    #progress = open(os.path.join(racine, year + '_progress.txt'), 'w+')
+    for idx in tqdm(range(start, end)):  # , file=progress):
         idx = str(idx)
         link = os.path.join(base_url, idx)
         try:
@@ -139,7 +135,7 @@ def Run_Scrapping(start, end, base_url):
         except:
             errors.append(link)
     wd.quit()
-    progress.close()
+    # progress.close()
     return {'papers': papers, 'error': errors}
 
 
@@ -225,23 +221,27 @@ def calc_start(base_start, year):
 
 
 if __name__ == "__main__":
-    ''' Run the scrapping '''
+    ''' Run the scrapping
 
-    step = 2500
+    syntax : python Scrap_names.py year base_start base_end step
+    '''
+    if len(sys.argv) != 5:
+        raise ValueError('Acceptable syntax: \n' +
+                         'python Scrap_names.py year base_start base_end step')
+
+    if int(sys.argv[1]) not in [2014, 2015]:
+        raise ValueError('Either provide 2014 or 2015 as a 2nd argument')
+    else:
+        print 'Let scrap AGU data from %s' % (str(sys.argv[1]))
+    year = 'agu' + str(sys.argv[1])
+
+    base_url = 'https://agu.confex.com/agu/fm' + str(sys.argv[1])[-2:] \
+               + '/meetingapp.cgi/Person/'
+    base_start = int(sys.argv[2])
+    base_end = int(sys.argv[3])
+    step = int(sys.argv[4])
 
     isdirok(year)
-
-    if year.split('agu')[-1] == '2015':
-        base_url = 'https://agu.confex.com/agu/fm15/meetingapp.cgi/Person/'
-        base_start = 1
-        base_end = 400000
-    elif year.split('agu')[-1] == '2014':
-        base_url = 'https://agu.confex.com/agu/fm14/meetingapp.cgi/Person/'
-        base_start = 1
-        base_end = 400000
-    else:
-        print 'Error base_url : %s' % (base_url)
-        raise Exception
 
     # What remains to do
     start = calc_start(base_start, year)
@@ -255,6 +255,8 @@ if __name__ == "__main__":
 
     bool_end = True
     while bool_end:
+        if end == base_end:
+            bool_end = False
         data = Run_Scrapping(start, end, base_url)
         name = 'Name_' + str(start) + '_' + str(end) + '_V1'
         Jsoner(data, year, name)
@@ -264,5 +266,3 @@ if __name__ == "__main__":
         bilan.close()
         start = end
         end = calc_end(start + step, base_end)
-        if end == base_end:
-            bool_end = False
