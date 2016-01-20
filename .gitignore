@@ -2,6 +2,9 @@ agu2014_progress.txt
 agu2015_progress.txt
 *.txt
 log*
+*.pkl
+*.npy
+Notebook/Models/*
 
 Notebook/.ipynb*
 # Byte-compiled / optimized / DLL files
