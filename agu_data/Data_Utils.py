@@ -5,11 +5,16 @@ import os
 import time
 from tqdm import *
 from os.path import expanduser
+import pandas as pd
+import unicodedata
 
 ######## PARAMETER #########
 home = expanduser("~")
 racine = os.path.join(home, 'Documents', 'repos', 'agu_data', 'agu_data')
 year = 'agu2014'
+
+COUNTRY = pd.read_csv(os.path.join(racine, 'Data', 'country.csv'))
+COUNTRY.value = map(lambda x: x.lower(), COUNTRY.value)
 
 ###### FUNCTIONS #########
 
@@ -17,6 +22,8 @@ year = 'agu2014'
 def load_json(name):
     with codecs.open(name, 'r', 'utf8') as f:
         return json.load(f)
+
+##### PAPERS ########
 
 
 class Paper(object):
@@ -41,3 +48,44 @@ def get_all_data(year):
                    in load_json(json_file)['papers'].iteritems()]
 
     return papers
+
+    #### Contributors #####
+
+
+class Contributor(object):
+    '''
+    Handle each contributor
+
+    '''
+
+    def __init__(self, link, data):
+        self.link = link
+        for key, val in data.iteritems():
+            setattr(self, key, val)
+        try:
+            country = COUNTRY.value
+            ad = self._clean_unicode(self.address.replace('\n', ' ')).lower()
+            self.country = country[
+                map(lambda x: x in str(ad), country).index(True)]
+        except:
+            self.country = ''
+
+    def _clean_unicode(self, x):
+        return unicodedata.normalize('NFKD', x).encode('ascii', 'ignore')
+
+
+def get_all_contrib(year):
+    ''' Go looking for all the files and load it as a list of
+    Paper object '''
+
+    names = os.listdir(os.path.join(racine, 'Data', year))
+    names = [f for f in names if f.split(
+        '_')[-1] == 'V1.json' and f.split('_')[0] == 'Name']
+    contributors = []
+
+    for json in tqdm(names):
+        json_file = os.path.join(racine, 'Data', year, json)
+        contributors += [Contributor(key, val) for key, val
+                         in load_json(json_file)['names'].iteritems()]
+
+    return contributors
