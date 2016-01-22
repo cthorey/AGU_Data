@@ -1,36 +1,33 @@
 
+var name = 'test'
+var dataurl  = 'https://raw.githubusercontent.com/cthorey/agu_data/master/Notebook/'+name+'.json'
+
 var map = new Datamap({
     element: document.getElementById('container'),
     height : 900,
     
     fills: {
-        HIGH: '#afafaf',
+        Potential : 'red',
         LOW: '#123456',
         MEDIUM: 'blue',
         UNKNOWN: 'rgb(0,0,0)',
         defaultFill: '#afafaf'
     },
     
-    data: {
-        FRA: {
-            fillKey: 'LOW',
-            size : 2002,
-            animal :' jaguar'
-        },
-        USA: {
-            fillKey: 'MEDIUM',
-            size : 10381,
-            animal :' jaguar'
-        }
-    },
-
+    dataType : 'json',
+    dataUrl : dataurl,
     geographyConfig: {
         popupTemplate: function(geography, data) {
             return ['<div class="hoverinfo">' + geography.properties.name,
-                    '<br/>Electoral Votes :'+ data.size,
-                    '<br/>Animal :'+ data.animal,
+                    '<br/>Number of potential collaborators :' + data.Num_collab,
+                    data.Names,
                     '<\div>'].join('')
         },
         highlightBorderWidth: 3
     }
 });
+
+d3.select('#update').on('click', function(e) {
+    var dataurl = ''
+    map.updateChoropleth(data);
+});;
