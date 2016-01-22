@@ -1,0 +1,62 @@
+{
+    "AUS": {
+        "Names": "<br/> Clare Paton-Walsh from University of Wollongong Wollongong Australia", 
+        "Number of potential collaborators": "1", 
+        "fillKey": "Potential"
+    }, 
+    "CHN": {
+        "Names": "<br/> Jinghe Cao from SCSIO South China Sea Institute of Oceanology<br/> Zhi Chen from IGSNRR Institute of Geographic Sciences and Natural Resources Research<br/> Chao Chen from China University of Geosciences Wuhan China China University of Geosciences Wuhan China<br/> Bo Chen from Beijing Normal University Beijing China University of Iowa Libraries Iowa City<br/> Zhaonan Cai from Harvard-Smithsonian Center for Astrophysics Cambridge", 
+        "Number of potential collaborators": "5", 
+        "fillKey": "Potential"
+    }, 
+    "DEU": {
+        "Names": "<br/> Christine Andersen from Helmholtz Centre Potsdam GFZ German Research Centre for Geosciences Potsdam Germany", 
+        "Number of potential collaborators": "1", 
+        "fillKey": "Potential"
+    }, 
+    "FRA": {
+        "Names": "<br/> Claire Bouligand from University Joseph Fourier Grenoble Grenboble France<br/> Christophe Hemond from Universite de Brest", 
+        "Number of potential collaborators": "2", 
+        "fillKey": "Potential"
+    }, 
+    "ISL": {
+        "Names": "<br/> Bryndis Brandsdottir from University of Iceland Reykjavik Iceland University of Iceland Reykjavik Iceland", 
+        "Number of potential collaborators": "1", 
+        "fillKey": "Potential"
+    }, 
+    "JPN": {
+        "Names": "<br/> Bunichiro Shibazaki from International Institute of Seismology and Earthquake Engineering Tsukuba Japan Building Research Institute Ibaraki Japan", 
+        "Number of potential collaborators": "1", 
+        "fillKey": "Potential"
+    }, 
+    "POL": {
+        "Names": "<br/> Iurii Cherniak from Uniwersity of Warmia and Masury Olsztyn Poland Institute of Geophysics Ukraine Kiev Ukraine", 
+        "Number of potential collaborators": "1", 
+        "fillKey": "Potential"
+    }, 
+    "SGP": {
+        "Names": "<br/> Pat Yeh from National University of Singapore Singapore Singapore", 
+        "Number of potential collaborators": "1", 
+        "fillKey": "Potential"
+    }, 
+    "SWE": {
+        "Names": "<br/> Christian Stiegler from Lund University Lund Sweden", 
+        "Number of potential collaborators": "1", 
+        "fillKey": "Potential"
+    }, 
+    "TWN": {
+        "Names": "<br/> Cheng-Ta Chen from NTNU National Taiwan Normal University Taipei Taiwan", 
+        "Number of potential collaborators": "1", 
+        "fillKey": "Potential"
+    }, 
+    "USA": {
+        "Names": "<br/> Christopher Sabine from NOAA Pacific Marine Environmental Laboratory Seattle<br/> Cinzia Zuffada from NASA Jet Propulsion Laboratory Pasadena<br/> Clara Deal from University of Alaska Fairbanks Fairbanks<br/> Chun-Mei Chiu from University of Notre Dame Notre Dame<br/> Yaoquan Zhou from University of Wisconsin Madison Madison<br/> Christopher Williams from University of Colorado Boulder Boulder<br/> Cian Dawson from US Geological Survey Reston<br/> Celia Eddy from Columbia University of New York Palisades<br/> Jon Chorover from University of Arizona Tucson<br/> Christopher Loughner from University of Maryland College Park College Park<br/> Candace Dunlap from Technical Education Research Centers Cambridge<br/> Clare (Kam Weng) Wong from NASA Jet Propulsion Laboratory Pasadena<br/> Robert Candey from NASA Goddard Space Flight Center Greenbelt<br/> Brian Skahill from Engineer Research and Development Center Vicksburg Vicksburg<br/> Carmala Garzione from University of Rochester Rochester<br/> Cecile Penland from NOAA Boulder Boulder<br/> Michael Cardiff from University of Wisconsin-Madison Madison<br/> Chao Chen from University of Nevada Las Vegas Las Vegas<br/> Michael Budde from U.S. Geological Survey Sioux Falls<br/> Buddhadeb Ghosh from Phillips 66 Company Bartlesville<br/> Bridget Thrasher from NOAA Boulder Boulder<br/> Bridget Scanlon from University of Texas at Austin Austin<br/> Bridget Livers from Colorado State University Fort Collins<br/> M. Bayani Cardenas from University of Texas at Austin Austin<br/> Bridgit Boulahanis from Columbia University of New York Palisades<br/> Eric Bucsela from SRI International Menlo Park Menlo Park<br/> Sean Buckley from NASA Jet Propulsion Laboratory Pasadena<br/> Colin Kelley from University of California Santa Barbara Santa Barbara<br/> David Caress from Monterey Bay Aquarium Research Institute Watsonville<br/> Christa Hasenkopf from OpenAQ Washington<br/> Bryna Hazelton from University of Washington Seattle<br/> Charles Stock from Geophysical Fluid Dynamics Laboratory Princeton<br/> Christopher Pankratz from Laboratory for Atmospheric and Space Physics Boulder", 
+        "Number of potential collaborators": "33", 
+        "fillKey": "Potential"
+    }, 
+    "ZAF": {
+        "Names": "<br/> Kerry Cawse-Nicholson from GeoSpectral Imaging Johannesburg South Africa Rochester Institute of Technology Rochester", 
+        "Number of potential collaborators": "1", 
+        "fillKey": "Potential"
+    }
+}

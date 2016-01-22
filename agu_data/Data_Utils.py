@@ -19,6 +19,12 @@ COUNTRY.value = map(lambda x: x.lower(), COUNTRY.value)
 ###### FUNCTIONS #########
 
 
+def clean(text):
+    text = unicodedata.normalize('NFKD', text).encode('ascii', 'ignore')
+    text = text.replace('\n', ' ')
+    return text
+
+
 def load_json(name):
     with codecs.open(name, 'r', 'utf8') as f:
         return json.load(f)
@@ -61,17 +67,15 @@ class Contributor(object):
     def __init__(self, link, data):
         self.link = link
         for key, val in data.iteritems():
-            setattr(self, key, val)
+            setattr(self, key, clean(val))
+
         try:
             country = COUNTRY.value
-            ad = self._clean_unicode(self.address.replace('\n', ' ')).lower()
+            ad = clean(self.address).lower()
             self.country = country[
                 map(lambda x: x in str(ad), country).index(True)]
         except:
             self.country = ''
-
-    def _clean_unicode(self, x):
-        return unicodedata.normalize('NFKD', x).encode('ascii', 'ignore')
 
 
 def get_all_contrib(year):
