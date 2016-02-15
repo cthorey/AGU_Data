@@ -13,7 +13,8 @@ from tqdm import *
 from os.path import expanduser
 
 home = expanduser("~")
-racine = os.path.join(home, 'Documents', 'repos', 'agu_data', 'agu_data')
+racine = os.path.join(home, 'Documents', 'project',
+                      'agu_data', 'repo', 'agu_data')
 
 
 def wait_for_elements(wd, classes, timeout=2):
@@ -38,7 +39,7 @@ def wait_for_elements(wd, classes, timeout=2):
             WebDriverWait(wd, timeout).until(
                 EC.visibility_of_element_located((By.CLASS_NAME, classe)))
         except:
-            time.sleep(.5)
+            time.sleep(6)
 
 
 def Scrap_page(wd, link):

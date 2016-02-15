@@ -1,0 +1,1233 @@
+{
+    "error": [], 
+    "names": {
+        "https://agu.confex.com/agu/fm15/meetingapp.cgi/Person/10126": {
+            "address": "Environmental Protection Agency Corvallis Corvallis, OR\nUnited States", 
+            "name": "Bradley Barnhart", 
+            "papers": {
+                "IN11B-1780": "Integrated Modeling to Assess the Ecological and Air Quality Trade-offs of Agricultural Burning in the Flint Hills of Eastern Kansas"
+            }, 
+            "session": {
+                "IN11B": "Integrated Modeling and Optimization for Multicriteria Decision Making Posters"
+            }
+        }, 
+        "https://agu.confex.com/agu/fm15/meetingapp.cgi/Person/105921": {
+            "address": "Tufts University Medford, MA\nUnited States", 
+            "name": "Andrew Ramsburg", 
+            "papers": {
+                "H13P-04": "Transport and Retention of Concentrated Oil-in-Water Emulsions in Sandy Porous Media"
+            }, 
+            "session": {
+                "H13P": "Microorganisms, Colloids, Engineered Nanoparticles, and Emerging Contaminants in the Environment I", 
+                "H14D": "Microorganisms, Colloids, Engineered Nanoparticles, and Emerging Contaminants in the Environment II", 
+                "H21G": "Microorganisms, Colloids, Engineered Nanoparticles, and Emerging Contaminants in the Environment III Posters"
+            }
+        }, 
+        "https://agu.confex.com/agu/fm15/meetingapp.cgi/Person/13002": {
+            "address": "Beijing Normal University Beijing China", 
+            "name": "Chuanfeng Zhao", 
+            "papers": {
+                "A41N-04": "Observation-based Understanding of the Cloud Properties over East China Region"
+            }, 
+            "session": {
+                "A41N": "Cloud Observations and Uncertainties I", 
+                "A42C": "Cloud Observations and Uncertainties II", 
+                "A43B": "Cloud Observations and Uncertainties III Posters"
+            }
+        }, 
+        "https://agu.confex.com/agu/fm15/meetingapp.cgi/Person/13206": {
+            "address": "National Taiwan University Taipei Taiwan", 
+            "name": "Fi-John Chang", 
+            "papers": {
+                "H32A-01": "Data-Driven Techniques for Regional Groundwater Level Forecasts", 
+                "H32A-02": "Developing an Intelligent Reservoir Flood Control Decision Support System through Integrating Artificial Neural Networks", 
+                "H33A-1562": "Explore the Impacts of River Flow and Water Quality on Fish Communities"
+            }, 
+            "session": {
+                "H32A": "Artificial Intelligence and Machine Learning Methods in Water Resources Management I", 
+                "H33A": "Artificial Intelligence and Machine Learning Methods in Water Resources Management II Posters"
+            }
+        }, 
+        "https://agu.confex.com/agu/fm15/meetingapp.cgi/Person/13212": {
+            "address": "Tamkang University Taipei Taiwan", 
+            "name": "Li-Chiu Chang", 
+            "papers": {
+                "H32A-01": "Data-Driven Techniques for Regional Groundwater Level Forecasts", 
+                "H32A-02": "Developing an Intelligent Reservoir Flood Control Decision Support System through Integrating Artificial Neural Networks"
+            }, 
+            "session": {
+                "H32A": "Artificial Intelligence and Machine Learning Methods in Water Resources Management I", 
+                "H33A": "Artificial Intelligence and Machine Learning Methods in Water Resources Management II Posters"
+            }
+        }, 
+        "https://agu.confex.com/agu/fm15/meetingapp.cgi/Person/14365": {
+            "address": "IRD Hydrosciences Montpellier France", 
+            "name": "Christophe Peugeot", 
+            "papers": {
+                "GC42A-01": "AMMA-CATCH a Hydrological, Meteorological and Ecological Long Term Observatory on West Africa : Some Recent Results", 
+                "GC43B-1189": "Impact of Deforestation on Water Budget in Sudanian Climate (Benin)", 
+                "H31D-1442": "Assessing the long-term effects of the Sahel drought on ponds and semi-arid hydrology."
+            }, 
+            "session": {}
+        }, 
+        "https://agu.confex.com/agu/fm15/meetingapp.cgi/Person/15298": {
+            "address": "Science Education Resource Center at Carleton College Northfield, MN\nUnited States\nCarleton College Northfield, MN\nUnited States\nScience Education Resource Center Northfield, MN\nUnited States", 
+            "name": "Cathryn Manduca", 
+            "papers": {
+                "ED14B-06": "Addressing Issues of Broadening Participation Highlighted in the Report on the Future of Undergraduate Geoscience Education", 
+                "ED21E-08": "Supporting Success for All Students", 
+                "ED23A-0855": "Workshop for Early Career Geoscience Faculty: Providing resources and support for new faculty to succeed", 
+                "ED33E-03": "Teaching Coastal Hazard, Risk, and Environmental Justice", 
+                "ED43D-0893": "On the Cutting Edge Professional Development Program – An effective model built from years of experience", 
+                "H33F-1680": "Bridging Science and Public Understanding of Long-term Soil, Water, and Vegetation Monitoring: Opportunities for broader impact connections with InTeGrate", 
+                "H51O-1624": "Bridging Science and Public Understanding of Water-Energy Nexus: Opportunities for broader impact connections with InTeGrate"
+            }, 
+            "session": {
+                "ED21E": "Building the Global Talent Pool in Earth and Space Science I", 
+                "ED23A": "Building the Global Talent Pool in Earth and Space Science II Posters", 
+                "TH33K": "Forward Focused Ethics – What is the Role of Scientific Societies in Responding to Harassment and Other Workplace Climate Issues?"
+            }
+        }, 
+        "https://agu.confex.com/agu/fm15/meetingapp.cgi/Person/15434": {
+            "address": "University of Potsdam Potsdam Germany", 
+            "name": "Christian Mohr", 
+            "papers": {
+                "H33K-08": "Streamflow responses to Chilean Megathrust earthquakes during the 20th and 21st centuries"
+            }, 
+            "session": {
+                "H31D": "Disturbance Hydrology: Assessing the Impacts of Abrupt Landscape Changes on Watershed Hydrology I Posters", 
+                "H33K": "Disturbance Hydrology: Assessing the Impacts of Abrupt Landscape Changes on Watershed Hydrology II", 
+                "H34B": "Disturbance Hydrology: Assessing the Impacts of Abrupt Landscape Changes on Watershed Hydrology III"
+            }
+        }, 
+        "https://agu.confex.com/agu/fm15/meetingapp.cgi/Person/156022": {
+            "address": "University of Cologne Cologne Germany", 
+            "name": "Roel Neggers", 
+            "papers": {
+                "A21D-0158": "Confronting multi-year idealized LES with measurements at a mid-latitude meteorological site", 
+                "A21D-0159": "Towards Realistic Cumulus Cloud Resolving Simulations at Supersites", 
+                "A51D-0072": "Exploring a Plume-Based Mass-Flux Scheme in the Boundary-Layer Gray Zone"
+            }, 
+            "session": {
+                "A14D": "Large-Eddy and High-Resolution Simulations for Improved Understanding and Parameterization of Clouds and Boundary Layer Processes I", 
+                "A21D": "Large-Eddy and High-Resolution Simulations for Improved Understanding and Parameterization of Clouds and Boundary Layer Processes II Posters"
+            }
+        }, 
+        "https://agu.confex.com/agu/fm15/meetingapp.cgi/Person/158666": {
+            "address": "Arizona State University Tempe, AZ\nUnited States", 
+            "name": "Cindy Dick", 
+            "papers": {
+                "ED31A-0884": "EarthScope National Office (ESNO) Education and Outreach Program and its Broader Impacts: 2015 Update and Handoff to the Next ESNO"
+            }, 
+            "session": {
+                "TH15D": "EarthCube Science Drivers and Implementation Roadmap - Seeking Community Guidance"
+            }
+        }, 
+        "https://agu.confex.com/agu/fm15/meetingapp.cgi/Person/163758": {
+            "address": "Boston University Boston, MA\nUnited States", 
+            "name": "Chloe Anderson", 
+            "papers": {
+                "PP43A-2250": "Iron Cycling in Sediment of the North Atlantic: Preliminary Results from R/V Knorr Expedition 223", 
+                "PP43A-2251": "Elucidating Geochemical Controls on the Concentration and Composition of Organic Carbon in Deep Pelagic Sediments", 
+                "PP43A-2252": "Correlating organic carbon concentration and composition with mineralogy in deep-sea pelagic sediments"
+            }, 
+            "session": {
+                "PP41C": "Geochemistry and Microbiology of Oxic and Suboxic Deep-Sea Pelagic Sediments I", 
+                "PP43A": "Geochemistry and Microbiology of Oxic and Suboxic Deep-Sea Pelagic Sediments II Posters"
+            }
+        }, 
+        "https://agu.confex.com/agu/fm15/meetingapp.cgi/Person/16511": {
+            "address": "Mississippi State University Mississippi State, MS\nUnited States", 
+            "name": "Courtney Siegert", 
+            "papers": {
+                "EP23E-06": "Short-term Fallout Radionuclide Ratios and Mass Balance Identify New Suspended Sediments of Channel Origin", 
+                "H11G-1432": "Using Sensitivity Analysis and Fine-Scale Field Measurements to Understand How Canopy Interception Models Function"
+            }, 
+            "session": {
+                "H11G": "Precipitation-Vegetation Interactions: Advances in Interception Loss, Thoughfall, and Stemflow Research I Posters", 
+                "H13Q": "Precipitation-Vegetation Interactions: Advances in Interception Loss, Thoughfall, and Stemflow Research II"
+            }
+        }, 
+        "https://agu.confex.com/agu/fm15/meetingapp.cgi/Person/16751": {
+            "address": "Northwest Hydraulic Consultants Seattle, WA\nUnited States\nNorthwest Hydraulic Consultants Seattle, WA\nUnited States", 
+            "name": "Joanna Crowe Curran", 
+            "papers": {
+                "EP51A-0901": "Improving Bedload Transport Predictions by Incorporating Hysteresis"
+            }, 
+            "session": {
+                "EP54A": "Fluvial Morphodynamics: Channels Patterns, Process-Based Unsteadiness, Tropical Rivers, and Beyond III"
+            }
+        }, 
+        "https://agu.confex.com/agu/fm15/meetingapp.cgi/Person/171821": {
+            "address": "Universidad de Chile Santiago Chile", 
+            "name": "Sergio Barrientos", 
+            "papers": {
+                "G13A-0991": "Analysis of large GNSS network solutions: from daily to real-time", 
+                "S11A-2770": "W-phase CMT Regional Real Time Implementation in Chile Evolution of the algorithm: 2011 - today", 
+                "S33B-2779": "Towards real-time integration of accelerometers and GPS"
+            }, 
+            "session": {
+                "TH13B": "Exploring a Subduction Zone Observatory"
+            }
+        }, 
+        "https://agu.confex.com/agu/fm15/meetingapp.cgi/Person/18296": {
+            "address": "University of Wisconsin Madison Madison, WI\nUnited States", 
+            "name": "David Reed", 
+            "papers": {
+                "B21D-0500": "Time dependence of energy storage across multiple ecosystems", 
+                "ED33C-0944": "Pre-college experiences in and out of the classroom lead to first-year barriers", 
+                "ED33C-0945": "Pre-college Science Experiences; Timing and Causes of Gender Influence Science Interest Levels", 
+                "H23G-1650": "Soil Water Content Sensors as a Method of Measuring Ice Depth", 
+                "H24B-07": "Modeling compensatory responses of ecosystem-scale water fluxes in forests affected by pine and spruce beetle mortality"
+            }, 
+            "session": {
+                "B51F": "Inland Waters as Dynamic Foci in Climate Systems: Hydrodynamic and Biophysical Controls on Variability I Posters", 
+                "B54C": "Inland Waters as Dynamic Foci in Climate Systems: Hydrodynamic and Biophysical Controls on Variability II"
+            }
+        }, 
+        "https://agu.confex.com/agu/fm15/meetingapp.cgi/Person/182964": {
+            "address": "Institute at the Golden Gate Sausalito, CA\nUnited States\nGolden Gate National Parks Conservancy San Francisco, CA\nUnited States", 
+            "name": "Catherine Carlton", 
+            "papers": {
+                "U14A-01": "Building a Regional Collaborative for Climate Literacy"
+            }, 
+            "session": {
+                "ED23B": "Climate Literacy: What Are the Impacts of Place-Based Education? Posters", 
+                "U14A": "Climate Literacy: Enabling Effective Climate Literacy through Collective Impact"
+            }
+        }, 
+        "https://agu.confex.com/agu/fm15/meetingapp.cgi/Person/194527": {
+            "address": "Arizona State University Tempe, AZ\nUnited States", 
+            "name": "Estelle Couradeau", 
+            "papers": {
+                "B21C-0438": "Evidence of Substrate Specialization among Euendolithic Cyanobacteria from Mona Island, Puerto Rico", 
+                "B24C-01": "The Role of Cell Compartmentalization and Cell Differentiation in Cyanobacterial Excavation of Miineral Carbonates"
+            }, 
+            "session": {
+                "B21C": "Bridging Microbial Ecology to Geochemistry: Insight from Environmental and Experimental Studies I Posters", 
+                "B23I": "Bridging Microbial Ecology to Geochemistry: Insight from Environmental and Experimental Studies II", 
+                "B24C": "Bridging Microbial Ecology to Geochemistry: Insight from Environmental and Experimental Studies III"
+            }
+        }, 
+        "https://agu.confex.com/agu/fm15/meetingapp.cgi/Person/194688": {
+            "address": "University of Lancaster Lancaster United Kingdom", 
+            "name": "Alona Armstrong", 
+            "papers": {
+                "GC51H-04": "Solar Park Impacts on Air and Soil Microclimate", 
+                "GC53D-1232": "Environmental Co-Benefit Opportunities of Solar Energy"
+            }, 
+            "session": {
+                "GC51C": "Energy and Ecosystems Posters"
+            }
+        }, 
+        "https://agu.confex.com/agu/fm15/meetingapp.cgi/Person/194737": {
+            "address": "Rutgers University Piscataway, NJ\nUnited States\nCurtin University Perth, WA\nAustralia\nCurtin University Perth, WA\nAustralia\nCurtin University Perth, WA\nAustralia", 
+            "name": "Christopher Kirkland", 
+            "papers": {
+                "T13A-2959": "Visualizing the sedimentary response through the orogenic cycle using multi-dimensional scaling", 
+                "V31G-04": "Little and Large: Implications for Preservation of Radiogenic-Pb in Titanite. An example from the Albany–Fraser Orogen, Australia", 
+                "V51B-3032": "Morphological Characteristics of Detrital Zircon Grains from Source to Sink (Western Australia)"
+            }, 
+            "session": {
+                "T11B": "Characterizing Cratons and Craton Margins I Posters", 
+                "T21F": "Characterizing Cratons and Craton Margins II", 
+                "T22A": "Characterizing Cratons and Craton Margins III"
+            }
+        }, 
+        "https://agu.confex.com/agu/fm15/meetingapp.cgi/Person/20718": {
+            "address": "Bear Fight Institute Winthrop, WA\nUnited States\nRetired Washington, DC\nUnited States", 
+            "name": "Dennis Matson", 
+            "papers": {
+                "P23D-05": "Distribution and nature of CO2 on Enceladus", 
+                "P31C-2076": "Forming Enceladus’ Near-Surface CO2 Units"
+            }, 
+            "session": {
+                "P23D": "Geophysics of Satellites and Small Bodies I", 
+                "P31C": "Geophysics of Satellites and Small Bodies II Posters"
+            }
+        }, 
+        "https://agu.confex.com/agu/fm15/meetingapp.cgi/Person/214832": {
+            "address": "American Geosciences Institute Alexandria, VA\nUnited States\nAGI Alexabdria, VA\nUnited States", 
+            "name": "Edward Robeck", 
+            "papers": {
+                "ED34C-02": "Supporting Implementation of the Next Generation Science Standards: A Needs Assessment Outline", 
+                "ED34C-03": "Building Scientific Community Support for the Next Generation Science Standards"
+            }, 
+            "session": {
+                "TH13E": "Next Steps for the Next Generation Science Standards in Earth and Space Science: A Town Hall Discussion"
+            }
+        }, 
+        "https://agu.confex.com/agu/fm15/meetingapp.cgi/Person/216762": {
+            "address": "Alfred Wegener Institute Helmholtz-Center for Polar and Marine Research Bremerhaven Bremerhaven Germany", 
+            "name": "Nicole Biebow", 
+            "papers": {
+                "PA32A-04": "EU-PolarNet: Connecting Science with Society"
+            }, 
+            "session": {
+                "TH15E": "EU-PolarNet – Connecting Science with Society"
+            }
+        }, 
+        "https://agu.confex.com/agu/fm15/meetingapp.cgi/Person/217076": {
+            "address": "CENC China Earthquake Networks Center Beijing China\nInstitute of Geology, CEA Beijing China", 
+            "name": "Lifeng Wang", 
+            "papers": {
+                "T43C-3030": "Quantifying slip balance among inter-, co- and post- seismic phase"
+            }, 
+            "session": {
+                "S51B": "Earthquake Source Studies: Finite-Fault Inversion, Modeling, and Data Assimilation I Posters", 
+                "S53C": "Earthquake Source Studies: Finite-Fault Inversion, Modeling, and Data Assimilation II"
+            }
+        }, 
+        "https://agu.confex.com/agu/fm15/meetingapp.cgi/Person/220179": {
+            "address": "National Academy of Sciences Washington, DC\nUnited States", 
+            "name": "Kerry Brenner", 
+            "papers": {
+                "ED11A-0851": "Integrating Discovery-Based Research Experiences into the Undergraduate STEM Curriculum: A Convocation Report from the National Academies of Sciences, Engineering and Medicine"
+            }, 
+            "session": {
+                "TH33E": "National Academy of Sciences Convocation Report: Integrating Discovery-Based Research Experiences into the Undergraduate STEM Curriculum"
+            }
+        }, 
+        "https://agu.confex.com/agu/fm15/meetingapp.cgi/Person/221226": {
+            "address": "Nihon University Tokyo Japan", 
+            "name": "Erika Wada", 
+            "papers": {
+                "MR41C-2654": "Experimental study of Frictional property of siliceous shale from the viewpoint of clay mineral fabric"
+            }, 
+            "session": {}
+        }, 
+        "https://agu.confex.com/agu/fm15/meetingapp.cgi/Person/223222": {
+            "address": "University of California Berkeley Berkeley, CA\nUnited States", 
+            "name": "Maximilian Auffhammer", 
+            "papers": {
+                "A14E-01": "The relevance of detection and attribution for loss and damage policy"
+            }, 
+            "session": {
+                "GC21D": "Detecting and Attributing Impacts of Climate Change I"
+            }
+        }, 
+        "https://agu.confex.com/agu/fm15/meetingapp.cgi/Person/23230": {
+            "address": "University of Leeds Leeds, LS2\nUnited Kingdom\nUniversity of Leeds Leeds, LS2\nUnited Kingdom\nUniversity of Leeds Leeds, LS2\nUnited Kingdom", 
+            "name": "David Bekaert", 
+            "papers": {
+                "G11C-04": "Monitoring our Hazardous Planet with Sentinel-1 InSAR: Results and Prospects", 
+                "G13B-02": "InSAR Tropospheric Correction Methods: A Statistical Comparison over Different Regions"
+            }, 
+            "session": {
+                "S31A": "Advances in Understanding Slow Slip and Transitional Regions I Posters", 
+                "S33E": "Advances in Understanding Slow Slip and Transitional Regions II", 
+                "S34A": "Advances in Understanding Slow Slip and Transitional Regions III"
+            }
+        }, 
+        "https://agu.confex.com/agu/fm15/meetingapp.cgi/Person/23487": {
+            "address": "University of Bonn Bonn Germany\nUniversity of Bonn Bonn Germany", 
+            "name": "Annette Eicker", 
+            "papers": {
+                "G31A-1093": "Investigating GRACE Range-Rate Observations over West Africa with respect to Small-Scale Hydrological Signals", 
+                "H41F-1389": "Linking GRACE-Derived Water Storage Accelerations to Changes in Hydro-Mteorological Fluxes over West Africa"
+            }, 
+            "session": {
+                "G31A": "Mass Transport and Mass Distribution in the Earth System: Models, Observations, and Error Sources I Posters", 
+                "G42A": "Mass Transport and Mass Distribution in the Earth System: Models, Observations, and Error Sources II"
+            }
+        }, 
+        "https://agu.confex.com/agu/fm15/meetingapp.cgi/Person/23654": {
+            "address": "Trofimuk Institute of Petroleum Geology and Geophysics SB RAS Novosibirsk Russia\nMichigan Technological University Houghton, MI\nUnited States\nNovosibirsk State University Novosibirsk Russia", 
+            "name": "Evgeniy Kulakov", 
+            "papers": {
+                "GP11A-04": "Effect of low-temperature demagnetization on Thellier paleointensity determinations", 
+                "GP23B-1301": "Absolute geomagnetic paleointensity in the Precambrian: Where do we stand?", 
+                "GP23B-1309": "New absolute paleointensity determinations for the Permian-Triassic boundary from the Kuznetsk Trap Basalts.", 
+                "T13A-2954": "NEW PALEOMAGNETIC JUSTIFICATION FOR THE PLATE TECTONIC RECONSTRUCTION OF THE ARCTIC"
+            }, 
+            "session": {
+                "GP11A": "Reconstructing the Secular Variation of the Earth's Magnetic Field in the Past: Recent Methodological Advances and New Palaeomagnetic and Archaeomagnetic Data I", 
+                "GP12A": "Reconstructing the Secular Variation of the Earth's Magnetic Field in the Past: Recent Methodological Advances and New Palaeomagnetic and Archaeomagnetic Data II", 
+                "GP23A": "Reconstructing the Secular Variation of the Earth's Magnetic Field in the Past: Recent Methodological Advances and New Palaeomagnetic and Archaeomagnetic Data III Posters"
+            }
+        }, 
+        "https://agu.confex.com/agu/fm15/meetingapp.cgi/Person/25399": {
+            "address": "Pacific Northwest National Laboratory Richland, WA\nUnited States", 
+            "name": "Evgueni Kassianov", 
+            "papers": {
+                "A11H-0162": "Improving Forecasts of Cumulus: An Intersection of the Renewable Energy and Climate Science Communities", 
+                "A21A-0077": "Seasonal Differences in Aerosol Chemical Properties at a Site Along the Eastern Seaboard: Observations from the Two-Column Aerosol Project (TCAP)", 
+                "A23F-0395": "What Can AMF Observations Tell Us about Super-micron Particles?", 
+                "A43C-0301": "Summer and winter time heterogeneity in aerosol single scattering albedo over the northwestern Atlantic Ocean during the TCAP field campaign: Relationship to chemical composition and mixing state"
+            }, 
+            "session": {
+                "A23F": "The Underappreciated Aerosol Coarse Mode I Posters", 
+                "A51W": "The Underappreciated Aerosol Coarse Mode II"
+            }
+        }, 
+        "https://agu.confex.com/agu/fm15/meetingapp.cgi/Person/28115": {
+            "address": "Institute of Atmospheric Physics, CAS Beijing United States", 
+            "name": "Gaopeng Lu", 
+            "papers": {
+                "AE13A-02": "Beijing Lightning Network (BLNET): Configuration, Function and Preliminary Results", 
+                "AE21A-07": "The sequence of events in a lightning stroke: terrestrial gamma ray flash, radio signal and optical lightning.", 
+                "AE31A-0417": "Reconstruction of initial continuous current waveform in rocket-triggered lightning from close magnetic measurement", 
+                "AE31C-0457": "A preliminary study of thunderstorm tracking based on single-station observations of NBEs", 
+                "AE33C-0513": "Long-delayed bright dancing sprite with large horizontal displacement from its parent flash"
+            }, 
+            "session": {
+                "AE21A": "Energetic Radiation from Lightning and Thunderstorms I", 
+                "AE33A": "Energetic Radiation from Lightning and Thunderstorms II Posters"
+            }
+        }, 
+        "https://agu.confex.com/agu/fm15/meetingapp.cgi/Person/28132": {
+            "address": "University of Washington Seattle, WA\nUnited States\nUniversity of Washington Seattle Campus Seattle, WA\nUnited States\nUniversity of California Santa Barbara Santa Barbara, CA\nUnited States", 
+            "name": "Elizabeth Garcia", 
+            "papers": {
+                "B11L-07": "Large-Scale Forest Die-off in Temperate versus Tropical Regions: Comparison of Local and Global Climate Effects"
+            }, 
+            "session": {
+                "B31A": "Biogeophysical Impacts of Land Use/Land Cover Change (LULCC) and Vegetation Disturbance from Micro- to Global Scales I Posters", 
+                "B33F": "Biogeophysical Impacts of Land Use/Land Cover Change (LULCC) and Vegetation Disturbance from Micro- to Global Scales II"
+            }
+        }, 
+        "https://agu.confex.com/agu/fm15/meetingapp.cgi/Person/28854": {
+            "address": "NOAA Boulder Boulder, CO\nUnited States", 
+            "name": "George Kiladis", 
+            "papers": {
+                "A53F-08": "Poleward Moisture Transport Associated with Subtropical Rossby Wave Breaking", 
+                "OS51A-1969": "Two Scales of Mixed Rossby-gravity and Kelvin Waves in the lower Stratosphere", 
+                "OS53C-05": "Midlatitude Rossby wave forcing of equatorial Kelvin waves"
+            }, 
+            "session": {
+                "OS51A": "Equatorial Dynamics of the Oceans and Atmosphere I Posters"
+            }
+        }, 
+        "https://agu.confex.com/agu/fm15/meetingapp.cgi/Person/29275": {
+            "address": "Passport to Knowledge Morristown, NJ\nUnited States\nPassport to Knowledge Morristown, NJ\nUnited States\nGHSPi/Passport to Knowledge Jersey City, NJ\nUnited States", 
+            "name": "Geoffrey Haines-Stiles", 
+            "papers": {
+                "GC32A-04": "Classic And \"Next Generation\" Citizen Science: Expanding Data-gathering And Participant Demographics To Better Document Global Environmental Change."
+            }, 
+            "session": {
+                "ED21F": "Climate Literacy: Improving Climate Literacy through Informal Learning and Citizen Science I", 
+                "ED23C": "Climate Literacy: Improving Climate Literacy through Informal Learning and Citizen Science II Posters"
+            }
+        }, 
+        "https://agu.confex.com/agu/fm15/meetingapp.cgi/Person/29283": {
+            "address": "University of Arizona Tucson, AZ\nUnited States", 
+            "name": "Joe Giacalone", 
+            "papers": {
+                "SH22B-02": "Energetic Particle Boundaries in the Solar Wind", 
+                "SH33B-2471": "Effect of Coherent Structures on Energetic Particle Intensity in the Solar Wind at 1 AU", 
+                "SH41B-2379": "The Transport of Pickup Ions in the Turbulent Local Interstellar Magnetic Field and its Implication for ENAs Observed at 1AU"
+            }, 
+            "session": {
+                "SH32B": "The Longitudinal Extent of Solar Energetic Particle Events: Observations and Modeling I", 
+                "SH33B": "The Longitudinal Extent of Solar Energetic Particle Events: Observations and Modeling II Posters"
+            }
+        }, 
+        "https://agu.confex.com/agu/fm15/meetingapp.cgi/Person/29634": {
+            "address": "University of California San Diego La Jolla, CA\nUnited States", 
+            "name": "Gabi Laske", 
+            "papers": {
+                "IN33C-1810": "A Robotic Communications Gateway for Ocean Observations", 
+                "S33C-2795": "Determining OBS Instrument Orientations: A Comparison of Algorithms"
+            }, 
+            "session": {
+                "T11A": "An Appraisal of Global Continental Crust: Structure and Evolution I Posters", 
+                "T23E": "An Appraisal of Global Continental Crust: Structure and Evolution II"
+            }
+        }, 
+        "https://agu.confex.com/agu/fm15/meetingapp.cgi/Person/30593": {
+            "address": "William Paterson University of New Jersey South River, NJ\nUnited States", 
+            "name": "Michael Griffiths", 
+            "papers": {
+                "PP31A-2202": "Hydrological Influence on the Dead Carbon Fraction in a Tropical Speleothem During the Younger Dryas and the Last Millennium", 
+                "PP31A-2222": "Orbital and Millennial Scale Variability of the Southeast Asian Monsoon Since 45 ka", 
+                "PP33D-08": "Inter-annual Controls on Oxygen Isotopes of Precipitaion in the Asian Monsoon Region"
+            }, 
+            "session": {
+                "PP31A": "Advanced Understanding of Tropical Hydroclimate Changes during the Last Pleistocene and Holocene I Posters", 
+                "PP33D": "Advanced Understanding of Tropical Hydroclimate Changes during the Last Pleistocene and Holocene II", 
+                "PP34A": "Advanced Understanding of Tropical Hydroclimate Changes during the Last Pleistocene and Holocene III"
+            }
+        }, 
+        "https://agu.confex.com/agu/fm15/meetingapp.cgi/Person/32111": {
+            "address": "University of Leicester Leicester United Kingdom", 
+            "name": "Hartmut Boesch", 
+            "papers": {
+                "A31B-0023": "Estimating Amazonian methane emissions through 4D-Var inverse modelling with satellite observations from GOSAT and IASI", 
+                "A41I-0176": "GOSAT CO2 retrieval results using TANSO-CAI aerosol information over East Asia", 
+                "A41I-0177": "Improvement of CO2 retrieval algorithm with modified aerosol parameters using GOSAT measurements over East-Asia", 
+                "A52C-02": "Constraining methane emissions from the Indo-Gangetic Plains and South Asia using combined surface and satellite data", 
+                "A53A-0361": "GreenHouse gas Observations of the Stratosphere and Troposphere (GHOST): Deployment of a Novel Shortwave Infrared Spectrometer On Board the NASA Global Hawk Unmanned Aerial Vehicle", 
+                "A54D-07": "Remote sensing of atmospheric greenhouse gases: bridging spatial scales"
+            }, 
+            "session": {
+                "A51S": "Atmospheric Sensing with UAVs and Nanosatellites: Next-Generation Platforms for Next-Generation Science I", 
+                "A53A": "Atmospheric Sensing with UAVs and Nanosatellites: Next-Generation Platforms for Next-Generation Science II Posters"
+            }
+        }, 
+        "https://agu.confex.com/agu/fm15/meetingapp.cgi/Person/32909": {
+            "address": "University of Hawaii at Manoa Honolulu, HI\nUnited States", 
+            "name": "Emilio Herrero-Bervera", 
+            "papers": {
+                "GP23A-1293": "Full Vector Geomagnetic Field Variation during the Holocene registered by Hawaiian Lava Flow", 
+                "GP23A-1297": "Archaeointensity Determination of the Earth's Magnetic Field in Coastal Ecuador During the last six Millennia: New data from Ecuadorian Potsherds"
+            }, 
+            "session": {
+                "GP11A": "Reconstructing the Secular Variation of the Earth's Magnetic Field in the Past: Recent Methodological Advances and New Palaeomagnetic and Archaeomagnetic Data I", 
+                "GP12A": "Reconstructing the Secular Variation of the Earth's Magnetic Field in the Past: Recent Methodological Advances and New Palaeomagnetic and Archaeomagnetic Data II", 
+                "GP23A": "Reconstructing the Secular Variation of the Earth's Magnetic Field in the Past: Recent Methodological Advances and New Palaeomagnetic and Archaeomagnetic Data III Posters"
+            }
+        }, 
+        "https://agu.confex.com/agu/fm15/meetingapp.cgi/Person/35529": {
+            "address": "Environmental Defense Fund New York New York, NY\nUnited States\nOrganization Not Listed Washington, DC\nUnited States\nEnvironmental Defense Fund Boulder Boulder, CO\nUnited States", 
+            "name": "Ilissa Ocko", 
+            "papers": {
+                "GC31F-04": "Balancing Short- and Long-lived Climate Pollutant Mitigation: Clearer Metrics are Critical", 
+                "PA24A-03": "How to be more attractive… when communicating science"
+            }, 
+            "session": {
+                "GC51A": "Climate Science is a Cross-Disciplinary Challenge: Disciplinary Advances in an Accessible Framework Posters"
+            }
+        }, 
+        "https://agu.confex.com/agu/fm15/meetingapp.cgi/Person/35958": {
+            "address": "Kyoto University Kyoto Japan", 
+            "name": "Toshihiko Iyemori", 
+            "papers": {
+                "GP34A-04": "Time scale of FAC variations estimated by SWARM and a comparison with ground based geomagnetic and micro-barometric observations", 
+                "GP43C-1257": "Small-scale field-aligned currents and ionospheric disturbances induced by vertical acoustic resonance during the 2015 eruption of Chile's Calbuco volcano", 
+                "GP43C-1260": "Distribution of turbulent plasma in the magnetosphere estimated by the SWARM magnetic data.", 
+                "IN23D-1751": "Open Data and Open Science for better Research in the Geo and Space Domain"
+            }, 
+            "session": {
+                "IN23D": "Mashup of Heterogeneous Data Systems for Better Data Integration: Furthering Interoperability through Collaborative Communities Posters"
+            }
+        }, 
+        "https://agu.confex.com/agu/fm15/meetingapp.cgi/Person/37351": {
+            "address": "Western Kentucky University Bowling Green, KY\nUnited States", 
+            "name": "Jason Polk", 
+            "papers": {
+                "ED32A-08": "Partnering International Universities to Enhance Climate Literacy through Interdisciplinary, Cross-Cultural Learning", 
+                "GC11G-1097": "Building Partnerships and Research Collaborations to Address the Impacts of Arctic Change: The North Atlantic Climate Change Collaboration (NAC3)"
+            }, 
+            "session": {
+                "PP13D": "Multiproxy Records for Climatic and Oceanic Reconstructions I", 
+                "PP53C": "Multiproxy Records for Climatic and Oceanic Reconstructions II Posters"
+            }
+        }, 
+        "https://agu.confex.com/agu/fm15/meetingapp.cgi/Person/39153": {
+            "address": "USGS/EROS Sioux Falls, SD\nUnited States", 
+            "name": "Jesslyn Brown", 
+            "papers": {
+                "B53F-0623": "The Influence of Drought on Spring Vegetation Green-up", 
+                "GC13H-1257": "Monitoring Agricultural Drought in Canada using the Vegetation Drought Response Index (VegDRI)"
+            }, 
+            "session": {
+                "GC12C": "Sustainable Global Agricultural Production Monitoring Practices and Methods I", 
+                "GC13H": "Sustainable Global Agricultural Production Monitoring Practices and Methods II Posters"
+            }
+        }, 
+        "https://agu.confex.com/agu/fm15/meetingapp.cgi/Person/39849": {
+            "address": "Pacific Northwest National Lab Sequim, WA\nUnited States\nPacific Northwest National Laboratory Richland, WA\nUnited States", 
+            "name": "Jill Brandenberger", 
+            "papers": {
+                "B51A-0411": "Demonstration of a Groundwater Age Determination Using 39Ar in Support of a Multi-Tracer Groundwater Analysis of Wells in Fresno, CA", 
+                "B51A-0412": "Purification and Detection of 39Ar in Groundwater Samples via Low-Level Counting"
+            }, 
+            "session": {
+                "B51A": "Advances in Isotope Analysis and Other Tracers for Biosphere-Atmosphere Exchange and Environmental Monitoring I Posters", 
+                "B54A": "Advances in Isotope Analysis and Other Tracers for Biosphere-Atmosphere Exchange and Environmental Monitoring II"
+            }
+        }, 
+        "https://agu.confex.com/agu/fm15/meetingapp.cgi/Person/41284": {
+            "address": "Department of Energy Washington DC Washington, DC\nUnited States", 
+            "name": "Joel Cline", 
+            "papers": {
+                "GC43F-04": "WFIP2 – The Second Wind Forecast Improvement Project: Observing Systems And Case Studies"
+            }, 
+            "session": {
+                "A11H": "Improving Solar and Wind Forecasts along with Weather and Climate Prediction: Resolving One Atmosphere Together Posters"
+            }
+        }, 
+        "https://agu.confex.com/agu/fm15/meetingapp.cgi/Person/42367": {
+            "address": "US Nuclear Regulatory Comm Rockville, MD\nUnited States", 
+            "name": "Joseph Kanney", 
+            "papers": {
+                "H51P-02": "Site Specific Probable Maximum Precipitation Estimates and Professional Judgement"
+            }, 
+            "session": {
+                "H51P": "Advances in Hydrometeorological Extremes Forecasting: Estimation, Integrated Risk Analysis, and Applications I"
+            }
+        }, 
+        "https://agu.confex.com/agu/fm15/meetingapp.cgi/Person/42377": {
+            "address": "NASA Goddard Space Flight Center Greenbelt, MD\nUnited States", 
+            "name": "Joseph Grebowsky", 
+            "papers": {
+                "P13D-01": "Observations of the Martian ionosphere by the Neutral Gas and Ion Mass Spectrometer During the First Year of the MAVEN Mission", 
+                "P13D-05": "Day-To-Night Ionosphere Transport by Neutral Winds", 
+                "P21A-2077": "Electric Mars: The first survey of Martian parallel electric fields.", 
+                "P21A-2083": "Multi-fluid MHD Study of the Solar Wind Interaction with Mars' Upper Atmosphere during the 2015 March 8th ICME Event"
+            }, 
+            "session": {
+                "P12A": "Results from the MAVEN Mission to Mars I", 
+                "P13D": "Results from the MAVEN Mission to Mars II", 
+                "P21A": "Results from the MAVEN Mission to Mars III Posters"
+            }
+        }, 
+        "https://agu.confex.com/agu/fm15/meetingapp.cgi/Person/43286": {
+            "address": "Rutgers University New Brunswick New Brunswick, NJ\nUnited States", 
+            "name": "Jennifer Walker", 
+            "papers": {
+                "PP51C-2297": "Holocene Relative Sea-Level Changes from Near-, Intermediate-, and Far-Field Locations"
+            }, 
+            "session": {
+                "PP51C": "Feedbacks on Ice-Sheet Growth and Decay during the Last Glacial Cycle I Posters", 
+                "PP54A": "Feedbacks on Ice-Sheet Growth and Decay during the Last Glacial Cycle II"
+            }
+        }, 
+        "https://agu.confex.com/agu/fm15/meetingapp.cgi/Person/44085": {
+            "address": "University of California Davis Davis, CA\nUnited States\nSoil Science Society of America Madison, WI\nUnited States", 
+            "name": "Jan Hopmans", 
+            "papers": {
+                "H23B-1579": "An alternative tensiometer design for deep vadose zone monitoring", 
+                "H31F-1485": "Downscaling Transpiration from the Field to the Tree Scale using the Neural Network Approach", 
+                "H33M-06": "Drought effects on evapotransiration and subsurface water storage in the southern Sierra Nevada"
+            }, 
+            "session": {
+                "U32A": "Soils in a Changing World: The NEXUS of Climate, Water, Ecosystems, and Food Systems"
+            }
+        }, 
+        "https://agu.confex.com/agu/fm15/meetingapp.cgi/Person/45924": {
+            "address": "University of Saskatchewan Saskatoon, SK\nCanada\nNational Center for Atmospheric Research Boulder, CO\nUnited States", 
+            "name": "Keith Musselman", 
+            "papers": {
+                "C33A-0804": "The influence of tree temperatures on potential snowmelt energy in a discontinuous coniferous forest", 
+                "C41F-07": "Snowpack response to warmer temperatures: a southern Sierra Nevada case study", 
+                "GC53B-1207": "New Tools and Data to Understand and Adapt to Hydroclimatic Variability and Change in Alaska and Hawaii"
+            }, 
+            "session": {
+                "H31H": "The Hydrology–Vegetation–Climate Nexus: Identifying Process Interactions and Environmental Shifts in Mountain Catchments I Posters", 
+                "H33M": "The Hydrology–Vegetation–Climate Nexus: Identifying Process Interactions and Environmental Shifts in Mountain Catchments II"
+            }
+        }, 
+        "https://agu.confex.com/agu/fm15/meetingapp.cgi/Person/47275": {
+            "address": "University of California Riverside Riverside, CA\nUnited States\nUniversity of California Riverside Riverside, CA\nUnited States", 
+            "name": "Kayla Kroll", 
+            "papers": {
+                "T41A-2844": "Static Stress Transfers Causes Delayed Seismicity Shutdown"
+            }, 
+            "session": {
+                "T41A": "Active Tectonics of the Southern San Andreas Transform Plate Boundary System in Southern California and Northern Mexico I Posters", 
+                "T51H": "Active Tectonics of the Southern San Andreas Transform Plate Boundary System in Southern California and Northern Mexico II"
+            }
+        }, 
+        "https://agu.confex.com/agu/fm15/meetingapp.cgi/Person/47416": {
+            "address": "Sandia National Laboratories Albuquerque, NM\nUnited States", 
+            "name": "Kristopher Kuhlman", 
+            "papers": {
+                "H11B-1325": "Site Guidelines for a Deep Borehole Field Test", 
+                "H13M-01": "Site Characterization for a Deep Borehole Field Test"
+            }, 
+            "session": {
+                "H11B": "Deep Boreholes and Wellbores: Monitoring, Modeling, and Mitigation I Posters", 
+                "H13M": "Deep Boreholes and Wellbores: Monitoring, Modeling, and Mitigation II"
+            }
+        }, 
+        "https://agu.confex.com/agu/fm15/meetingapp.cgi/Person/49854": {
+            "address": "Denver Water Denver, CO\nUnited States", 
+            "name": "Laurna Kaatz", 
+            "papers": {
+                "H34F-05": " Embracing Uncertainty: A Case Study Examination of How Climate Change is Shifting Water Utility Planning", 
+                "PA13A-2162": "Actionable Science in Practice: Co-Producing Climate Change Information for Water Utility Vulnerability Assessments. Four Case Studies from the Water Utility Climate Alliance"
+            }, 
+            "session": {
+                "GC23H": "Improving Societal Relevance of Climate and Earth System Models through Use-Oriented Performance Metrics and Benchmarks for Developers Posters"
+            }
+        }, 
+        "https://agu.confex.com/agu/fm15/meetingapp.cgi/Person/5127": {
+            "address": "Jacobs Technology, NASA Johnson Space Center Houston, TX\nUnited States\nJacobs Technology, NASA Johnson Space Center Houston, TX\nUnited States\nJacobs Technology, NASA Johnson Space Center Houston, TX\nUnited States\nJacobs Technology, NASA Johnson Space Center Houston, TX\nUnited States", 
+            "name": "Anne Peslier", 
+            "papers": {
+                "V53F-3166": "Mantle water contents beneath the Rio Grande Rift (NM, USA): FTIR analysis of Rio Puerco and Kilbourne Hole peridotite xenoliths", 
+                "V53F-3167": "Water in the lithospheric mantle beneath a Phanerozoic continental belt: FTIR analyses of Alligator Lake Xenoliths (Yukon, Canada)"
+            }, 
+            "session": {
+                "V51I": "Volatile Distribution and Cycling in the Mantle I", 
+                "V53F": "Volatile Distribution and Cycling in the Mantle II Posters"
+            }
+        }, 
+        "https://agu.confex.com/agu/fm15/meetingapp.cgi/Person/51318": {
+            "address": "Rutgers University New Brunswick, NJ\nUnited States\nRutgers University New Brunswick New Brunswick, NJ\nUnited States", 
+            "name": "Benjamin Lintner", 
+            "papers": {
+                "A21E-0179": "Systematic characterization of CMIP5 model spread in simulated tropical Pacific rainfall", 
+                "A54C-05": "Large-Scale Atmospheric Circulation Patterns Associated with Temperature Extremes as a Basis for Model Evaluation: Methodological Overview and Results", 
+                "H33J-03": "Data Length Requirements for Observational Estimates of Land-Atmosphere Coupling Strength"
+            }, 
+            "session": {
+                "B53J": "Climatic Controls on Vegetation Dynamics in Tropical Forests II"
+            }
+        }, 
+        "https://agu.confex.com/agu/fm15/meetingapp.cgi/Person/52362": {
+            "address": "ITP Institute of Tibetan Plateau Research, Chinese Academy of Sciences Beijing China", 
+            "name": "Liping Zhu", 
+            "papers": {
+                "GC23L-1271": "Climate change on the Tibetan Plateau in response to shifting atmospheric circulation since the LGM"
+            }, 
+            "session": {
+                "PP11D": "Limnogeology and Paleolimnology I", 
+                "PP13B": "Limnogeology and Paleolimnology II Posters"
+            }
+        }, 
+        "https://agu.confex.com/agu/fm15/meetingapp.cgi/Person/52963": {
+            "address": "National Ecological Observatory Network Boulder, CO\nUnited States\nNEON Inc. Boulder, CO\nUnited States", 
+            "name": "Leah Wasser", 
+            "papers": {
+                "B43C-0556": "Assessing and Adapting LiDAR-Derived Pit-Free Canopy Height Model Algorithm for Sites with Varying Vegetation Structure", 
+                "ED31B-0900": "Translating the Science of Measuring Ecosystems at a National Scale: NEON’s Online Learning Portal ", 
+                "ED34A-03": "Opportunities and Challenges for Education and Outreach at NEON (National Ecological Observatory Network), a new NSF Large Facility"
+            }, 
+            "session": {
+                "B51H": "Scaling from Points to Pixels: Remote Sensing Estimates of Ecosystem Characteristics across Space and Time I Posters", 
+                "B54D": "Scaling from Points to Pixels: Remote Sensing Estimates of Ecosystem Characteristics across Space and Time II"
+            }
+        }, 
+        "https://agu.confex.com/agu/fm15/meetingapp.cgi/Person/5354": {
+            "address": "Alfred Wegener Institute Helmholtz-Center for Polar and Marine Research Bremerhaven Bremerhaven Germany", 
+            "name": "Antje Boetius", 
+            "papers": {
+                "C33F-07": "Decadal changes in carbon fluxes at the East Siberian continental margin: interactions of ice cover, ocean productivity, particle sedimentation and benthic life"
+            }, 
+            "session": {
+                "OS11C": "The Asahiko Taira International Scientific Ocean Drilling Research Prize (The Taira Prize)"
+            }
+        }, 
+        "https://agu.confex.com/agu/fm15/meetingapp.cgi/Person/53846": {
+            "address": "University of Colorado at Boulder Boulder, CO\nUnited States", 
+            "name": "Kevin Mahan", 
+            "papers": {
+                "T14A-08": "4-D crustal structure of the conterminous U.S.: Continental assembly, crustal growth, and deformation history from receiver functions, xenoliths, and structural mapping", 
+                "T41C-2908": "The role of hornblende in deep crustal seismic anisotropy: an investigation of the importance of deformation mechanisms"
+            }, 
+            "session": {
+                "T11D": "Crustal Structure and Evolution across the Continental United States from 10 Years of Earthscope Investigations: What Have We Learned and What Are the Open Questions? I Posters", 
+                "T14A": "Crustal Structure and Evolution across the Continental United States from 10 Years of Earthscope Investigations: What Have We Learned and What Are the Open Questions? II", 
+                "TH15F": "Future of tectonics and structural geology: NSF-sponsored white-paper workshop"
+            }
+        }, 
+        "https://agu.confex.com/agu/fm15/meetingapp.cgi/Person/54548": {
+            "address": "University of New Hampshire Durham, NH\nUnited States\nUniversity of New Hampshire Main Campus Durham, NH\nUnited States", 
+            "name": "Margaret Boettcher", 
+            "papers": {
+                "G13B-08": "Measurement of Creep on the Calaveras Fault at Coyote Dam using Terrestrial Radar Interferometry (TRI).", 
+                "S51A-2635": "Constraining Earthquake Source Parameters in Rupture Patches and Rupture Barriers on Gofar Transform Fault, East Pacific Rise from Ocean Bottom Seismic Data", 
+                "T23C-2952": "Scaling Relations for the Thermal Structure of Segmented Oceanic Transform Faults"
+            }, 
+            "session": {
+                "MR21C": "Physical Properties of Earth Materials (PPEM): Deformation Mechanisms from Crystals to Plates I Posters", 
+                "MR23C": "Physical Properties of Earth Materials (PPEM): Deformation Mechanisms from Crystals to Plates II"
+            }
+        }, 
+        "https://agu.confex.com/agu/fm15/meetingapp.cgi/Person/55040": {
+            "address": "European Centre for Medium‑Range Weather Forecast Reading United Kingdom\nECMWF Reading United Kingdom", 
+            "name": "Mark Rodwell", 
+            "papers": {
+                "A51T-04": "Aerosol Radiative Forcing and Weather Forecasts in the ECMWF Model", 
+                "NG23B-1790": "Diagnosis of Stochastic Physics with Ensemble Data Assimilation"
+            }, 
+            "session": {}
+        }, 
+        "https://agu.confex.com/agu/fm15/meetingapp.cgi/Person/55762": {
+            "address": "Jet Propulsion Laboratory Pasadena, CA\nUnited States", 
+            "name": "Mathieu Choukroun", 
+            "papers": {
+                "P11B-2091": "Thermodynamics and Interior Structure Measurements of Ocean Worlds", 
+                "P31B-2060": "Chemistry of Frozen NaCl and MgSO4 Brines – Implications for Surface Expression of Europa’s Ocean Composition", 
+                "P31E-2117": "MIRO Observations of the Southern Regions of 67P/Churyumov-Gerasimenko: From Deep Polar Night, to Summer at Perihelion.", 
+                "P33E-06": "The Nucleus and Coma of Comet 67P/C-G at Millimeter and Submillimeter Wavelengths as seen by MIRO"
+            }, 
+            "session": {
+                "P31E": "The Rosetta Mission: Postperihelion I Posters", 
+                "P33E": "The Rosetta Mission: Postperihelion II"
+            }
+        }, 
+        "https://agu.confex.com/agu/fm15/meetingapp.cgi/Person/56098": {
+            "address": "Laboratoire de Physique des Plasmas Saint-Maur Des Fossés Cedex France", 
+            "name": "Matthieu Berthomier", 
+            "papers": {
+                "SM12A-09": "Low-Frequency Wave Activity Detected by MMS during Dusk Magnetopause Crossings and its Relation to Heating and Acceleration of Particles"
+            }, 
+            "session": {}
+        }, 
+        "https://agu.confex.com/agu/fm15/meetingapp.cgi/Person/56798": {
+            "address": "Harvard University Cambridge, MA\nUnited States", 
+            "name": "Karen McKinnon", 
+            "papers": {
+                "GC12C-04": "Extreme temperature trends in major cropping systems and their relation to agricultural land use change", 
+                "GC43A-1172": "Changes in the Full Distribution of Daily Temperatures with Implications for Extreme Events", 
+                "GC43A-1174": "Observed Decrease of North American Winter Temperature Variability"
+            }, 
+            "session": {
+                "GC41G": "Characterizing and Interpreting Changes in Temperature and Precipitation Extremes I", 
+                "GC43A": "Characterizing and Interpreting Changes in Temperature and Precipitation Extremes II Posters"
+            }
+        }, 
+        "https://agu.confex.com/agu/fm15/meetingapp.cgi/Person/57170": {
+            "address": "Lawrence Livermore National Laboratory Livermore, CA\nUnited States", 
+            "name": "Megan Smith", 
+            "papers": {
+                "H41C-1306": "Reactive Transport Modeling of CO2-induced Porosity and Permeability Changes in Heterogeneous Carbonate Rocks", 
+                "H41C-1307": "An Integrated Approach to Predicting Carbon Dioxide Storage Capacity in Carbonate Reservoirs", 
+                "H44D-04": "Calibrating NMR measured porosity/permeability relationships using µXRCT measurements"
+            }, 
+            "session": {
+                "H41C": "New Perspectives on CO2 Flow, Transport, and Long-Term Storage in Subsurface Reservoirs I Posters", 
+                "H43K": "New Perspectives on CO2 Flow, Transport, and Long-Term Storage in Subsurface Reservoirs II", 
+                "H44D": "New Perspectives on CO2 Flow, Transport, and Long-Term Storage in Subsurface Reservoirs III"
+            }
+        }, 
+        "https://agu.confex.com/agu/fm15/meetingapp.cgi/Person/57396": {
+            "address": "University of Maryland College Park, MD\nUnited States\nUniversity of Maryland College Park College Park, MD\nUnited States", 
+            "name": "Melodie French", 
+            "papers": {
+                "MR33C-2693": "Dilatancy and pore pressure effects during fracture and shear of antigorite-rich serpentinite"
+            }, 
+            "session": {
+                "MR33A": "Pore Fluids, Faulting, and (A)seismicity I Posters", 
+                "MR41E": "Pore Fluids, Faulting, and (A)seismicity II", 
+                "MR42A": "Pore Fluids, Faulting, and (A)seismicity III"
+            }
+        }, 
+        "https://agu.confex.com/agu/fm15/meetingapp.cgi/Person/57708": {
+            "address": "University of California Merced Merced, CA\nUnited States", 
+            "name": "Marilyn Fogel", 
+            "papers": {
+                "B12D-02": "Alterations to Soil and Eroded Sediment Carbon after the Rim Fire, Yosemite National Park", 
+                "B33D-0746": "Can δ2H of Organic Matter in Soils be Used for Understanding Organic Matter Sources and Cycling?", 
+                "H43G-1607": " Drinking From the Same Straw: Crop Growth and Evidence of Water Transfer from Native Shrubs to Millet in a Sahelian Agro-Ecosystem"
+            }, 
+            "session": {
+                "B11M": "Reeburgh Lecture"
+            }
+        }, 
+        "https://agu.confex.com/agu/fm15/meetingapp.cgi/Person/58558": {
+            "address": "National Center for Atmospheric Research Boulder, CO\nUnited States", 
+            "name": "Sheri Mickelson", 
+            "papers": {
+                "IN11C-1787": "Light-weight Parallel Python Tools for Earth System Modeling Workflows"
+            }, 
+            "session": {
+                "IN11C": "Python Solutions for the Earth Sciences Posters"
+            }
+        }, 
+        "https://agu.confex.com/agu/fm15/meetingapp.cgi/Person/60470": {
+            "address": "University of Chicago Chicago, IL\nUnited States", 
+            "name": "Kathleen Morrison", 
+            "papers": {
+                "GC14B-03": "Extending the Anthropocene? Synthesizing Land Use and land cover data for the Holocene, a new global working group"
+            }, 
+            "session": {
+                "GC12A": "Emerging Perspectives on Land Use: Global Drivers and Local Impacts in a Socioenvironmentally Teleconnected World I", 
+                "GC13C": "Emerging Perspectives on Land Use: Global Drivers and Local Impacts in a Socioenvironmentally Teleconnected World II Posters"
+            }
+        }, 
+        "https://agu.confex.com/agu/fm15/meetingapp.cgi/Person/63222": {
+            "address": "USGS National Earthquake Information Center Golden Golden, CO\nUnited States\nColorado State University Fort Collins, CO\nUnited States", 
+            "name": "Nicole McMahon", 
+            "papers": {
+                "S21B-2687": "GLASS 2.0: An Operational, Multimodal, Bayesian Earthquake Data Association Engine", 
+                "S43F-07": "Deep Long-period Seismicity Beneath the Executive Committee Range, Marie Byrd Land, Antarctica, Studied Using Subspace Detection", 
+                "S51E-02": "Application of Subspace Detection to the 6 November 2011 M5.6 Prague, Oklahoma Aftershock Sequence"
+            }, 
+            "session": {
+                "S51E": "General Contributions in Seismology I"
+            }
+        }, 
+        "https://agu.confex.com/agu/fm15/meetingapp.cgi/Person/63395": {
+            "address": "Royal Swedish Academy of Sciences Stockholm Sweden\nIGBP Stockholm Sweden", 
+            "name": "Ninad Bondre", 
+            "papers": {
+                "Introductory": "Remarks"
+            }, 
+            "session": {
+                "PA23A": "More Bang for Your Buck: How Does Coordination Add Value to Sustainability Science? Posters", 
+                "U12A": "What's the Big Deal about the Anthropocene?"
+            }
+        }, 
+        "https://agu.confex.com/agu/fm15/meetingapp.cgi/Person/6513": {
+            "address": "SRI International Menlo Park Menlo Park, CA\nUnited States", 
+            "name": "Asti Bhatt", 
+            "papers": {
+                "AE22A-06": "The Charged Aerosol Release Experiment (Care II) to Study Artificial Dusty Plasmas in the Upper Atmosphere", 
+                "SA31B-2344": "Auroral LSTIDs and SAR Arc Occurrences in Northern California During Geomagnetic Storms", 
+                "SA51B-2406": "Observations of thunderstorm-related 630 nm airglow depletions"
+            }, 
+            "session": {
+                "SA51B": "Enabling Scientific Discovery through Integrated Space- and Ground-Based Observations Posters"
+            }
+        }, 
+        "https://agu.confex.com/agu/fm15/meetingapp.cgi/Person/68195": {
+            "address": "Sandia National Laboratories Albuquerque, NM\nUnited States", 
+            "name": "Pania Newell", 
+            "papers": {
+                "MR41B-2629": "Numerical Investigation of Fracture Propagation in Geomaterials"
+            }, 
+            "session": {
+                "MR41B": "Fractures and Fracturing in Chemically Reactive Environments I Posters", 
+                "MR44A": "Fractures and Fracturing in Chemically Reactive Environment II"
+            }
+        }, 
+        "https://agu.confex.com/agu/fm15/meetingapp.cgi/Person/68375": {
+            "address": "University of Notre Dame Notre Dame, IN\nUnited States\nUniv of Notre Dame South Bend, IN\nUnited States", 
+            "name": "Stephen Powers", 
+            "papers": {
+                "B51E-0471": "Long-term accumulation and transport of anthropogenic phosphorus in world river basins"
+            }, 
+            "session": {
+                "B51E": "Human Alteration of the Phosphorus Cycle: Past, Present, and Future I Posters", 
+                "B53K": "Human Alteration of the Phosphorus Cycle: Past, Present, and Future II"
+            }
+        }, 
+        "https://agu.confex.com/agu/fm15/meetingapp.cgi/Person/69027": {
+            "address": "Peking University Beijing China", 
+            "name": "Qiugang Zong", 
+            "papers": {
+                "SM11A-03": "Electron dropout echoes induced by interplanetaryshock: Van Allen Probes observations", 
+                "SM13C-2502": "Ion acceleration and reflection on magnetotail antidipolarization fronts", 
+                "SM13D-2544": "On the generation of magnetic dips ahead of advancing dipolarization fronts", 
+                "SM21A-2457": "Charged Particle Behavior in the Growth and Damping Stages of Ultralow Frequency Waves: Theory and Van Allen Probes Observations", 
+                "SM21A-2465": "Fast damping of poloidal Alfven waves by bounce-resonant ions: observations and modeling", 
+                "SM22A-05": "Electric Field, Field-aligned Current and Electromagnetic Waves in the Dip Region in front of the Dipolarization Front"
+            }, 
+            "session": {
+                "SM11A": "Magnetospheric Response to Transient Solar Wind Phenomena I"
+            }
+        }, 
+        "https://agu.confex.com/agu/fm15/meetingapp.cgi/Person/69051": {
+            "address": "Center for Earth System Science, Tsinghua University Beijing China", 
+            "name": "Qiang Zhang", 
+            "papers": {
+                "A21A-0102": "Development of Future Scenario Emission Inventories for East Asia in Support of Multiple Modeling Studies", 
+                "A51B-0020": "Revealing the Hidden Health Costs Embodied in Chinese Exports", 
+                "A51B-0036": "Potential benefits of long-distance electricity transmission in China for air quality and climate", 
+                "A51B-0045": "Assessment of air quality management policies in China with integrated model framework: Case study for Hebei province", 
+                "A54A-04": "China’s international trade and air pollution: 2000 - 2009"
+            }, 
+            "session": {
+                "A51B": "Air Pollution, Greenhouse Gases, and Emissions in East Asia and Its Interactions with the World I Posters", 
+                "A53D": "Air Pollution, Greenhouse Gases, and Emissions in East Asia and Its Interactions with the World II", 
+                "A54A": "Air Pollution, Greenhouse Gases, and Emissions in East Asia and Its Interactions with the World III"
+            }
+        }, 
+        "https://agu.confex.com/agu/fm15/meetingapp.cgi/Person/72596": {
+            "address": "Johns Hopkins University Applied Physics Laboratory Laurel, MD\nUnited States\nApplied Physics Laboratory Johns Hopkins Laurel, MD\nUnited States", 
+            "name": "Robert Erlandson", 
+            "papers": {
+                "P53C-2131": "Impact Flash Physics: Modeling and Comparisons With Experimental Results"
+            }, 
+            "session": {
+                "SM41H": "Waves and Particles at the Magnetic Equator I Posters", 
+                "SM51F": "Waves and Particles at the Magnetic Equator II"
+            }
+        }, 
+        "https://agu.confex.com/agu/fm15/meetingapp.cgi/Person/74377": {
+            "address": "NASA Langley Research Center Hampton, VA\nUnited States", 
+            "name": "Ryan Norman", 
+            "papers": {
+                "SA51D-06": "Albedo protons and electrons at ISS – an important contribution to astronaut dose?"
+            }, 
+            "session": {
+                "SA43B": "Ionizing Radiation Environments throughout the Solar System I Posters", 
+                "SA51D": "Ionizing Radiation Environments throughout the Solar System II"
+            }
+        }, 
+        "https://agu.confex.com/agu/fm15/meetingapp.cgi/Person/75482": {
+            "address": "University of Victoria Victoria, BC\nCanada", 
+            "name": "Sanjiv Kumar", 
+            "papers": {
+                "GC53B-1199": "Robust and Heterogeneous Hydrological Changes under Global Warming"
+            }, 
+            "session": {
+                "GC52B": "Quantifying Model Uncertainties and Robustness in Climate Projections for Hydrological Applications: Perspectives from Climate and Hydrologic Scientists I", 
+                "GC53B": "Quantifying Model Uncertainties and Robustness in Climate Projections for Hydrological Applications: Perspectives from Climate and Hydrologic Scientists II Posters"
+            }
+        }, 
+        "https://agu.confex.com/agu/fm15/meetingapp.cgi/Person/76336": {
+            "address": "University of Bonn Bonn Germany", 
+            "name": "Christian Ohlwein", 
+            "papers": {
+                "A13C-0351": "A high-resolution regional reanalysis for Europe"
+            }, 
+            "session": {
+                "A13C": "Evaluating Reanalysis: What Can We Learn about Past Weather and Climate? III Posters"
+            }
+        }, 
+        "https://agu.confex.com/agu/fm15/meetingapp.cgi/Person/77001": {
+            "address": "Chapman University Orange, CA\nUnited States", 
+            "name": "Seung Hee Kim", 
+            "papers": {
+                "GC13D-1187": "Assessments of Maize Yield Potential in the Korean Peninsula Using Multiple Crop Models", 
+                "GC43D-07": "Impact of Springtime NAO on Weather Conditions and Snow Melting in the Southwestern US", 
+                "NH31A-1870": "Wildfire Danger Potential in California"
+            }, 
+            "session": {
+                "NH31A": "Characterizing Wildfires at Regional and Local Scales Posters"
+            }
+        }, 
+        "https://agu.confex.com/agu/fm15/meetingapp.cgi/Person/77089": {
+            "address": "Karlsruhe Institute of Technology Karlsruhe Germany\nKarlsruhe Institute of Technology Karlsruhe Germany\nKIT Karlsruhe Germany", 
+            "name": "Naruki Hiranuma", 
+            "papers": {
+                "A11Q-02": "The Fifth International Ice Nucleation Workshop Activities FIN-1 and FIN-2: Overview and Selected Results", 
+                "A12C-05": "Ice nucleation by plant structural materials and its potential contribution to glaciation in clouds"
+            }, 
+            "session": {
+                "A11Q": "Atmospheric Ice Formation Processes and Impacts I"
+            }
+        }, 
+        "https://agu.confex.com/agu/fm15/meetingapp.cgi/Person/77200": {
+            "address": "Desert Research Institute Reno, NV\nUnited States\nDesert Research Institute Reno Reno, NV\nUnited States", 
+            "name": "Seshadri Rajagopal", 
+            "papers": {
+                "GC23B-1142": "Predicting Snow-To-Rain Transitions Across The Western U.S.: When Is Daily Air Temperature Sufficient?", 
+                "GC41E-1131": "Timing, Duration, and Effects of Droughts in the Southern Sierra Nevada and San Joaquin Valley, CA Over the Last 2000 Years", 
+                "H21B-1373": "The interplay of snow, surface water, and groundwater reservoirs for integrated water resources management"
+            }, 
+            "session": {
+                "GC23B": "Changes from Snow to Rain: Observation, Prediction, and Consequences Posters"
+            }
+        }, 
+        "https://agu.confex.com/agu/fm15/meetingapp.cgi/Person/77415": {
+            "address": "NSO/Tucson Tucson, AZ\nUnited States\nNational Solar Observatory Tucson, AZ\nUnited States", 
+            "name": "Sanjay Gusain", 
+            "papers": {
+                "SH21C-01": "Review of Chromospheric Magnetic Field Measurement from SOLIS/VSM Instrument at NSO, Tucson."
+            }, 
+            "session": {
+                "SH21C": "Thermal and Magnetic Structure of Solar Active Regions from the Photosphere to the Corona II"
+            }
+        }, 
+        "https://agu.confex.com/agu/fm15/meetingapp.cgi/Person/78181": {
+            "address": "National Center for Atmospheric Research Boulder, CO\nUnited States", 
+            "name": "Sang-Hun Park", 
+            "papers": {
+                "A51J-0202": "Impact of vertical resolution using variable-resolution CAM-MPAS", 
+                "A51J-0204": "Impacts of resolution-dependent physics in aquaplanet simulations"
+            }, 
+            "session": {
+                "A51J": "Multiscale Modeling of the Atmosphere I Posters", 
+                "A53G": "Multiscale Modeling of the Atmosphere II"
+            }
+        }, 
+        "https://agu.confex.com/agu/fm15/meetingapp.cgi/Person/78961": {
+            "address": "DTU Space Lyngby Denmark", 
+            "name": "Stavros Kotsiaros", 
+            "papers": {
+                "GP43C-1256": "Core field accelerations from Swarm and ground observatory data", 
+                "GP43C-1258": "A Model of the Earth’s Magnetic Field From Two Years of Swarm Satellite Constellation Data", 
+                "GP43C-1263": "New insights from satellite magnetic gradient observations into the determination of Earth's lithospheric field"
+            }, 
+            "session": {
+                "GP34A": "Swarm Two Years on: Achievements in Unraveling the Earth's Magnetic Field I", 
+                "GP43C": "Swarm Two Years on: Achievements in Unraveling the Earth's Magnetic Field II Posters"
+            }
+        }, 
+        "https://agu.confex.com/agu/fm15/meetingapp.cgi/Person/79477": {
+            "address": "Scripps Institution of Oceanography La Jolla, CA\nUnited States", 
+            "name": "Samer Naif", 
+            "papers": {
+                "T11H-07": "Constraining porosity of the shallow forearc and plate interface offshore Nicaragua with marine electromagnetic data"
+            }, 
+            "session": {
+                "GP23C": "Everything Electromagnetic II"
+            }
+        }, 
+        "https://agu.confex.com/agu/fm15/meetingapp.cgi/Person/79498": {
+            "address": "Los Alamos National Laboratory Los Alamos, NM\nUnited States", 
+            "name": "Catherine Snelson", 
+            "papers": {
+                "S53B-2827": "Large-N Seismic Deployment at the Source Physics Experiment (SPE) Site"
+            }, 
+            "session": {
+                "S51F": "Geophysical Methods for Global Security I", 
+                "S52B": "Geophysical Methods for Global Security II", 
+                "S53B": "Geophysical Methods for Global Security III Posters"
+            }
+        }, 
+        "https://agu.confex.com/agu/fm15/meetingapp.cgi/Person/79984": {
+            "address": "Curtin University Perth, WA\nAustralia", 
+            "name": "Christopher Spencer", 
+            "papers": {
+                "T13A-2959": "Visualizing the sedimentary response through the orogenic cycle using multi-dimensional scaling"
+            }, 
+            "session": {
+                "V31G": "Resolving Process through Geochronology: New Techniques, Applications, and Interpretations I", 
+                "V32B": "Resolving Process through Geochronology: New Techniques, Applications, and Interpretations II", 
+                "V33D": "Resolving Process through Geochronology: New Techniques, Applications, and Interpretations III Posters"
+            }
+        }, 
+        "https://agu.confex.com/agu/fm15/meetingapp.cgi/Person/80649": {
+            "address": "Stockholm University Stockholm Sweden", 
+            "name": "Stefano Manzoni", 
+            "papers": {
+                "B33C-0694": "The hysteresis response of soil respiration and soil CO2 concentration to soil temperature", 
+                "H13B-1497": "Dynamic interactions of ecohydrological and biogeochemical processes in water-stressed environments"
+            }, 
+            "session": {
+                "H12B": "Advances in Ecohydrology of Water-Stressed Environments I", 
+                "H13B": "Advances in Ecohydrology of Water-Stressed Environments II Posters"
+            }
+        }, 
+        "https://agu.confex.com/agu/fm15/meetingapp.cgi/Person/81931": {
+            "address": "NASA Goddard Space Flight Center Greenbelt, MD\nUnited States\nNASA/GSFC Greenbelt, MD\nUnited States", 
+            "name": "Sushel Unninayar", 
+            "papers": {
+                "H43E-1555": "Water Cycle Extremes: from Observations to Decisions"
+            }, 
+            "session": {
+                "H42D": "Integrated Observations/Modeling of Water Cycle Extremes and Attribution of Changes in the Components of the Hydrological Cycle to Human Influences I", 
+                "H43E": "Integrated Observations/Modeling of Water Cycle Extremes and Attribution of Changes in the Components of the Hydrological Cycle to Human Influences II Posters"
+            }
+        }, 
+        "https://agu.confex.com/agu/fm15/meetingapp.cgi/Person/82871": {
+            "address": "Georgia Institute of Technology Main Campus Atlanta, GA\nUnited States", 
+            "name": "Yuanzhi Tang", 
+            "papers": {
+                "B33D-0713": "Microbial exudate promoted dissolution and transformation of chromium containing minerals", 
+                "B33D-0715": "Biochar-Facilitated Reduction of Crystalline Fe(III) in Hematite"
+            }, 
+            "session": {
+                "B33D": "Soil Organic Matter: Mechanisms of Stabilization and Change II Posters"
+            }
+        }, 
+        "https://agu.confex.com/agu/fm15/meetingapp.cgi/Person/85120": {
+            "address": "SRI International El Granada El Granada, CA\nUnited States", 
+            "name": "Todd Valentic", 
+            "papers": {
+                "SA13C-02": "First operations of the RISR-C incoherent scatter radar"
+            }, 
+            "session": {
+                "C43C": "Technological Advances to Enable Science in the Polar Regions Posters"
+            }
+        }, 
+        "https://agu.confex.com/agu/fm15/meetingapp.cgi/Person/86783": {
+            "address": "U.N.A.M. Mexico City Mexico\nUNAM National Autonomous University of Mexico Mexico City Mexico", 
+            "name": "Allen Husker", 
+            "papers": {
+                "S33E-01": "Uncovering the geodetic signature of silent slip through repeating earthquakes", 
+                "S33E-02": "Anisotropy in the subducted oceanic crust and the overlying continental crust explain the existence of a double tectonic tremor zone in the flat portion of the Mexican subduction zone.", 
+                "T22C-01": "Tectonic Tremor and the Collective Behavior of Low-Frequency Earthquakes"
+            }, 
+            "session": {
+                "S34A": "Advances in Understanding Slow Slip and Transitional Regions III"
+            }
+        }, 
+        "https://agu.confex.com/agu/fm15/meetingapp.cgi/Person/89043": {
+            "address": "ICOS Headoffice Helsinki Finland", 
+            "name": "Werner Kutsch", 
+            "papers": {
+                "B11A-0411": "Assessing ecosystem response to multiple disturbances and climate change in South Africa using ground- and satellite-based measurements and model"
+            }, 
+            "session": {
+                "B11A": "Africa GHG: Developing a Network of Greenhouse Gas Measurements for Africa Posters"
+            }
+        }, 
+        "https://agu.confex.com/agu/fm15/meetingapp.cgi/Person/89555": {
+            "address": "Lawrence Livermore National Laboratory Livermore, CA\nUnited States", 
+            "name": "Dean Williams", 
+            "papers": {
+                "IN11G-02": "The Earth System Grid Federation (ESGF): Climate Science Infrastructure for Large-scale Data Management and Dissemination", 
+                "IN31A-1745": "Parallelizing Climate Data Management System, version 3 (CDMS3)", 
+                "IN31A-1748": "Integration and Exposure of Large Scale Computational Resources Across the Earth System Grid Federation (ESGF)", 
+                "IN51B-1805": "The Ophidia Stack: Toward Large Scale, Big Data Analytics Experiments for Climate Change", 
+                "IN52A-01": "DREAM: Distributed Resources for the Earth System Grid Federation (ESGF) Advanced Management"
+            }, 
+            "session": {
+                "IN31A": "Advanced Information Systems to Support Climate Projection Data Analysis Posters"
+            }
+        }, 
+        "https://agu.confex.com/agu/fm15/meetingapp.cgi/Person/90447": {
+            "address": "Earth Observatory of Singapore Singapore Singapore", 
+            "name": "Xianfeng Wang", 
+            "papers": {
+                "PP31A-2206": "What controls deep tropical long-term hydroclimate change: a view from speleothems", 
+                "T33C-2949": "Insights on the Quaternary Tectonic Evolution of the SE Indonesia Arc-Continent Collision from the Study of Uplifted Coral Terraces on Sumba Island."
+            }, 
+            "session": {
+                "PP31A": "Advanced Understanding of Tropical Hydroclimate Changes during the Last Pleistocene and Holocene I Posters", 
+                "PP33D": "Advanced Understanding of Tropical Hydroclimate Changes during the Last Pleistocene and Holocene II", 
+                "PP34A": "Advanced Understanding of Tropical Hydroclimate Changes during the Last Pleistocene and Holocene III"
+            }
+        }, 
+        "https://agu.confex.com/agu/fm15/meetingapp.cgi/Person/9084": {
+            "address": "University of Hawaii at Manoa Honolulu, HI\nUnited States", 
+            "name": "Bin Chen", 
+            "papers": {
+                "DI52A-08": "Physical properties of Fe-Ni-C liquids at high pressures: A combined experimental and theoretical approach", 
+                "MR23B-2647": "Magnetic phase diagrams and thermal equations of state of Fe7C3 and Fe3C up to the pressure-temperature conditions of Earth’s core"
+            }, 
+            "session": {
+                "MR23B": "Physics and Chemistry of Earth's Deep Mantle and Core I Posters", 
+                "MR33D": "Physics and Chemistry of Earth's Deep Mantle and Core II"
+            }
+        }, 
+        "https://agu.confex.com/agu/fm15/meetingapp.cgi/Person/90947": {
+            "address": "State Key Laboratory of Marine Geology, Tongji University, Shanghai, 200092 Shanghai China\nTongji University Shanghai China\nUniversity of California Santa Cruz Santa Cruz, CA\nUnited States", 
+            "name": "Xixi Zhao", 
+            "papers": {
+                "GP31A-1369": "Paleomagnetic Results From Triassic Rock Formations of Junggar Basin, NW China"
+            }, 
+            "session": {
+                "T32D": "The Parana-Etendeka Igneous Province and Related Magmatism: What Have We Learned So Far? I", 
+                "T33F": "The Parana-Etendeka Igneous Province and Related Magmatism: What Have We Learned So Far? II Posters"
+            }
+        }, 
+        "https://agu.confex.com/agu/fm15/meetingapp.cgi/Person/90992": {
+            "address": "Kochi Core Center Kochi Japan\nKochi University Kochi Japan", 
+            "name": "Yuhji Yamamoto", 
+            "papers": {
+                "GP11A-05": "Tsunakawa-Shaw method - an absolute paleointensity technique using alternating field demagnetization", 
+                "GP23A-1289": "Paleointensity determination of welded tuffs extruded with tephra layers: A new approach to calibration of relative paleointensity stacks", 
+                "GP43A-1235": "Rock-magnetic properties of single zircon crystals sampled from the Tanzawa tonalitic pluton, central Japan", 
+                "GP51A-1314": "Paleomagnetic and rock magnetic study of IODP Site U1408 in the Northwest Atlantic - toward the high-resolution relative paleointensity estimate during the middle Eocene", 
+                "GP51A-1327": "Further improvements in deconvolution of pass-through paleomagnetic measurement data: Accuracy of positioning and sensor response", 
+                "PP53A-2320": "Towards closing the Eocene Astronomical Time Scale Gap: Cyclostratigraphic Implications from IODP Expedition 342"
+            }, 
+            "session": {
+                "GP51A": "Advances in Environmental Magnetism, Bio-Geomagnetism, and High-Resolution Paleomagnetism Studies III Posters"
+            }
+        }, 
+        "https://agu.confex.com/agu/fm15/meetingapp.cgi/Person/9207": {
+            "address": "U.S. Geological Survey Austin, TX\nUnited States", 
+            "name": "Barbara Mahler", 
+            "papers": {
+                "GC51E-1135": "Unusually High Nitrate Concentrations in Some Midwest United States Streams in 2013 Following the 2012 Drought", 
+                "H42C-06": "Climate, karst, and critters—A multidisciplinary evaluation of karst species vulnerability to climate change"
+            }, 
+            "session": {
+                "GC51G": "Urban Geochemistry: Status and Challenges Posters"
+            }
+        }, 
+        "https://agu.confex.com/agu/fm15/meetingapp.cgi/Person/93170": {
+            "address": "ITP Institute of Tibetan Plateau Research, Chinese Academy of Sciences Beijing China\nInstitute of Tibetan Plateau Research,Chinese Academy of Sciences Beijing China", 
+            "name": "Junmeng Zhao", 
+            "papers": {
+                "T11F-04": "Density and Magnetization Intensity of crust and uppermost mantle across Northern Margin of Tibetan Plateau", 
+                "T11F-08": "Focal Depths and Mechanisms of Earthquakes in the Himalayan-Tibetan Region"
+            }, 
+            "session": {
+                "T11F": "Deep structure of Tibetan Plateau and Surrounding Regions and Its Geodynamic Implications I", 
+                "T21A": "Deep structure of Tibetan Plateau and Surrounding Regions and Its Geodynamic Implications II Posters"
+            }
+        }, 
+        "https://agu.confex.com/agu/fm15/meetingapp.cgi/Person/93325": {
+            "address": "University of Toronto Toronto, ON\nCanada", 
+            "name": "Renjie Zhou", 
+            "papers": {
+                "T21B-2817": "Regional Deformation of the Southern Puna Plateau, Central Andes, Recorded by Basin Evolution and Bedrock Exhumation History"
+            }, 
+            "session": {
+                "T12B": "Growth of Orogenic Plateaus: New Tools, Emerging Ideas, and Outstanding Questions I", 
+                "T21B": "Growth of Orogenic Plateaus: New Tools, Emerging Ideas, and Outstanding Questions II Posters"
+            }
+        }
+    }
+}

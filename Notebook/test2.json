@@ -1,0 +1,1354 @@
+{
+    "AFG": {
+        "Main topic": "Seismology : 100.0 %", 
+        "N contributions": 1, 
+        "N contributors": 1, 
+        "Second topic": "Nonlinear Geophysics : 0.0 %", 
+        "Third topic": "Public Affairs : 0.0 %", 
+        "fillKey": "Potential"
+    }, 
+    "AGO": {
+        "Main topic": "Tectonophysics : 100.0 %", 
+        "N contributions": 2, 
+        "N contributors": 2, 
+        "Second topic": "Nonlinear Geophysics : 0.0 %", 
+        "Third topic": "Public Affairs : 0.0 %", 
+        "fillKey": "Potential"
+    }, 
+    "ALB": {
+        "Main topic": "Tectonophysics : 100.0 %", 
+        "N contributions": 2, 
+        "N contributors": 2, 
+        "Second topic": "Nonlinear Geophysics : 0.0 %", 
+        "Third topic": "Public Affairs : 0.0 %", 
+        "fillKey": "Potential"
+    }, 
+    "AND": {
+        "Main topic": "Cryosphere : 100.0 %", 
+        "N contributions": 1, 
+        "N contributors": 1, 
+        "Second topic": "Study of Earth's Deep Interior : 0.0 %", 
+        "Third topic": "Public Affairs : 0.0 %", 
+        "fillKey": "Potential"
+    }, 
+    "ARE": {
+        "Main topic": "Atmospheric Sciences : 36.7 %", 
+        "N contributions": 30, 
+        "N contributors": 24, 
+        "Second topic": "Planetary Sciences : 16.7 %", 
+        "Third topic": "Paleoceanography and Paleoclimatology : 6.7 %", 
+        "fillKey": "Potential"
+    }, 
+    "ARG": {
+        "Main topic": "Tectonophysics : 23.3 %", 
+        "N contributions": 129, 
+        "N contributors": 108, 
+        "Second topic": "Hydrology : 17.1 %", 
+        "Third topic": "SPA-Solar and Heliospheric Physics : 14.0 %", 
+        "fillKey": "Potential"
+    }, 
+    "ARM": {
+        "Main topic": "Tectonophysics : 33.3 %", 
+        "N contributions": 9, 
+        "N contributors": 7, 
+        "Second topic": "Atmospheric and Space Electricity : 22.2 %", 
+        "Third topic": "Seismology : 22.2 %", 
+        "fillKey": "Potential"
+    }, 
+    "ASM": {
+        "Main topic": "Nonlinear Geophysics : nan %", 
+        "N contributions": 0, 
+        "N contributors": 1, 
+        "Second topic": "Public Affairs : nan %", 
+        "Third topic": "Union : nan %", 
+        "fillKey": "Potential"
+    }, 
+    "ATA": {
+        "Main topic": "Planetary Sciences : 100.0 %", 
+        "N contributions": 1, 
+        "N contributors": 1, 
+        "Second topic": "Nonlinear Geophysics : 0.0 %", 
+        "Third topic": "Public Affairs : 0.0 %", 
+        "fillKey": "Potential"
+    }, 
+    "AUS": {
+        "Main topic": "Biogeosciences : 19.0 %", 
+        "N contributions": 1378, 
+        "N contributors": 936, 
+        "Second topic": "Hydrology : 14.8 %", 
+        "Third topic": "Paleoceanography and Paleoclimatology : 11.0 %", 
+        "fillKey": "Potential"
+    }, 
+    "AUT": {
+        "Main topic": "SPA-Magnetospheric Physics : 33.5 %", 
+        "N contributions": 436, 
+        "N contributors": 229, 
+        "Second topic": "Atmospheric Sciences : 9.9 %", 
+        "Third topic": "Biogeosciences : 8.0 %", 
+        "fillKey": "Potential"
+    }, 
+    "BDI": {
+        "Main topic": "Nonlinear Geophysics : nan %", 
+        "N contributions": 0, 
+        "N contributors": 1, 
+        "Second topic": "Public Affairs : nan %", 
+        "Third topic": "Union : nan %", 
+        "fillKey": "Potential"
+    }, 
+    "BEL": {
+        "Main topic": "Atmospheric Sciences : 15.5 %", 
+        "N contributions": 419, 
+        "N contributors": 271, 
+        "Second topic": "Hydrology : 12.6 %", 
+        "Third topic": "SPA-Solar and Heliospheric Physics : 10.5 %", 
+        "fillKey": "Potential"
+    }, 
+    "BEN": {
+        "Main topic": "Global Environmental Change : 66.7 %", 
+        "N contributions": 12, 
+        "N contributors": 19, 
+        "Second topic": "Volcanology, Geochemistry and Petrology : 8.3 %", 
+        "Third topic": "Hydrology : 8.3 %", 
+        "fillKey": "Potential"
+    }, 
+    "BFA": {
+        "Main topic": "Global Environmental Change : 100.0 %", 
+        "N contributions": 18, 
+        "N contributors": 18, 
+        "Second topic": "Nonlinear Geophysics : 0.0 %", 
+        "Third topic": "Public Affairs : 0.0 %", 
+        "fillKey": "Potential"
+    }, 
+    "BGD": {
+        "Main topic": "Global Environmental Change : 36.5 %", 
+        "N contributions": 52, 
+        "N contributors": 46, 
+        "Second topic": "Hydrology : 21.2 %", 
+        "Third topic": "Natural Hazards : 17.3 %", 
+        "fillKey": "Potential"
+    }, 
+    "BGR": {
+        "Main topic": "Biogeosciences : 50.0 %", 
+        "N contributions": 4, 
+        "N contributors": 4, 
+        "Second topic": "Atmospheric Sciences : 25.0 %", 
+        "Third topic": "Geodesy : 25.0 %", 
+        "fillKey": "Potential"
+    }, 
+    "BHS": {
+        "Main topic": "Nonlinear Geophysics : nan %", 
+        "N contributions": 0, 
+        "N contributors": 1, 
+        "Second topic": "Public Affairs : nan %", 
+        "Third topic": "Union : nan %", 
+        "fillKey": "Potential"
+    }, 
+    "BLZ": {
+        "Main topic": "Nonlinear Geophysics : nan %", 
+        "N contributions": 0, 
+        "N contributors": 1, 
+        "Second topic": "Public Affairs : nan %", 
+        "Third topic": "Union : nan %", 
+        "fillKey": "Potential"
+    }, 
+    "BMU": {
+        "Main topic": "Paleoceanography and Paleoclimatology : 75.0 %", 
+        "N contributions": 4, 
+        "N contributors": 4, 
+        "Second topic": "Global Environmental Change : 25.0 %", 
+        "Third topic": "Nonlinear Geophysics : 0.0 %", 
+        "fillKey": "Potential"
+    }, 
+    "BOL": {
+        "Main topic": "Biogeosciences : 25.0 %", 
+        "N contributions": 4, 
+        "N contributors": 5, 
+        "Second topic": "Tectonophysics : 25.0 %", 
+        "Third topic": "Atmospheric Sciences : 25.0 %", 
+        "fillKey": "Potential"
+    }, 
+    "BRA": {
+        "Main topic": "Atmospheric Sciences : 23.3 %", 
+        "N contributions": 889, 
+        "N contributors": 628, 
+        "Second topic": "Biogeosciences : 20.1 %", 
+        "Third topic": "Hydrology : 13.8 %", 
+        "fillKey": "Potential"
+    }, 
+    "BRB": {
+        "Main topic": "Atmospheric Sciences : 60.0 %", 
+        "N contributions": 5, 
+        "N contributors": 5, 
+        "Second topic": "Natural Hazards : 40.0 %", 
+        "Third topic": "Biogeosciences : 0.0 %", 
+        "fillKey": "Potential"
+    }, 
+    "BRN": {
+        "Main topic": "Biogeosciences : 100.0 %", 
+        "N contributions": 6, 
+        "N contributors": 5, 
+        "Second topic": "Study of Earth's Deep Interior : 0.0 %", 
+        "Third topic": "Public Affairs : 0.0 %", 
+        "fillKey": "Potential"
+    }, 
+    "BTN": {
+        "Main topic": "Tectonophysics : 100.0 %", 
+        "N contributions": 3, 
+        "N contributors": 2, 
+        "Second topic": "Nonlinear Geophysics : 0.0 %", 
+        "Third topic": "Public Affairs : 0.0 %", 
+        "fillKey": "Potential"
+    }, 
+    "BWA": {
+        "Main topic": "Tectonophysics : 57.1 %", 
+        "N contributions": 7, 
+        "N contributors": 7, 
+        "Second topic": "Paleoceanography and Paleoclimatology : 28.6 %", 
+        "Third topic": "Biogeosciences : 14.3 %", 
+        "fillKey": "Potential"
+    }, 
+    "CAF": {
+        "Main topic": "Global Environmental Change : 100.0 %", 
+        "N contributions": 1, 
+        "N contributors": 1, 
+        "Second topic": "Nonlinear Geophysics : 0.0 %", 
+        "Third topic": "Public Affairs : 0.0 %", 
+        "fillKey": "Potential"
+    }, 
+    "CAN": {
+        "Main topic": "Hydrology : 16.5 %", 
+        "N contributions": 2834, 
+        "N contributors": 1808, 
+        "Second topic": "Atmospheric Sciences : 13.2 %", 
+        "Third topic": "Biogeosciences : 9.6 %", 
+        "fillKey": "Potential"
+    }, 
+    "CHE": {
+        "Main topic": "Atmospheric Sciences : 15.4 %", 
+        "N contributions": 1120, 
+        "N contributors": 685, 
+        "Second topic": "Hydrology : 15.2 %", 
+        "Third topic": "Planetary Sciences : 10.6 %", 
+        "fillKey": "Potential"
+    }, 
+    "CHL": {
+        "Main topic": "Hydrology : 22.8 %", 
+        "N contributions": 378, 
+        "N contributors": 259, 
+        "Second topic": "Tectonophysics : 18.3 %", 
+        "Third topic": "Seismology : 16.9 %", 
+        "fillKey": "Potential"
+    }, 
+    "CHN": {
+        "Main topic": "Atmospheric Sciences : 14.4 %", 
+        "N contributions": 3680, 
+        "N contributors": 2852, 
+        "Second topic": "Hydrology : 11.7 %", 
+        "Third topic": "Biogeosciences : 9.2 %", 
+        "fillKey": "Potential"
+    }, 
+    "CIV": {
+        "Main topic": "Atmospheric Sciences : 45.5 %", 
+        "N contributions": 11, 
+        "N contributors": 16, 
+        "Second topic": "Global Environmental Change : 27.3 %", 
+        "Third topic": "Hydrology : 9.1 %", 
+        "fillKey": "Potential"
+    }, 
+    "CMR": {
+        "Main topic": "Hydrology : 66.7 %", 
+        "N contributions": 3, 
+        "N contributors": 3, 
+        "Second topic": "Earth and Planetary Surface Processes : 33.3 %", 
+        "Third topic": "Study of Earth's Deep Interior : 0.0 %", 
+        "fillKey": "Potential"
+    }, 
+    "COG": {
+        "Main topic": "Tectonophysics : 50.0 %", 
+        "N contributions": 8, 
+        "N contributors": 7, 
+        "Second topic": "Global Environmental Change : 25.0 %", 
+        "Third topic": "Biogeosciences : 12.5 %", 
+        "fillKey": "Potential"
+    }, 
+    "COK": {
+        "Main topic": "Nonlinear Geophysics : nan %", 
+        "N contributions": 0, 
+        "N contributors": 1, 
+        "Second topic": "Public Affairs : nan %", 
+        "Third topic": "Union : nan %", 
+        "fillKey": "Potential"
+    }, 
+    "COL": {
+        "Main topic": "SPA-Solar and Heliospheric Physics : 17.8 %", 
+        "N contributions": 107, 
+        "N contributors": 96, 
+        "Second topic": "Atmospheric Sciences : 15.0 %", 
+        "Third topic": "Tectonophysics : 14.0 %", 
+        "fillKey": "Potential"
+    }, 
+    "CPV": {
+        "Main topic": "Volcanology, Geochemistry and Petrology : 100.0 %", 
+        "N contributions": 5, 
+        "N contributors": 4, 
+        "Second topic": "Study of Earth's Deep Interior : 0.0 %", 
+        "Third topic": "Public Affairs : 0.0 %", 
+        "fillKey": "Potential"
+    }, 
+    "CRI": {
+        "Main topic": "Natural Hazards : 25.0 %", 
+        "N contributions": 44, 
+        "N contributors": 31, 
+        "Second topic": "Volcanology, Geochemistry and Petrology : 20.5 %", 
+        "Third topic": "Hydrology : 18.2 %", 
+        "fillKey": "Potential"
+    }, 
+    "CUB": {
+        "Main topic": "Paleoceanography and Paleoclimatology : 50.0 %", 
+        "N contributions": 2, 
+        "N contributors": 3, 
+        "Second topic": "Seismology : 50.0 %", 
+        "Third topic": "Nonlinear Geophysics : 0.0 %", 
+        "fillKey": "Potential"
+    }, 
+    "CYM": {
+        "Main topic": "Nonlinear Geophysics : nan %", 
+        "N contributions": 0, 
+        "N contributors": 1, 
+        "Second topic": "Public Affairs : nan %", 
+        "Third topic": "Union : nan %", 
+        "fillKey": "Potential"
+    }, 
+    "CYP": {
+        "Main topic": "Atmospheric Sciences : 100.0 %", 
+        "N contributions": 8, 
+        "N contributors": 10, 
+        "Second topic": "Study of Earth's Deep Interior : 0.0 %", 
+        "Third topic": "Public Affairs : 0.0 %", 
+        "fillKey": "Potential"
+    }, 
+    "CZE": {
+        "Main topic": "SPA-Magnetospheric Physics : 20.6 %", 
+        "N contributions": 175, 
+        "N contributors": 110, 
+        "Second topic": "Geomagnetism and Paleomagnetism : 18.9 %", 
+        "Third topic": "Biogeosciences : 8.0 %", 
+        "fillKey": "Potential"
+    }, 
+    "DEU": {
+        "Main topic": "Atmospheric Sciences : 17.0 %", 
+        "N contributions": 4113, 
+        "N contributors": 2462, 
+        "Second topic": "Hydrology : 11.0 %", 
+        "Third topic": "Planetary Sciences : 9.3 %", 
+        "fillKey": "Potential"
+    }, 
+    "DJI": {
+        "Main topic": "Volcanology, Geochemistry and Petrology : 100.0 %", 
+        "N contributions": 2, 
+        "N contributors": 2, 
+        "Second topic": "Study of Earth's Deep Interior : 0.0 %", 
+        "Third topic": "Public Affairs : 0.0 %", 
+        "fillKey": "Potential"
+    }, 
+    "DMA": {
+        "Main topic": "Global Environmental Change : 50.0 %", 
+        "N contributions": 2, 
+        "N contributors": 2, 
+        "Second topic": "Seismology : 50.0 %", 
+        "Third topic": "Nonlinear Geophysics : 0.0 %", 
+        "fillKey": "Potential"
+    }, 
+    "DNK": {
+        "Main topic": "Cryosphere : 19.6 %", 
+        "N contributions": 404, 
+        "N contributors": 267, 
+        "Second topic": "Hydrology : 12.6 %", 
+        "Third topic": "Biogeosciences : 11.1 %", 
+        "fillKey": "Potential"
+    }, 
+    "DZA": {
+        "Main topic": "Paleoceanography and Paleoclimatology : 83.3 %", 
+        "N contributions": 6, 
+        "N contributors": 4, 
+        "Second topic": "Geomagnetism and Paleomagnetism : 16.7 %", 
+        "Third topic": "Nonlinear Geophysics : 0.0 %", 
+        "fillKey": "Potential"
+    }, 
+    "ECU": {
+        "Main topic": "Seismology : 35.1 %", 
+        "N contributions": 77, 
+        "N contributors": 52, 
+        "Second topic": "Volcanology, Geochemistry and Petrology : 26.0 %", 
+        "Third topic": "Natural Hazards : 9.1 %", 
+        "fillKey": "Potential"
+    }, 
+    "EGY": {
+        "Main topic": "Hydrology : 27.3 %", 
+        "N contributions": 22, 
+        "N contributors": 20, 
+        "Second topic": "Geodesy : 13.6 %", 
+        "Third topic": "SPA-Solar and Heliospheric Physics : 13.6 %", 
+        "fillKey": "Potential"
+    }, 
+    "ERI": {
+        "Main topic": "Nonlinear Geophysics : nan %", 
+        "N contributions": 0, 
+        "N contributors": 1, 
+        "Second topic": "Public Affairs : nan %", 
+        "Third topic": "Union : nan %", 
+        "fillKey": "Potential"
+    }, 
+    "ESP": {
+        "Main topic": "Planetary Sciences : 15.6 %", 
+        "N contributions": 591, 
+        "N contributors": 430, 
+        "Second topic": "Hydrology : 13.7 %", 
+        "Third topic": "Tectonophysics : 9.3 %", 
+        "fillKey": "Potential"
+    }, 
+    "EST": {
+        "Main topic": "Biogeosciences : 41.7 %", 
+        "N contributions": 12, 
+        "N contributors": 14, 
+        "Second topic": "Global Environmental Change : 33.3 %", 
+        "Third topic": "Hydrology : 8.3 %", 
+        "fillKey": "Potential"
+    }, 
+    "ETH": {
+        "Main topic": "Hydrology : 28.0 %", 
+        "N contributions": 25, 
+        "N contributors": 23, 
+        "Second topic": "Global Environmental Change : 24.0 %", 
+        "Third topic": "Volcanology, Geochemistry and Petrology : 16.0 %", 
+        "fillKey": "Potential"
+    }, 
+    "FIN": {
+        "Main topic": "Atmospheric Sciences : 23.3 %", 
+        "N contributions": 313, 
+        "N contributors": 225, 
+        "Second topic": "SPA-Magnetospheric Physics : 18.2 %", 
+        "Third topic": "Biogeosciences : 14.7 %", 
+        "fillKey": "Potential"
+    }, 
+    "FJI": {
+        "Main topic": "Natural Hazards : 42.9 %", 
+        "N contributions": 7, 
+        "N contributors": 5, 
+        "Second topic": "Volcanology, Geochemistry and Petrology : 28.6 %", 
+        "Third topic": "Atmospheric and Space Electricity : 28.6 %", 
+        "fillKey": "Potential"
+    }, 
+    "FRA": {
+        "Main topic": "Tectonophysics : 12.5 %", 
+        "N contributions": 3876, 
+        "N contributors": 2297, 
+        "Second topic": "Planetary Sciences : 10.4 %", 
+        "Third topic": "Atmospheric Sciences : 9.5 %", 
+        "fillKey": "Potential"
+    }, 
+    "FSM": {
+        "Main topic": "Nonlinear Geophysics : nan %", 
+        "N contributions": 0, 
+        "N contributors": 1, 
+        "Second topic": "Public Affairs : nan %", 
+        "Third topic": "Union : nan %", 
+        "fillKey": "Potential"
+    }, 
+    "GAB": {
+        "Main topic": "Earth and Planetary Surface Processes : 100.0 %", 
+        "N contributions": 3, 
+        "N contributors": 3, 
+        "Second topic": "Nonlinear Geophysics : 0.0 %", 
+        "Third topic": "Public Affairs : 0.0 %", 
+        "fillKey": "Potential"
+    }, 
+    "GBR": {
+        "Main topic": "Atmospheric Sciences : 17.6 %", 
+        "N contributions": 3959, 
+        "N contributors": 2362, 
+        "Second topic": "Hydrology : 9.3 %", 
+        "Third topic": "Tectonophysics : 7.6 %", 
+        "fillKey": "Potential"
+    }, 
+    "GEO": {
+        "Main topic": "Atmospheric Sciences : 29.2 %", 
+        "N contributions": 448, 
+        "N contributors": 238, 
+        "Second topic": "Paleoceanography and Paleoclimatology : 10.7 %", 
+        "Third topic": "Planetary Sciences : 9.4 %", 
+        "fillKey": "Potential"
+    }, 
+    "GHA": {
+        "Main topic": "Global Environmental Change : 78.6 %", 
+        "N contributions": 14, 
+        "N contributors": 19, 
+        "Second topic": "Paleoceanography and Paleoclimatology : 14.3 %", 
+        "Third topic": "Education : 7.1 %", 
+        "fillKey": "Potential"
+    }, 
+    "GIN": {
+        "Main topic": "Volcanology, Geochemistry and Petrology : 100.0 %", 
+        "N contributions": 5, 
+        "N contributors": 6, 
+        "Second topic": "Study of Earth's Deep Interior : 0.0 %", 
+        "Third topic": "Public Affairs : 0.0 %", 
+        "fillKey": "Potential"
+    }, 
+    "GLP": {
+        "Main topic": "Tectonophysics : 60.0 %", 
+        "N contributions": 5, 
+        "N contributors": 5, 
+        "Second topic": "Hydrology : 40.0 %", 
+        "Third topic": "Study of Earth's Deep Interior : 0.0 %", 
+        "fillKey": "Potential"
+    }, 
+    "GRC": {
+        "Main topic": "Atmospheric Sciences : 34.3 %", 
+        "N contributions": 67, 
+        "N contributors": 57, 
+        "Second topic": "SPA-Solar and Heliospheric Physics : 11.9 %", 
+        "Third topic": "Geodesy : 9.0 %", 
+        "fillKey": "Potential"
+    }, 
+    "GRL": {
+        "Main topic": "Cryosphere : 66.7 %", 
+        "N contributions": 9, 
+        "N contributors": 5, 
+        "Second topic": "Biogeosciences : 22.2 %", 
+        "Third topic": "Public Affairs : 11.1 %", 
+        "fillKey": "Potential"
+    }, 
+    "GTM": {
+        "Main topic": "Global Environmental Change : 50.0 %", 
+        "N contributions": 10, 
+        "N contributors": 8, 
+        "Second topic": "Public Affairs : 20.0 %", 
+        "Third topic": "Education : 10.0 %", 
+        "fillKey": "Potential"
+    }, 
+    "GUF": {
+        "Main topic": "Biogeosciences : 100.0 %", 
+        "N contributions": 1, 
+        "N contributors": 1, 
+        "Second topic": "Study of Earth's Deep Interior : 0.0 %", 
+        "Third topic": "Public Affairs : 0.0 %", 
+        "fillKey": "Potential"
+    }, 
+    "GUM": {
+        "Main topic": "Ocean Sciences : 100.0 %", 
+        "N contributions": 1, 
+        "N contributors": 1, 
+        "Second topic": "Study of Earth's Deep Interior : 0.0 %", 
+        "Third topic": "Public Affairs : 0.0 %", 
+        "fillKey": "Potential"
+    }, 
+    "HKG": {
+        "Main topic": "Atmospheric Sciences : 23.8 %", 
+        "N contributions": 101, 
+        "N contributors": 82, 
+        "Second topic": "Education : 17.8 %", 
+        "Third topic": "Hydrology : 15.8 %", 
+        "fillKey": "Potential"
+    }, 
+    "HRV": {
+        "Main topic": "Geodesy : 75.0 %", 
+        "N contributions": 4, 
+        "N contributors": 4, 
+        "Second topic": "Seismology : 25.0 %", 
+        "Third topic": "Nonlinear Geophysics : 0.0 %", 
+        "fillKey": "Potential"
+    }, 
+    "HTI": {
+        "Main topic": "Public Affairs : 33.3 %", 
+        "N contributions": 3, 
+        "N contributors": 3, 
+        "Second topic": "Atmospheric Sciences : 33.3 %", 
+        "Third topic": "Seismology : 33.3 %", 
+        "fillKey": "Potential"
+    }, 
+    "HUN": {
+        "Main topic": "Planetary Sciences : 51.6 %", 
+        "N contributions": 31, 
+        "N contributors": 25, 
+        "Second topic": "Geodesy : 16.1 %", 
+        "Third topic": "Biogeosciences : 9.7 %", 
+        "fillKey": "Potential"
+    }, 
+    "IDN": {
+        "Main topic": "Paleoceanography and Paleoclimatology : 21.3 %", 
+        "N contributions": 94, 
+        "N contributors": 74, 
+        "Second topic": "Tectonophysics : 18.1 %", 
+        "Third topic": "Volcanology, Geochemistry and Petrology : 16.0 %", 
+        "fillKey": "Potential"
+    }, 
+    "IND": {
+        "Main topic": "Atmospheric Sciences : 19.0 %", 
+        "N contributions": 720, 
+        "N contributors": 605, 
+        "Second topic": "Hydrology : 18.5 %", 
+        "Third topic": "Global Environmental Change : 13.5 %", 
+        "fillKey": "Potential"
+    }, 
+    "IRL": {
+        "Main topic": "Tectonophysics : 18.6 %", 
+        "N contributions": 86, 
+        "N contributors": 54, 
+        "Second topic": "Atmospheric Sciences : 17.4 %", 
+        "Third topic": "Seismology : 14.0 %", 
+        "fillKey": "Potential"
+    }, 
+    "IRN": {
+        "Main topic": "Hydrology : 45.3 %", 
+        "N contributions": 53, 
+        "N contributors": 51, 
+        "Second topic": "Global Environmental Change : 15.1 %", 
+        "Third topic": "Atmospheric Sciences : 11.3 %", 
+        "fillKey": "Potential"
+    }, 
+    "IRQ": {
+        "Main topic": "Near Surface Geophysics : 100.0 %", 
+        "N contributions": 1, 
+        "N contributors": 1, 
+        "Second topic": "Study of Earth's Deep Interior : 0.0 %", 
+        "Third topic": "Public Affairs : 0.0 %", 
+        "fillKey": "Potential"
+    }, 
+    "ISL": {
+        "Main topic": "Volcanology, Geochemistry and Petrology : 23.9 %", 
+        "N contributions": 176, 
+        "N contributors": 69, 
+        "Second topic": "Geodesy : 21.6 %", 
+        "Third topic": "Tectonophysics : 18.2 %", 
+        "fillKey": "Potential"
+    }, 
+    "ISR": {
+        "Main topic": "Hydrology : 24.8 %", 
+        "N contributions": 133, 
+        "N contributors": 106, 
+        "Second topic": "Atmospheric Sciences : 18.0 %", 
+        "Third topic": "Planetary Sciences : 9.8 %", 
+        "fillKey": "Potential"
+    }, 
+    "ITA": {
+        "Main topic": "Volcanology, Geochemistry and Petrology : 14.7 %", 
+        "N contributions": 1386, 
+        "N contributors": 961, 
+        "Second topic": "Planetary Sciences : 10.8 %", 
+        "Third topic": "Hydrology : 9.5 %", 
+        "fillKey": "Potential"
+    }, 
+    "JAM": {
+        "Main topic": "Tectonophysics : 42.9 %", 
+        "N contributions": 7, 
+        "N contributors": 6, 
+        "Second topic": "Volcanology, Geochemistry and Petrology : 14.3 %", 
+        "Third topic": "Public Affairs : 14.3 %", 
+        "fillKey": "Potential"
+    }, 
+    "JEY": {
+        "Main topic": "SPA-Magnetospheric Physics : 44.1 %", 
+        "N contributions": 59, 
+        "N contributors": 25, 
+        "Second topic": "SPA-Solar and Heliospheric Physics : 20.3 %", 
+        "Third topic": "Atmospheric Sciences : 6.8 %", 
+        "fillKey": "Potential"
+    }, 
+    "JOR": {
+        "Main topic": "Hydrology : 100.0 %", 
+        "N contributions": 3, 
+        "N contributors": 9, 
+        "Second topic": "Study of Earth's Deep Interior : 0.0 %", 
+        "Third topic": "Public Affairs : 0.0 %", 
+        "fillKey": "Potential"
+    }, 
+    "JPN": {
+        "Main topic": "Atmospheric Sciences : 13.9 %", 
+        "N contributions": 4038, 
+        "N contributors": 2326, 
+        "Second topic": "Tectonophysics : 13.2 %", 
+        "Third topic": "Seismology : 9.3 %", 
+        "fillKey": "Potential"
+    }, 
+    "KAZ": {
+        "Main topic": "Atmospheric and Space Electricity : 42.1 %", 
+        "N contributions": 19, 
+        "N contributors": 16, 
+        "Second topic": "Cryosphere : 26.3 %", 
+        "Third topic": "Union : 21.1 %", 
+        "fillKey": "Potential"
+    }, 
+    "KEN": {
+        "Main topic": "Global Environmental Change : 34.6 %", 
+        "N contributions": 26, 
+        "N contributors": 28, 
+        "Second topic": "Biogeosciences : 23.1 %", 
+        "Third topic": "Hydrology : 15.4 %", 
+        "fillKey": "Potential"
+    }, 
+    "KGZ": {
+        "Main topic": "Seismology : 50.0 %", 
+        "N contributions": 4, 
+        "N contributors": 5, 
+        "Second topic": "Biogeosciences : 25.0 %", 
+        "Third topic": "Geomagnetism and Paleomagnetism : 25.0 %", 
+        "fillKey": "Potential"
+    }, 
+    "KHM": {
+        "Main topic": "Hydrology : 100.0 %", 
+        "N contributions": 1, 
+        "N contributors": 1, 
+        "Second topic": "Study of Earth's Deep Interior : 0.0 %", 
+        "Third topic": "Public Affairs : 0.0 %", 
+        "fillKey": "Potential"
+    }, 
+    "KIR": {
+        "Main topic": "Ncontribs : 100.0 %", 
+        "N contributions": 1, 
+        "N contributors": 1, 
+        "Second topic": "SPA-Magnetospheric Physics : 0.0 %", 
+        "Third topic": "Biogeosciences : 0.0 %", 
+        "fillKey": "Potential"
+    }, 
+    "KOR": {
+        "Main topic": "Volcanology, Geochemistry and Petrology : 100.0 %", 
+        "N contributions": 6, 
+        "N contributors": 6, 
+        "Second topic": "Study of Earth's Deep Interior : 0.0 %", 
+        "Third topic": "Public Affairs : 0.0 %", 
+        "fillKey": "Potential"
+    }, 
+    "KWT": {
+        "Main topic": "Seismology : 50.0 %", 
+        "N contributions": 4, 
+        "N contributors": 4, 
+        "Second topic": "Earth and Planetary Surface Processes : 25.0 %", 
+        "Third topic": "Hydrology : 25.0 %", 
+        "fillKey": "Potential"
+    }, 
+    "LAO": {
+        "Main topic": "Tectonophysics : 33.3 %", 
+        "N contributions": 3, 
+        "N contributors": 2, 
+        "Second topic": "Volcanology, Geochemistry and Petrology : 33.3 %", 
+        "Third topic": "Earth and Planetary Surface Processes : 33.3 %", 
+        "fillKey": "Potential"
+    }, 
+    "LBN": {
+        "Main topic": "Hydrology : 87.5 %", 
+        "N contributions": 8, 
+        "N contributors": 10, 
+        "Second topic": "Global Environmental Change : 12.5 %", 
+        "Third topic": "Study of Earth's Deep Interior : 0.0 %", 
+        "fillKey": "Potential"
+    }, 
+    "LCA": {
+        "Main topic": "Tectonophysics : 100.0 %", 
+        "N contributions": 1, 
+        "N contributors": 1, 
+        "Second topic": "Nonlinear Geophysics : 0.0 %", 
+        "Third topic": "Public Affairs : 0.0 %", 
+        "fillKey": "Potential"
+    }, 
+    "LKA": {
+        "Main topic": "Biogeosciences : 40.0 %", 
+        "N contributions": 5, 
+        "N contributors": 5, 
+        "Second topic": "Earth and Planetary Surface Processes : 40.0 %", 
+        "Third topic": "Hydrology : 20.0 %", 
+        "fillKey": "Potential"
+    }, 
+    "LSO": {
+        "Main topic": "Nonlinear Geophysics : nan %", 
+        "N contributions": 0, 
+        "N contributors": 1, 
+        "Second topic": "Public Affairs : nan %", 
+        "Third topic": "Union : nan %", 
+        "fillKey": "Potential"
+    }, 
+    "LTU": {
+        "Main topic": "Atmospheric Sciences : 100.0 %", 
+        "N contributions": 3, 
+        "N contributors": 3, 
+        "Second topic": "Study of Earth's Deep Interior : 0.0 %", 
+        "Third topic": "Public Affairs : 0.0 %", 
+        "fillKey": "Potential"
+    }, 
+    "LUX": {
+        "Main topic": "Hydrology : 41.8 %", 
+        "N contributions": 55, 
+        "N contributors": 33, 
+        "Second topic": "Geodesy : 30.9 %", 
+        "Third topic": "Tectonophysics : 7.3 %", 
+        "fillKey": "Potential"
+    }, 
+    "LVA": {
+        "Main topic": "Geodesy : 100.0 %", 
+        "N contributions": 1, 
+        "N contributors": 1, 
+        "Second topic": "Nonlinear Geophysics : 0.0 %", 
+        "Third topic": "Public Affairs : 0.0 %", 
+        "fillKey": "Potential"
+    }, 
+    "MAR": {
+        "Main topic": "Earth and Planetary Surface Processes : 27.8 %", 
+        "N contributions": 18, 
+        "N contributors": 20, 
+        "Second topic": "Near Surface Geophysics : 22.2 %", 
+        "Third topic": "Cryosphere : 11.1 %", 
+        "fillKey": "Potential"
+    }, 
+    "MDG": {
+        "Main topic": "Tectonophysics : 46.2 %", 
+        "N contributions": 13, 
+        "N contributors": 8, 
+        "Second topic": "Global Environmental Change : 23.1 %", 
+        "Third topic": "Geodesy : 15.4 %", 
+        "fillKey": "Potential"
+    }, 
+    "MEX": {
+        "Main topic": "Volcanology, Geochemistry and Petrology : 12.0 %", 
+        "N contributions": 885, 
+        "N contributors": 558, 
+        "Second topic": "Tectonophysics : 11.4 %", 
+        "Third topic": "Hydrology : 9.5 %", 
+        "fillKey": "Potential"
+    }, 
+    "MKD": {
+        "Main topic": "Paleoceanography and Paleoclimatology : 100.0 %", 
+        "N contributions": 1, 
+        "N contributors": 1, 
+        "Second topic": "Nonlinear Geophysics : 0.0 %", 
+        "Third topic": "Public Affairs : 0.0 %", 
+        "fillKey": "Potential"
+    }, 
+    "MLI": {
+        "Main topic": "Planetary Sciences : 48.0 %", 
+        "N contributions": 25, 
+        "N contributors": 24, 
+        "Second topic": "SPA-Magnetospheric Physics : 40.0 %", 
+        "Third topic": "Natural Hazards : 8.0 %", 
+        "fillKey": "Potential"
+    }, 
+    "MLT": {
+        "Main topic": "Paleoceanography and Paleoclimatology : 75.0 %", 
+        "N contributions": 4, 
+        "N contributors": 3, 
+        "Second topic": "Earth and Planetary Surface Processes : 25.0 %", 
+        "Third topic": "Nonlinear Geophysics : 0.0 %", 
+        "fillKey": "Potential"
+    }, 
+    "MMR": {
+        "Main topic": "Seismology : 100.0 %", 
+        "N contributions": 3, 
+        "N contributors": 2, 
+        "Second topic": "Nonlinear Geophysics : 0.0 %", 
+        "Third topic": "Public Affairs : 0.0 %", 
+        "fillKey": "Potential"
+    }, 
+    "MNG": {
+        "Main topic": "Tectonophysics : 60.0 %", 
+        "N contributions": 25, 
+        "N contributors": 19, 
+        "Second topic": "Atmospheric Sciences : 20.0 %", 
+        "Third topic": "Paleoceanography and Paleoclimatology : 12.0 %", 
+        "fillKey": "Potential"
+    }, 
+    "MOZ": {
+        "Main topic": "Tectonophysics : 100.0 %", 
+        "N contributions": 1, 
+        "N contributors": 2, 
+        "Second topic": "Nonlinear Geophysics : 0.0 %", 
+        "Third topic": "Public Affairs : 0.0 %", 
+        "fillKey": "Potential"
+    }, 
+    "MSR": {
+        "Main topic": "Geodesy : 50.0 %", 
+        "N contributions": 2, 
+        "N contributors": 2, 
+        "Second topic": "Seismology : 50.0 %", 
+        "Third topic": "Nonlinear Geophysics : 0.0 %", 
+        "fillKey": "Potential"
+    }, 
+    "MWI": {
+        "Main topic": "Tectonophysics : 54.2 %", 
+        "N contributions": 24, 
+        "N contributors": 7, 
+        "Second topic": "Education : 37.5 %", 
+        "Third topic": "Natural Hazards : 4.2 %", 
+        "fillKey": "Potential"
+    }, 
+    "MYS": {
+        "Main topic": "Paleoceanography and Paleoclimatology : 31.2 %", 
+        "N contributions": 16, 
+        "N contributors": 18, 
+        "Second topic": "Natural Hazards : 31.2 %", 
+        "Third topic": "Atmospheric Sciences : 12.5 %", 
+        "fillKey": "Potential"
+    }, 
+    "MYT": {
+        "Main topic": "Nonlinear Geophysics : nan %", 
+        "N contributions": 0, 
+        "N contributors": 1, 
+        "Second topic": "Public Affairs : nan %", 
+        "Third topic": "Union : nan %", 
+        "fillKey": "Potential"
+    }, 
+    "NAM": {
+        "Main topic": "Tectonophysics : 42.9 %", 
+        "N contributions": 7, 
+        "N contributors": 10, 
+        "Second topic": "Hydrology : 28.6 %", 
+        "Third topic": "Biogeosciences : 14.3 %", 
+        "fillKey": "Potential"
+    }, 
+    "NCL": {
+        "Main topic": "Tectonophysics : 44.4 %", 
+        "N contributions": 9, 
+        "N contributors": 8, 
+        "Second topic": "Seismology : 33.3 %", 
+        "Third topic": "Geodesy : 22.2 %", 
+        "fillKey": "Potential"
+    }, 
+    "NER": {
+        "Main topic": "Global Environmental Change : 50.0 %", 
+        "N contributions": 36, 
+        "N contributors": 37, 
+        "Second topic": "SPA-Aeronomy : 25.0 %", 
+        "Third topic": "Education : 8.3 %", 
+        "fillKey": "Potential"
+    }, 
+    "NIC": {
+        "Main topic": "Nonlinear Geophysics : nan %", 
+        "N contributions": 0, 
+        "N contributors": 1, 
+        "Second topic": "Public Affairs : nan %", 
+        "Third topic": "Union : nan %", 
+        "fillKey": "Potential"
+    }, 
+    "NLD": {
+        "Main topic": "Hydrology : 21.6 %", 
+        "N contributions": 864, 
+        "N contributors": 531, 
+        "Second topic": "Atmospheric Sciences : 12.6 %", 
+        "Third topic": "Cryosphere : 7.9 %", 
+        "fillKey": "Potential"
+    }, 
+    "NOR": {
+        "Main topic": "Cryosphere : 13.6 %", 
+        "N contributions": 587, 
+        "N contributors": 412, 
+        "Second topic": "Tectonophysics : 12.3 %", 
+        "Third topic": "Atmospheric Sciences : 9.7 %", 
+        "fillKey": "Potential"
+    }, 
+    "NPL": {
+        "Main topic": "Seismology : 26.5 %", 
+        "N contributions": 68, 
+        "N contributors": 55, 
+        "Second topic": "Global Environmental Change : 19.1 %", 
+        "Third topic": "Cryosphere : 16.2 %", 
+        "fillKey": "Potential"
+    }, 
+    "NZL": {
+        "Main topic": "Tectonophysics : 28.6 %", 
+        "N contributions": 636, 
+        "N contributors": 367, 
+        "Second topic": "Volcanology, Geochemistry and Petrology : 9.6 %", 
+        "Third topic": "Paleoceanography and Paleoclimatology : 7.9 %", 
+        "fillKey": "Potential"
+    }, 
+    "OMN": {
+        "Main topic": "Atmospheric Sciences : 25.0 %", 
+        "N contributions": 52, 
+        "N contributors": 45, 
+        "Second topic": "Hydrology : 13.5 %", 
+        "Third topic": "Global Environmental Change : 13.5 %", 
+        "fillKey": "Potential"
+    }, 
+    "PAK": {
+        "Main topic": "SPA-Solar and Heliospheric Physics : 35.7 %", 
+        "N contributions": 14, 
+        "N contributors": 14, 
+        "Second topic": "Tectonophysics : 21.4 %", 
+        "Third topic": "Mineral and Rock Physics : 21.4 %", 
+        "fillKey": "Potential"
+    }, 
+    "PAN": {
+        "Main topic": "Biogeosciences : 75.0 %", 
+        "N contributions": 16, 
+        "N contributors": 12, 
+        "Second topic": "Hydrology : 12.5 %", 
+        "Third topic": "Tectonophysics : 6.2 %", 
+        "fillKey": "Potential"
+    }, 
+    "PER": {
+        "Main topic": "Ocean Sciences : 18.6 %", 
+        "N contributions": 43, 
+        "N contributors": 38, 
+        "Second topic": "Atmospheric Sciences : 11.6 %", 
+        "Third topic": "Tectonophysics : 9.3 %", 
+        "fillKey": "Potential"
+    }, 
+    "PHL": {
+        "Main topic": "Biogeosciences : 17.5 %", 
+        "N contributions": 57, 
+        "N contributors": 53, 
+        "Second topic": "Natural Hazards : 17.5 %", 
+        "Third topic": "Tectonophysics : 15.8 %", 
+        "fillKey": "Potential"
+    }, 
+    "PLW": {
+        "Main topic": "Public Affairs : 100.0 %", 
+        "N contributions": 1, 
+        "N contributors": 1, 
+        "Second topic": "Nonlinear Geophysics : 0.0 %", 
+        "Third topic": "Union : 0.0 %", 
+        "fillKey": "Potential"
+    }, 
+    "POL": {
+        "Main topic": "SPA-Solar and Heliospheric Physics : 21.9 %", 
+        "N contributions": 128, 
+        "N contributors": 92, 
+        "Second topic": "Natural Hazards : 11.7 %", 
+        "Third topic": "Geodesy : 10.2 %", 
+        "fillKey": "Potential"
+    }, 
+    "PRI": {
+        "Main topic": "Hydrology : 28.9 %", 
+        "N contributions": 45, 
+        "N contributors": 34, 
+        "Second topic": "Atmospheric Sciences : 22.2 %", 
+        "Third topic": "Tectonophysics : 15.6 %", 
+        "fillKey": "Potential"
+    }, 
+    "PRK": {
+        "Main topic": "Atmospheric Sciences : 26.2 %", 
+        "N contributions": 1591, 
+        "N contributors": 1040, 
+        "Second topic": "Hydrology : 15.2 %", 
+        "Third topic": "Biogeosciences : 9.1 %", 
+        "fillKey": "Potential"
+    }, 
+    "PRT": {
+        "Main topic": "Natural Hazards : 29.9 %", 
+        "N contributions": 77, 
+        "N contributors": 56, 
+        "Second topic": "Seismology : 16.9 %", 
+        "Third topic": "Earth and Planetary Surface Processes : 11.7 %", 
+        "fillKey": "Potential"
+    }, 
+    "PSE": {
+        "Main topic": "Seismology : 100.0 %", 
+        "N contributions": 1, 
+        "N contributors": 1, 
+        "Second topic": "Nonlinear Geophysics : 0.0 %", 
+        "Third topic": "Public Affairs : 0.0 %", 
+        "fillKey": "Potential"
+    }, 
+    "PYF": {
+        "Main topic": "Hydrology : 50.0 %", 
+        "N contributions": 6, 
+        "N contributors": 5, 
+        "Second topic": "Planetary Sciences : 33.3 %", 
+        "Third topic": "Seismology : 16.7 %", 
+        "fillKey": "Potential"
+    }, 
+    "QAT": {
+        "Main topic": "Ocean Sciences : 58.8 %", 
+        "N contributions": 17, 
+        "N contributors": 14, 
+        "Second topic": "Global Environmental Change : 23.5 %", 
+        "Third topic": "Hydrology : 11.8 %", 
+        "fillKey": "Potential"
+    }, 
+    "REU": {
+        "Main topic": "Biogeosciences : 100.0 %", 
+        "N contributions": 2, 
+        "N contributors": 2, 
+        "Second topic": "Study of Earth's Deep Interior : 0.0 %", 
+        "Third topic": "Public Affairs : 0.0 %", 
+        "fillKey": "Potential"
+    }, 
+    "RUS": {
+        "Main topic": "Cryosphere : 15.5 %", 
+        "N contributions": 401, 
+        "N contributors": 305, 
+        "Second topic": "Global Environmental Change : 13.0 %", 
+        "Third topic": "Tectonophysics : 11.0 %", 
+        "fillKey": "Potential"
+    }, 
+    "RWA": {
+        "Main topic": "Biogeosciences : 100.0 %", 
+        "N contributions": 3, 
+        "N contributors": 3, 
+        "Second topic": "Study of Earth's Deep Interior : 0.0 %", 
+        "Third topic": "Public Affairs : 0.0 %", 
+        "fillKey": "Potential"
+    }, 
+    "SAU": {
+        "Main topic": "Tectonophysics : 26.9 %", 
+        "N contributions": 67, 
+        "N contributors": 41, 
+        "Second topic": "Volcanology, Geochemistry and Petrology : 19.4 %", 
+        "Third topic": "Seismology : 13.4 %", 
+        "fillKey": "Potential"
+    }, 
+    "SEN": {
+        "Main topic": "Hydrology : 71.4 %", 
+        "N contributions": 7, 
+        "N contributors": 8, 
+        "Second topic": "Global Environmental Change : 28.6 %", 
+        "Third topic": "Study of Earth's Deep Interior : 0.0 %", 
+        "fillKey": "Potential"
+    }, 
+    "SGP": {
+        "Main topic": "Tectonophysics : 30.0 %", 
+        "N contributions": 233, 
+        "N contributors": 108, 
+        "Second topic": "Seismology : 17.6 %", 
+        "Third topic": "Volcanology, Geochemistry and Petrology : 10.3 %", 
+        "fillKey": "Potential"
+    }, 
+    "SLB": {
+        "Main topic": "Tectonophysics : 75.0 %", 
+        "N contributions": 4, 
+        "N contributors": 2, 
+        "Second topic": "Volcanology, Geochemistry and Petrology : 25.0 %", 
+        "Third topic": "Study of Earth's Deep Interior : 0.0 %", 
+        "fillKey": "Potential"
+    }, 
+    "SLV": {
+        "Main topic": "Public Affairs : 50.0 %", 
+        "N contributions": 4, 
+        "N contributors": 3, 
+        "Second topic": "Volcanology, Geochemistry and Petrology : 50.0 %", 
+        "Third topic": "Study of Earth's Deep Interior : 0.0 %", 
+        "fillKey": "Potential"
+    }, 
+    "SRB": {
+        "Main topic": "Hydrology : 57.1 %", 
+        "N contributions": 7, 
+        "N contributors": 9, 
+        "Second topic": "SPA-Solar and Heliospheric Physics : 28.6 %", 
+        "Third topic": "Atmospheric Sciences : 14.3 %", 
+        "fillKey": "Potential"
+    }, 
+    "SVK": {
+        "Main topic": "Geodesy : 60.0 %", 
+        "N contributions": 5, 
+        "N contributors": 6, 
+        "Second topic": "Geomagnetism and Paleomagnetism : 40.0 %", 
+        "Third topic": "Nonlinear Geophysics : 0.0 %", 
+        "fillKey": "Potential"
+    }, 
+    "SVN": {
+        "Main topic": "Global Environmental Change : 55.6 %", 
+        "N contributions": 9, 
+        "N contributors": 8, 
+        "Second topic": "Biogeosciences : 44.4 %", 
+        "Third topic": "Study of Earth's Deep Interior : 0.0 %", 
+        "fillKey": "Potential"
+    }, 
+    "SWE": {
+        "Main topic": "Biogeosciences : 16.0 %", 
+        "N contributions": 800, 
+        "N contributors": 433, 
+        "Second topic": "SPA-Magnetospheric Physics : 15.8 %", 
+        "Third topic": "Cryosphere : 15.1 %", 
+        "fillKey": "Potential"
+    }, 
+    "SWZ": {
+        "Main topic": "Tectonophysics : 100.0 %", 
+        "N contributions": 2, 
+        "N contributors": 1, 
+        "Second topic": "Nonlinear Geophysics : 0.0 %", 
+        "Third topic": "Public Affairs : 0.0 %", 
+        "fillKey": "Potential"
+    }, 
+    "SYC": {
+        "Main topic": "Nonlinear Geophysics : nan %", 
+        "N contributions": 0, 
+        "N contributors": 1, 
+        "Second topic": "Public Affairs : nan %", 
+        "Third topic": "Union : nan %", 
+        "fillKey": "Potential"
+    }, 
+    "SYR": {
+        "Main topic": "Paleoceanography and Paleoclimatology : 50.0 %", 
+        "N contributions": 2, 
+        "N contributors": 2, 
+        "Second topic": "Seismology : 50.0 %", 
+        "Third topic": "Nonlinear Geophysics : 0.0 %", 
+        "fillKey": "Potential"
+    }, 
+    "TCD": {
+        "Main topic": "Global Environmental Change : 100.0 %", 
+        "N contributions": 3, 
+        "N contributors": 4, 
+        "Second topic": "Nonlinear Geophysics : 0.0 %", 
+        "Third topic": "Public Affairs : 0.0 %", 
+        "fillKey": "Potential"
+    }, 
+    "TGO": {
+        "Main topic": "Global Environmental Change : 100.0 %", 
+        "N contributions": 1, 
+        "N contributors": 2, 
+        "Second topic": "Nonlinear Geophysics : 0.0 %", 
+        "Third topic": "Public Affairs : 0.0 %", 
+        "fillKey": "Potential"
+    }, 
+    "THA": {
+        "Main topic": "SPA-Solar and Heliospheric Physics : 18.4 %", 
+        "N contributions": 49, 
+        "N contributors": 40, 
+        "Second topic": "Atmospheric Sciences : 12.2 %", 
+        "Third topic": "Hydrology : 10.2 %", 
+        "fillKey": "Potential"
+    }, 
+    "TJK": {
+        "Main topic": "Tectonophysics : 100.0 %", 
+        "N contributions": 4, 
+        "N contributors": 2, 
+        "Second topic": "Nonlinear Geophysics : 0.0 %", 
+        "Third topic": "Public Affairs : 0.0 %", 
+        "fillKey": "Potential"
+    }, 
+    "TTO": {
+        "Main topic": "Seismology : 56.2 %", 
+        "N contributions": 16, 
+        "N contributors": 13, 
+        "Second topic": "Tectonophysics : 18.8 %", 
+        "Third topic": "Natural Hazards : 18.8 %", 
+        "fillKey": "Potential"
+    }, 
+    "TUN": {
+        "Main topic": "Tectonophysics : 60.0 %", 
+        "N contributions": 10, 
+        "N contributors": 13, 
+        "Second topic": "Paleoceanography and Paleoclimatology : 30.0 %", 
+        "Third topic": "Hydrology : 10.0 %", 
+        "fillKey": "Potential"
+    }, 
+    "TUR": {
+        "Main topic": "Natural Hazards : 26.6 %", 
+        "N contributions": 192, 
+        "N contributors": 170, 
+        "Second topic": "Geodesy : 15.6 %", 
+        "Third topic": "Tectonophysics : 15.1 %", 
+        "fillKey": "Potential"
+    }, 
+    "TWN": {
+        "Main topic": "Tectonophysics : 18.1 %", 
+        "N contributions": 800, 
+        "N contributors": 554, 
+        "Second topic": "Hydrology : 16.4 %", 
+        "Third topic": "Natural Hazards : 9.2 %", 
+        "fillKey": "Potential"
+    }, 
+    "TZA": {
+        "Main topic": "Tectonophysics : 75.0 %", 
+        "N contributions": 40, 
+        "N contributors": 17, 
+        "Second topic": "Biogeosciences : 22.5 %", 
+        "Third topic": "Global Environmental Change : 2.5 %", 
+        "fillKey": "Potential"
+    }, 
+    "UGA": {
+        "Main topic": "Biogeosciences : 50.0 %", 
+        "N contributions": 2, 
+        "N contributors": 2, 
+        "Second topic": "Tectonophysics : 50.0 %", 
+        "Third topic": "Study of Earth's Deep Interior : 0.0 %", 
+        "fillKey": "Potential"
+    }, 
+    "UKR": {
+        "Main topic": "Planetary Sciences : 26.3 %", 
+        "N contributions": 19, 
+        "N contributors": 18, 
+        "Second topic": "SPA-Magnetospheric Physics : 21.1 %", 
+        "Third topic": "SPA-Aeronomy : 21.1 %", 
+        "fillKey": "Potential"
+    }, 
+    "URY": {
+        "Main topic": "Earth and Planetary Surface Processes : 70.0 %", 
+        "N contributions": 10, 
+        "N contributors": 8, 
+        "Second topic": "Hydrology : 20.0 %", 
+        "Third topic": "Tectonophysics : 10.0 %", 
+        "fillKey": "Potential"
+    }, 
+    "USA": {
+        "Main topic": "Atmospheric Sciences : 15.6 %", 
+        "N contributions": 56041, 
+        "N contributors": 26897, 
+        "Second topic": "Hydrology : 11.1 %", 
+        "Third topic": "Biogeosciences : 10.2 %", 
+        "fillKey": "Potential"
+    }, 
+    "UZB": {
+        "Main topic": "Hydrology : 100.0 %", 
+        "N contributions": 1, 
+        "N contributors": 2, 
+        "Second topic": "Study of Earth's Deep Interior : 0.0 %", 
+        "Third topic": "Public Affairs : 0.0 %", 
+        "fillKey": "Potential"
+    }, 
+    "VEN": {
+        "Main topic": "Tectonophysics : 66.7 %", 
+        "N contributions": 6, 
+        "N contributors": 5, 
+        "Second topic": "Biogeosciences : 16.7 %", 
+        "Third topic": "Near Surface Geophysics : 16.7 %", 
+        "fillKey": "Potential"
+    }, 
+    "VGB": {
+        "Main topic": "Nonlinear Geophysics : nan %", 
+        "N contributions": 0, 
+        "N contributors": 1, 
+        "Second topic": "Public Affairs : nan %", 
+        "Third topic": "Union : nan %", 
+        "fillKey": "Potential"
+    }, 
+    "VNM": {
+        "Main topic": "Global Environmental Change : 29.6 %", 
+        "N contributions": 27, 
+        "N contributors": 28, 
+        "Second topic": "Earth and Planetary Surface Processes : 18.5 %", 
+        "Third topic": "Tectonophysics : 11.1 %", 
+        "fillKey": "Potential"
+    }, 
+    "VUT": {
+        "Main topic": "Natural Hazards : 60.0 %", 
+        "N contributions": 5, 
+        "N contributors": 5, 
+        "Second topic": "Seismology : 40.0 %", 
+        "Third topic": "SPA-Magnetospheric Physics : 0.0 %", 
+        "fillKey": "Potential"
+    }, 
+    "ZAF": {
+        "Main topic": "Biogeosciences : 11.5 %", 
+        "N contributions": 96, 
+        "N contributors": 86, 
+        "Second topic": "Tectonophysics : 10.4 %", 
+        "Third topic": "Planetary Sciences : 7.3 %", 
+        "fillKey": "Potential"
+    }, 
+    "ZMB": {
+        "Main topic": "Tectonophysics : 66.7 %", 
+        "N contributions": 3, 
+        "N contributors": 3, 
+        "Second topic": "Global Environmental Change : 33.3 %", 
+        "Third topic": "Nonlinear Geophysics : 0.0 %", 
+        "fillKey": "Potential"
+    }, 
+    "ZWE": {
+        "Main topic": "Ncontribs : 100.0 %", 
+        "N contributions": 2, 
+        "N contributors": 4, 
+        "Second topic": "SPA-Magnetospheric Physics : 0.0 %", 
+        "Third topic": "Biogeosciences : 0.0 %", 
+        "fillKey": "Potential"
+    }
+}
