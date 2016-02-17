@@ -150,8 +150,11 @@ def get_all_contrib(year):
     contributors = []
     for json in tqdm(names):
         json_file = os.path.join(racine, 'Data', year, json)
-        contributors += [Contributor(key, val) for key, val
-                         in load_json(json_file)['names'].iteritems()]
+        try:
+            contributors += [Contributor(key, val) for key, val
+                             in load_json(json_file)['names'].iteritems()]
+        except:
+            pass
 
     # Missed one
     missed_contribs = [f for f in contributors if f.name.split(' ')[0] ==
