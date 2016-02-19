@@ -2,12 +2,16 @@
 import json
 import codecs
 import os
+import re
 import time
 from tqdm import *
 from os.path import expanduser
 import pandas as pd
 import unicodedata
 import pycountry
+from gensim import corpora, models, similarities
+import nltk
+from nltk.stem.snowball import SnowballStemmer
 
 ######## PARAMETER #########
 home = expanduser("~")
@@ -18,7 +22,60 @@ year = 'agu2014'
 ###### FUNCTIONS #########
 
 
-def clean(text):
+class MyCorpus(object):
+
+    def __init__(self, name):
+        self.name = name
+        self.stopwords = nltk.corpus.stopwords.words('english')
+        self.stemmer = nltk.stem.snowball.SnowballStemmer("english")
+        self.load_dict()
+
+    def load_dict(self):
+        if not os.path.isfile(self.name + '.dict'):
+            print 'You should build the dictionary first !'
+        else:
+            setattr(self, 'dictionary',
+                    corpora.Dictionary.load(self.name + '.dict'))
+
+    def tokenize_and_stem(self, text):
+        tokens = [word.lower() for sent in nltk.sent_tokenize(text)
+                  for word in nltk.word_tokenize(sent)]
+        filtered_tokens = []
+        bad_tokens = []
+        # filter out any tokens not containing letters (e.g., numeric tokens, raw
+        # punctuation)
+        for token in tokens:
+            if re.search('(^[a-z]+$|^[a-z][\d]$|^[a-z]\d[a-z]$|^[a-z]{3}[a-z]*-[a-z]*$)', token):
+                filtered_tokens.append(token)
+            else:
+                bad_tokens.append(token)
+        filtered_tokens = [
+            token for token in filtered_tokens if token not in self.stopwords]
+        stems = map(self.stemmer.stem, filtered_tokens)
+        return map(str, stems)
+
+    def __iter__(self):
+        for line in open(self.name + '.txt'):
+            # assume there's one document per line, tokens separated by
+            # whitespace
+            yield self.dictionary.doc2bow(self.tokenize_and_stem(line))
+
+
+def load_json(name):
+    with codecs.open(name, 'r', 'utf8') as f:
+        return json.load(f)
+
+
+def write_clean_corpus(corpus, path):
+    with open(path, 'w+') as f:
+        for elt in corpus:
+            f.write(elt + '\n')
+
+
+def clean_abstract(text):
+    ''' Clean an abstract '''
+    if text.split('\n')[0].split(' ')[0] == 'ePoster':
+        text = ' '.join(text.split('\n')[1:])
     try:
         text = unicodedata.normalize('NFKD', text).encode('ascii', 'ignore')
     except:
@@ -27,9 +84,41 @@ def clean(text):
     return text
 
 
-def load_json(name):
-    with codecs.open(name, 'r', 'utf8') as f:
-        return json.load(f)
+def get_raw_titles(sources):
+    raw_titles = [' '.join(df.title) for df in sources]
+    return raw_titles
+
+
+def clean_title(text):
+    if text.split(' ')[-1] == '(Invited)':
+        text = ' '.join(text.split(' ')[:-1])
+    try:
+        text = unicodedata.normalize('NFKD', text).encode('ascii', 'ignore')
+    except:
+        pass
+    text = text.replace('\n', ' ')
+    return text
+
+
+def get_raw_abstracts(sources):
+    raw_abstracts = [df.abstract for df in sources]
+    return raw_abstracts
+
+
+def get_clean_titles(sources):
+    ''' Return a clean version of the  abstract corpus '''
+
+    raw_titles = get_raw_titles(sources)
+    titles = map(clean_title, raw_titles)
+    return titles
+
+
+def get_clean_abstracts(sources):
+    ''' Return a clean version of the  abstract corpus '''
+
+    raw_abstracts = get_raw_abstracts(sources)
+    abstracts = map(clean_abstract, raw_abstracts)
+    return abstracts
 
 ##### PAPERS ########
 
