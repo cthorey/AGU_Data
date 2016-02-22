@@ -19,23 +19,20 @@ racine = os.path.join(home, 'Documents', 'project',
                       'agu_data', 'repo', 'agu_data')
 year = 'agu2014'
 
-###### FUNCTIONS #########
+###### Recom_utils #########
 
 
-class MyCorpus(object):
+class Tokenizer(object):
 
-    def __init__(self, name):
-        self.name = name
+    def __init__(self, add_bigram):
+        self.add_bigram = add_bigram
         self.stopwords = nltk.corpus.stopwords.words('english')
         self.stemmer = nltk.stem.snowball.SnowballStemmer("english")
-        self.load_dict()
 
-    def load_dict(self):
-        if not os.path.isfile(self.name + '.dict'):
-            print 'You should build the dictionary first !'
-        else:
-            setattr(self, 'dictionary',
-                    corpora.Dictionary.load(self.name + '.dict'))
+    def bigram(self, tokens):
+        if len(tokens) > 1:
+            for i in range(0, len(tokens) - 1):
+                yield tokens[i] + '_' + tokens[i + 1]
 
     def tokenize_and_stem(self, text):
         tokens = [word.lower() for sent in nltk.sent_tokenize(text)
@@ -52,7 +49,24 @@ class MyCorpus(object):
         filtered_tokens = [
             token for token in filtered_tokens if token not in self.stopwords]
         stems = map(self.stemmer.stem, filtered_tokens)
+        if self.add_bigram:
+            stems += [f for f in self.bigram(stems)]
         return map(str, stems)
+
+
+class MyCorpus(Tokenizer):
+
+    def __init__(self, name, add_bigram):
+        super(MyCorpus, self).__init__(add_bigram)
+        self.name = name
+        self.load_dict()
+
+    def load_dict(self):
+        if not os.path.isfile(self.name + '.dict'):
+            print 'You should build the dictionary first !'
+        else:
+            setattr(self, 'dictionary',
+                    corpora.Dictionary.load(self.name + '.dict'))
 
     def __iter__(self):
         for line in open(self.name + '.txt'):
@@ -60,6 +74,14 @@ class MyCorpus(object):
             # whitespace
             yield self.dictionary.doc2bow(self.tokenize_and_stem(line))
 
+    def __str__(self, n):
+        for i, line in enumerate(open(self.name + '.txt')):
+            print line
+            if i > n:
+                break
+
+
+###### Recom_utils #########
 
 def load_json(name):
     with codecs.open(name, 'r', 'utf8') as f:
