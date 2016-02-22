@@ -59,7 +59,6 @@ class MyCorpus(Tokenizer):
     def __init__(self, name, add_bigram):
         super(MyCorpus, self).__init__(add_bigram)
         self.name = name
-        self.load_dict()
 
     def load_dict(self):
         if not os.path.isfile(self.name + '.dict'):
@@ -69,13 +68,13 @@ class MyCorpus(Tokenizer):
                     corpora.Dictionary.load(self.name + '.dict'))
 
     def __iter__(self):
-        for line in open(self.name + '.txt'):
+        for line in open(self.name + '_data.txt'):
             # assume there's one document per line, tokens separated by
             # whitespace
             yield self.dictionary.doc2bow(self.tokenize_and_stem(line))
 
     def __str__(self, n):
-        for i, line in enumerate(open(self.name + '.txt')):
+        for i, line in enumerate(open(self.name + '_data.txt')):
             print line
             if i > n:
                 break
