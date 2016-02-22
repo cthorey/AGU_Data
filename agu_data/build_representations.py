@@ -7,7 +7,6 @@ import pickle
 from tqdm import *
 from os.path import expanduser
 import numpy as np
-import matplotlib.pylab as plt
 home = expanduser('~')
 os.chdir(os.path.join(home, 'Documents', 'project',
                       'agu_data', 'repo', 'agu_data'))
@@ -43,8 +42,8 @@ sources = [df for df in data if (''.join(df.title) != "") and (
 abstracts = get_clean_abstracts(sources)
 titles = get_clean_titles(sources)
 
-abstracts = abstracts[:100]
-titles = titles[:100]
+# abstracts = abstracts[:100]
+# titles = titles[:100]
 
 ##################################################
 # Build Bow_To_Vec_Representation
@@ -56,7 +55,6 @@ if not os.path.isfile(abstractf + '_raw.dict') or build:
     write_clean_corpus(abstracts, abstractf + '_data.txt')
 
     # Initialize the model
-    print add_bigram
     bow_corpus = MyCorpus(abstractf, add_bigram=add_bigram)
     # load the dictionary
     # Next create the dictionary by iterating of the abstract, one per line in
