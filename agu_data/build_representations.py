@@ -4,6 +4,8 @@ import time
 import sys
 import sklearn
 import pickle
+from sklearn import manifold
+from sklearn.externals import joblib
 from tqdm import *
 from os.path import expanduser
 import numpy as np
@@ -33,6 +35,7 @@ else:
 if not os.path.isdir(os.path.join(model_saved, 'gensim', name)):
     os.mkdir(os.path.join(model_saved, 'gensim', name))
 abstractf = os.path.join(model_saved, 'gensim', name, name)
+print abstractf
 
 ##################################################
 # Get the data
@@ -48,8 +51,8 @@ titles = get_clean_titles(sources)
 ##################################################
 # Build Bow_To_Vec_Representation
 
-build = True
-if not os.path.isfile(abstractf + '_raw.dict') or build:
+build = False
+if build:
     print 'Building the bow representation'
     # First, write the document corpus on a txt file, one document perline.
     write_clean_corpus(abstracts, abstractf + '_data.txt')
@@ -76,8 +79,8 @@ if not os.path.isfile(abstractf + '_raw.dict') or build:
 ##################################################
 # Build Tf-idf representation
 
-build = True
-if not os.path.isfile(abstractf + '_tfidf.mm') or build:
+build = False
+if build:
     print 'Building the tfidf representation'
     # First load the corpus and the dicitonary
     bow_corpus = corpora.MmCorpus(abstractf + '_bow.mm')
@@ -96,9 +99,9 @@ if not os.path.isfile(abstractf + '_tfidf.mm') or build:
 
 ##################################################
 # Build lsa representation
-build = True
+build = False
 num_topics = 500
-if not os.path.isfile(abstractf + '_lsi.mm') or build:
+if build:
     print 'Building the lsi representation'
     # First load the corpus and the dicitonary
     tfidf_corpus = corpora.MmCorpus(abstractf + '_tfidf.mm')
@@ -119,3 +122,13 @@ if not os.path.isfile(abstractf + '_lsi.mm') or build:
 
 ##################################################
 # Build the t-sne represenation
+build = True
+if build:
+    tsne = manifold.TSNE(n_components=2, init='pca', random_state=0)
+    lsi_corpus = corpora.MmCorpus(abstractf + '_lsi.mm')
+    X = gensim.matutils.corpus2dense(
+        lsi_corpus, num_terms=lsi_corpus.num_terms)
+    X_data = np.asarray(X).astype('float64')
+    X_tsne = tsne.fit_transform(X_data.T)
+    joblib.dump(X, abstractf + '_X.pkl')
+    joblib.dump(X_tsne, abstractf + '_Xtsne.pkl')
