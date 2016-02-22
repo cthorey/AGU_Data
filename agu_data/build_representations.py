@@ -125,7 +125,7 @@ if build:
 build = True
 if build:
     tsne = manifold.TSNE(n_components=2, init='pca',
-                         random_state=0, metrics='cosine')
+                         random_state=0, metric='cosine')
     lsi_corpus = corpora.MmCorpus(abstractf + '_lsi.mm')
     X = gensim.matutils.corpus2dense(
         lsi_corpus, num_terms=lsi_corpus.num_terms)
