@@ -124,7 +124,8 @@ if build:
 # Build the t-sne represenation
 build = True
 if build:
-    tsne = manifold.TSNE(n_components=2, init='pca', random_state=0)
+    tsne = manifold.TSNE(n_components=2, init='pca',
+                         random_state=0, metrics='cosine')
     lsi_corpus = corpora.MmCorpus(abstractf + '_lsi.mm')
     X = gensim.matutils.corpus2dense(
         lsi_corpus, num_terms=lsi_corpus.num_terms)
