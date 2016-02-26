@@ -5,12 +5,18 @@ import os
 import re
 import time
 from tqdm import *
+import numpy as np
 from os.path import expanduser
 import pandas as pd
 import unicodedata
+import seaborn as sns
+import plotly
+import plotly.plotly as py
+import plotly.graph_objs as go
 import pycountry
 from gensim import corpora, models, similarities
 import nltk
+from sklearn.externals import joblib
 from nltk.stem.snowball import SnowballStemmer
 
 ######## PARAMETER #########
@@ -80,7 +86,156 @@ class MyCorpus(Tokenizer):
                 break
 
 
+def load_source():
+    data = get_all_data('agu2015')
+    sources = [df for df in data if (''.join(df.title) != "") and (
+        df.abstract != '') and (len(df.abstract.split(' ')) > 100)]
+    sections = [df.section for df in sources]
+    abstracts = get_clean_abstracts(sources)
+    titles = get_clean_titles(sources)
+    return abstracts, titles
+
+
+class RecomendationSystem(object):
+
+    def __init__(self):
+        self.model_saved = os.path.join('Notebook', 'Models')
+        self.abstractf = os.path.join(
+            self.model_saved, 'gensim', 'abstract', 'abstract')
+
+        # Load the titles and abstract + links
+        self.sources = pd.read_csv(os.path.join(self.abstractf + '_sources.txt'),
+                                   names=['title', 'link'])
+        self.titles = self.sources.title.tolist()
+        self.links = self.sources.link.tolist()
+
+        # Load the necessary models, the lsi corpus and the corresponding index
+        self.tokeniser = Tokenizer(False)
+        self.dictionary = corpora.Dictionary.load(self.abstractf + '.dict')
+        self.tfidf = models.TfidfModel.load(self.abstractf + '_tfidf.model')
+        self.lsi = models.LsiModel.load(self.abstractf + '_lsi.model')
+        self.corpus = corpora.MmCorpus(self.abstractf + '_lsi.mm')
+        self.index = similarities.MatrixSimilarity.load(
+            self.abstractf + '_lsi.index')
+        self.authors = joblib.load(self.abstractf + '_authors.dict')
+        self.name_to_iso3 = {
+            elt.name.upper(): elt.alpha3 for elt in pycountry.countries}
+
+    def _country_to_iso3(self, name):
+        try:
+            return self.name_to_iso3[name.upper()]
+        except:
+            return ''
+
+    def transform_query(self, query):
+        # Transform the query in lsi space
+        # Transform in the bow representation space
+        vec_bow = self.dictionary.doc2bow(
+            self.tokeniser.tokenize_and_stem(query))
+        # Transform in the tfidf representation space
+        vec_tfidf = self.tfidf[vec_bow]
+        # Transform in the lsi representation space
+        vec_lsi = self.lsi[vec_tfidf]
+        return vec_lsi
+
+    def recomendation(self, query):
+
+        vec_lsi = self.transform_query(query)
+        # Get the cosine similarity of the query against all the abstracts
+        cosine = self.index[vec_lsi]
+        # Sort them and return a nice dataframe
+        results = pd.DataFrame(np.stack((np.sort(cosine)[::-1],
+                                         np.array(self.titles)[
+                                             np.argsort(cosine)[::-1]],
+                                         np.array(self.links)[np.argsort(cosine)[::-1]])).T,
+                               columns=['CosineSimilarity', 'title', 'link'])
+        return results
+
+    def get_recomendation(self, query, n):
+
+        df = self.recomendation(query).head(n)
+        for i, row in df.iterrows():
+            print 'The %d recomendation, cosine sililarity of %1.3f is ' % (i + 1, float(row.CosineSimilarity))
+            print ' %s' % (row.title)
+            print '%s \n' % (row.link)
+
+    def collaborators(self, query, n):
+        ''' Return a list of the potential contributors based
+        on the n first abstract proposed by the recommendation 
+        system '''
+
+        df = self.recomendation(query).head(n)
+        collab = {}
+        for i, row in df.iterrows():
+            try:
+                collab.update(self.authors[row.title])
+            except:
+                pass
+
+        return collab
+
+    def get_collaborators(self, query, n=5):
+
+        collab = self.collaborators(query, n)
+        for name, description in collab.iteritems():
+            try:
+                print '%s from the %s, %s' % (name.upper(), description['inst'], description['country'])
+                print 'Based on his/her abstract untitled'
+                print ' %s' % (description['title'])
+                print '%s \n' % (description['link'])
+            except:
+                pass
+
+    def plot_map_collaborator(self, query, n):
+        collabs = self.collaborators(query, n)
+        df = pd.DataFrame(collabs.values())
+        df['name'] = collabs.keys()
+        df['iso3'] = map(lambda x: self._country_to_iso3(x), df.country)
+
+        counts = {f: 0 for f in self.name_to_iso3.values()}
+        texts = {f: '' for f in self.name_to_iso3.values()}
+        for key, group in df.groupby('iso3'):
+            counts[key] = len(group)
+            texts[key] = '<br>'.join(
+                [name + ': ' + inst[:20] + '...' for (name, inst) in zip(group.name, group.inst)][:30])
+            colors = sns.color_palette('Blues', max(counts.values()))
+            colorscale = zip(range(max(counts.values())), sns.color_palette(
+                'Reds', max(counts.values())).as_hex())
+
+        world = go.Choropleth(
+            autocolorscale=True,
+            colorscale=[list(f) for f in colorscale],
+            locations=counts.keys(),
+            showscale=False,
+            z=counts.values(),
+            locationmode='ISO-3',
+            text=texts.values(),
+            marker=dict(
+                line=dict(
+                    color='rgb(255,255,255)',
+                    width=2)
+            ))
+
+        data = [world]
+
+        layout = dict(
+            title='Potential collaborators by country based on the first %d recommendations.' % (
+                n),
+            height=600,
+            width=900,
+            geo=dict(
+                scope='world',
+                projection=dict(type='mercator'),
+                showframe=False,
+                lataxis={'range': [-52, 80]},
+                framecolor='grey'),
+            margin={'b': 0, 'r': 0, 'l': 0, 't': 40})
+
+        fig = dict(data=data, layout=layout)
+        plotly.offline.iplot(fig, show_link=False)
+
 ###### Recom_utils #########
+
 
 def load_json(name):
     with codecs.open(name, 'r', 'utf8') as f:
