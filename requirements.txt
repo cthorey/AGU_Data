@@ -1,0 +1,16 @@
+###### Requirements without Version Specifiers ######
+
+tqdm
+scikit-learn
+gensim
+nltk
+numpy
+pandas
+pycountry
+selenium
+bs4
+palettable
+seaborn
+unicodedata
+plotly
+
